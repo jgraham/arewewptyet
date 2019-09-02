@@ -1,0 +1,15 @@
+name: Rust
+
+on:
+  schedule:
+  - cron: '0 * * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Update data
+      uses: actions/checkout@v1
+      run: cd build && cargo run
