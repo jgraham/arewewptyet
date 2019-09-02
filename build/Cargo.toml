@@ -1,0 +1,15 @@
+[package]
+name = "arewewptyet"
+version = "0.1.0"
+authors = ["James Graham <james@hoppipolla.co.uk>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = {version = "0.4", features=["serde"]}
+lazy_static = "1"
+regex = "1"
+reqwest = "0.9"
+serde = "1"
+serde_json = "1"
