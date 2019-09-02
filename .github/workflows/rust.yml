@@ -6,10 +6,10 @@ on:
 
 jobs:
   build:
-
+    name: Update data
     runs-on: ubuntu-latest
-
     steps:
-    - name: Update data
-      uses: actions/checkout@v1
-      run: cd build && cargo run
+      - name: checkout
+        uses: actions/checkout@v1
+      - name: cargo run
+        run: cd build && cargo run
