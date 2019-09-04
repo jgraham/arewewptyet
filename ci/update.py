@@ -14,17 +14,21 @@ def log(data):
 
 def run(cmd, **kwargs):
     expect_error = kwargs.pop("expect_error", False)
-    log("INFO: %s" % " ".join(cmd))
+    write_log = kwargs.pop("log", False)
+    if write_log:
+        log("INFO: %s" % " ".join(cmd))
     try:
         output = subprocess.check_output(cmd, **kwargs)
-        if output:
+        if output and write_log:
             log("INFO: %s" % output)
         return output
     except subprocess.CalledProcessError as e:
         if not expect_error:
             log("ERROR: Failed with exit code %s" % e.returncode)
-            log(e.output)
+            if write_log:
+                log(e.output)
         raise e
+
 
 def git(command, *args, **kwargs):
     return run(["git", command] + list(args), **kwargs)
@@ -65,9 +69,9 @@ def main():
     remote_url = "https://%s@github.com/%s" % (os.environ["DEPLOY_TOKEN"],
                                                REPO)
 
-    git("fetch", remote_url)
+    git("fetch", remote_url, log=False)
     git("rebase", "origin/master")
-    git("push", remote_url, "HEAD:master")
+    git("push", remote_url, "HEAD:master", log=False)
 
 
 if __name__ == "__main__":
