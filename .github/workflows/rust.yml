@@ -14,4 +14,4 @@ jobs:
       - name: Update data
         run: python3 ci/update.py
         env:
-          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          DEPLOY_TOKEN: ${{ secrets.DEPLOY_KEY }}
