@@ -11,5 +11,7 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v1
-      - name: cargo run
-        run: cd build && cargo run
+      - name: Update data
+        run: python3 ci/update.py
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
