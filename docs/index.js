@@ -14,6 +14,16 @@ async function drawCharts() {
     document.getElementById("all").textContent = latest.all_failures.tests;
     document.getElementById("untriaged").textContent = latest.untriaged_failures.tests;
 
+    function handleChartSelection(selection) {
+        if (!selection.length) {
+            return;
+        }
+        let idx = selection[0].row;
+        let run = data.runs[idx];
+        let link = `https://wpt.fyi/results/?label=master&product=firefox&product=chrome&product=safari&q=%28firefox%3A%21pass%26firefox%3A%21ok%29%20%28chrome%3Apass%7Cchrome%3Aok%29%20%28safari%3Apass%7Csafari%3Aok%29&sha=${run.revision}`;
+        window.open(link);
+    }
+
     var testChartData = new google.visualization.DataTable();
     testChartData.addColumn('datetime', 'Run Date');
     testChartData.addColumn('number', 'Fx-only test failures (all)');
@@ -35,13 +45,20 @@ async function drawCharts() {
     var testChart = new google.visualization.LineChart(document.getElementById('test_chart'));
     testChart.draw(testChartData, testChartOptions);
 
+    google.visualization.events.addListener(testChart, 'select',
+                                            () => handleChartSelection(testChart.getSelection()));
+
     var subtestChartOptions = {
         title: 'Fx-only subtest failures'
     };
     var subtestChart = new google.visualization.LineChart(document.getElementById('subtest_chart'));
     subtestChart.draw(subtestChartData, subtestChartOptions);
 
+    google.visualization.events.addListener(subtestChart, 'select',
+                                            () => handleChartSelection(subtestChart.getSelection()));
+
 }
+
 
 async function render() {
     google.charts.load('current', {'packages':['corechart']});
