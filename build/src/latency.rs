@@ -185,7 +185,7 @@ pub mod update {
 
     fn get_sync_commits(client:&reqwest::Client) -> Result<String> {
         Ok(get(client,
-               "https://hg.mozilla.org/integration/mozilla-inbound/json-log/tip/testing/web-platform/meta/mozilla-sync",
+               "https://hg.mozilla.org/integration/autoland/json-log/tip/testing/web-platform/meta/mozilla-sync",
                None)?)
     }
 
