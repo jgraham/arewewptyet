@@ -7,7 +7,6 @@ pub enum Error {
     Reqwest(reqwest::Error),
     Serde(serde_json::Error),
     Io(io::Error),
-    String(String)
 }
 
 impl From<reqwest::Error> for Error {

@@ -1,5 +1,5 @@
-use chrono::{DateTime, Utc};
 use crate::error::Result;
+use chrono::{DateTime, Utc};
 use lazy_static::lazy_static;
 use regex::Regex;
 use serde::{Deserialize, Serialize};
@@ -8,33 +8,26 @@ use std::collections::{HashMap, HashSet};
 lazy_static! {
     static ref BACKOUT_RE: Regex = Regex::new(r"Backed out \d+ changeset").unwrap();
     static ref CHANGESET_RE: Regex = Regex::new(r"Backed out changeset ([0-9a-fA-F]+)").unwrap();
-    static ref UPDATE_RE: Regex = Regex::new(r".*Update web-platform-tests to ([0-9a-fA-F]+)").unwrap();
+    static ref UPDATE_RE: Regex =
+        Regex::new(r".*Update web-platform-tests to ([0-9a-fA-F]+)").unwrap();
 }
 
 #[derive(Debug, Deserialize)]
 pub struct HgLog {
-    entries: Vec<HgLogEntry>
+    entries: Vec<HgLogEntry>,
 }
 
 #[derive(Debug, Deserialize)]
 struct GitHubPr {
     number: u64,
-    closed_at: DateTime<Utc>
+    closed_at: DateTime<Utc>,
 }
 
 #[derive(Debug, Deserialize)]
 pub struct HgLogEntry {
     node: String,
     desc: String,
-    branch: String,
-    bookmarks: Vec<String>,
-    tags: Vec<String>,
-    user: String,
-    phase: String,
-    parents: Vec<String>,
-    pushid: u64,
-    date: (f64, i64),
-    pushdate: (f64, i64)
+    pushdate: (f64, i64),
 }
 
 #[derive(Clone, Debug)]
@@ -45,13 +38,13 @@ pub struct GeckoSyncPoint {
 
 #[derive(Debug, Deserialize, Serialize)]
 struct SyncData {
-    landings: Vec<SyncPointWptRev>
+    landings: Vec<SyncPointWptRev>,
 }
 
 impl SyncData {
     fn new() -> SyncData {
         SyncData {
-            landings: Vec::new()
+            landings: Vec::new(),
         }
     }
 }
@@ -67,7 +60,8 @@ struct SyncPointWptRev {
 impl From<HgLogEntry> for GeckoSyncPoint {
     fn from(commit: HgLogEntry) -> GeckoSyncPoint {
         // This will panic if the commit doesn't have the correct metadata
-        let wpt_rev = UPDATE_RE.captures(&commit.desc)
+        let wpt_rev = UPDATE_RE
+            .captures(&commit.desc)
             .expect("Commit desc must match UPDATE_RE")
             .get(1)
             .expect("Capture group must be present")
@@ -75,14 +69,14 @@ impl From<HgLogEntry> for GeckoSyncPoint {
             .to_owned();
         GeckoSyncPoint {
             wpt_rev,
-            push_date: commit.pushdate.0 as i64
+            push_date: commit.pushdate.0 as i64,
         }
     }
 }
 
 pub struct LandingData {
     sync_data: SyncData,
-    have_shas: HashSet<String>
+    have_shas: HashSet<String>,
 }
 
 impl LandingData {
@@ -93,11 +87,11 @@ impl LandingData {
         }
         LandingData {
             sync_data,
-            have_shas
+            have_shas,
         }
     }
 
-    fn missing(&self, sync_points: impl Iterator<Item=GeckoSyncPoint>) -> Vec<GeckoSyncPoint> {
+    fn missing(&self, sync_points: impl Iterator<Item = GeckoSyncPoint>) -> Vec<GeckoSyncPoint> {
         let mut rv = Vec::new();
         for sync_point in sync_points {
             if !self.have_shas.contains(&sync_point.wpt_rev) {
@@ -134,7 +128,8 @@ fn filter_backouts(commits: Vec<HgLogEntry>) -> Vec<HgLogEntry> {
                         .as_str()
                         .to_owned();
                     let short_rev = changeset_rev[0..12].to_owned();
-                    backed_out.entry(short_rev)
+                    backed_out
+                        .entry(short_rev)
                         .and_modify(|v| {
                             v.insert(changeset_rev.clone());
                         })
@@ -165,34 +160,39 @@ fn filter_update(commit: &HgLogEntry) -> bool {
     UPDATE_RE.is_match(&commit.desc)
 }
 
-pub fn extract_sync_points(sync_commits: &str) -> Result<impl Iterator<Item=GeckoSyncPoint>> {
+pub fn extract_sync_points(sync_commits: &str) -> Result<impl Iterator<Item = GeckoSyncPoint>> {
     let sync_commits: HgLog = serde_json::from_str(sync_commits)?;
     Ok(filter_backouts(sync_commits.entries)
-       .into_iter()
-       .filter(filter_update)
-       .map(|x| x.into()))
+        .into_iter()
+        .filter(filter_update)
+        .map(|x| x.into()))
 }
 
 pub mod update {
-    use serde_json;
+    use super::*;
     use reqwest;
+    use serde_json;
     use std::fs::File;
     use std::path::Path;
-    use super::*;
 
     use crate::network::get;
 
-
-    fn get_sync_commits(client:&reqwest::Client) -> Result<String> {
+    fn get_sync_commits(client: &reqwest::Client) -> Result<String> {
         Ok(get(client,
                "https://hg.mozilla.org/integration/autoland/json-log/tip/testing/web-platform/meta/mozilla-sync",
                None)?)
     }
 
-    fn get_pr_for_rev(client:&reqwest::Client, wpt_rev: &str) -> Result<String> {
-        let url = format!("https://api.github.com/repos/web-platform-tests/wpt/commits/{}/pulls", wpt_rev);
+    fn get_pr_for_rev(client: &reqwest::Client, wpt_rev: &str) -> Result<String> {
+        let url = format!(
+            "https://api.github.com/repos/web-platform-tests/wpt/commits/{}/pulls",
+            wpt_rev
+        );
         let mut headers = reqwest::header::HeaderMap::new();
-        headers.insert("Accept", "application/vnd.github.groot-preview+json".parse().unwrap());
+        headers.insert(
+            "Accept",
+            "application/vnd.github.groot-preview+json".parse().unwrap(),
+        );
         get(client, &url, Some(headers))
     }
 
