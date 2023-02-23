@@ -1,10 +1,12 @@
-use crate::error::Result;
-use reqwest;
-use std::io::Read;
+use anyhow::Result;
 use serde::Serialize;
-use serde_json;
+use std::io::Read;
 
-pub fn get(client:&reqwest::Client, url:&str, headers: Option<reqwest::header::HeaderMap>) -> Result<String> {
+pub fn get(
+    client: &reqwest::Client,
+    url: &str,
+    headers: Option<reqwest::header::HeaderMap>,
+) -> Result<String> {
     // TODO - If there's a list then support continuationToken
     println!("GET {}", url);
     let mut req = client.get(url);
@@ -15,14 +17,21 @@ pub fn get(client:&reqwest::Client, url:&str, headers: Option<reqwest::header::H
     resp.error_for_status_ref()?;
     let mut resp_body = match resp.content_length() {
         Some(len) => String::with_capacity(len as usize),
-        None => String::new()
+        None => String::new(),
     };
     resp.read_to_string(&mut resp_body)?;
     Ok(resp_body)
 }
 
-pub fn post<T>(client:&reqwest::Client, url:&str, headers: Option<reqwest::header::HeaderMap>, body: Option<T>) -> Result<String>
-              where T: Serialize {
+pub fn post<T>(
+    client: &reqwest::Client,
+    url: &str,
+    headers: Option<reqwest::header::HeaderMap>,
+    body: Option<T>,
+) -> Result<String>
+where
+    T: Serialize,
+{
     // TODO - If there's a list then support continuationToken
     println!("POST {}", url);
     let mut req = client.post(url);
@@ -37,7 +46,7 @@ pub fn post<T>(client:&reqwest::Client, url:&str, headers: Option<reqwest::heade
     let mut resp = req.send()?;
     let mut resp_body = match resp.content_length() {
         Some(len) => String::with_capacity(len as usize),
-        None => String::new()
+        None => String::new(),
     };
     resp.read_to_string(&mut resp_body)?;
     resp.error_for_status_ref()?;

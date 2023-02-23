@@ -1,4 +1,4 @@
-use crate::error::Result;
+use anyhow::Result;
 use chrono::{DateTime, Utc};
 use lazy_static::lazy_static;
 use regex::Regex;
@@ -178,9 +178,9 @@ pub mod update {
     use crate::network::get;
 
     fn get_sync_commits(client: &reqwest::Client) -> Result<String> {
-        Ok(get(client,
-               "https://hg.mozilla.org/integration/autoland/json-log/tip/testing/web-platform/meta/mozilla-sync",
-               None)?)
+        get(client,
+            "https://hg.mozilla.org/integration/autoland/json-log/tip/testing/web-platform/meta/mozilla-sync",
+            None)
     }
 
     fn get_pr_for_rev(client: &reqwest::Client, wpt_rev: &str) -> Result<String> {
@@ -219,7 +219,7 @@ pub mod update {
             let pr_data = get_pr_for_rev(&client, &sync_point.wpt_rev)?;
             println!("{}", pr_data);
             let mut prs: Vec<GitHubPr> = serde_json::from_str(&pr_data)?;
-            if prs.len() == 0 {
+            if prs.is_empty() {
                 println!("No PR found for commit {}", &sync_point.wpt_rev);
                 continue;
             } else if prs.len() > 1 {
