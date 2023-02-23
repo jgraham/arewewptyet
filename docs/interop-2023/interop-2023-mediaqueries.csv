@@ -1,7 +1,7 @@
-test,firefox,chrome,safari
-/css/mediaqueries/mq-invalid-media-type-layer-002.html,0/1,1/1,1/1
-/css/mediaqueries/mq-negative-range-002.html,0/1,1/1,1/1
-/css/mediaqueries/media-query-matches-in-iframe.html,0/22,12/22,22/22
-/css/mediaqueries/mq-negative-range-001.html,0/1,1/1,1/1
-/css/mediaqueries/mq-invalid-media-type-layer-001.html,0/1,1/1,1/1
-/css/mediaqueries/test_media_queries.html,0/95,95/95,95/95
+"Test","Firefox","Chrome","Safari"
+"/css/mediaqueries/mq-invalid-media-type-layer-002.html","0/1","1/1","1/1"
+"/css/mediaqueries/mq-negative-range-002.html","0/1","1/1","1/1"
+"/css/mediaqueries/media-query-matches-in-iframe.html","0/22","12/22","22/22"
+"/css/mediaqueries/mq-negative-range-001.html","0/1","1/1","1/1"
+"/css/mediaqueries/mq-invalid-media-type-layer-001.html","0/1","1/1","1/1"
+"/css/mediaqueries/test_media_queries.html","0/95","95/95","95/95"
