@@ -1,9 +1,14 @@
 use anyhow::Result;
+use reqwest;
 use serde::Serialize;
 use std::io::Read;
 
+pub fn client() -> reqwest::blocking::Client {
+    reqwest::blocking::Client::new()
+}
+
 pub fn get(
-    client: &reqwest::Client,
+    client: &reqwest::blocking::Client,
     url: &str,
     headers: Option<reqwest::header::HeaderMap>,
 ) -> Result<String> {
@@ -24,7 +29,7 @@ pub fn get(
 }
 
 pub fn post<T>(
-    client: &reqwest::Client,
+    client: &reqwest::blocking::Client,
     url: &str,
     headers: Option<reqwest::header::HeaderMap>,
     body: Option<T>,

@@ -170,20 +170,19 @@ pub fn extract_sync_points(sync_commits: &str) -> Result<impl Iterator<Item = Ge
 
 pub mod update {
     use super::*;
-    use reqwest;
     use serde_json;
     use std::fs::File;
     use std::path::Path;
 
-    use crate::network::get;
+    use crate::network::{self, get};
 
-    fn get_sync_commits(client: &reqwest::Client) -> Result<String> {
+    fn get_sync_commits(client: &reqwest::blocking::Client) -> Result<String> {
         get(client,
             "https://hg.mozilla.org/integration/autoland/json-log/tip/testing/web-platform/meta/mozilla-sync",
             None)
     }
 
-    fn get_pr_for_rev(client: &reqwest::Client, wpt_rev: &str) -> Result<String> {
+    fn get_pr_for_rev(client: &reqwest::blocking::Client, wpt_rev: &str) -> Result<String> {
         let url = format!(
             "https://api.github.com/repos/web-platform-tests/wpt/commits/{}/pulls",
             wpt_rev
@@ -205,7 +204,7 @@ pub mod update {
     }
 
     pub fn run() -> Result<()> {
-        let client = reqwest::Client::new();
+        let client = network::client();
 
         let sync_points_data = get_sync_commits(&client)?;
         let sync_points = extract_sync_points(&sync_points_data)?;

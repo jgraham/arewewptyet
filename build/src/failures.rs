@@ -128,14 +128,14 @@ pub mod update {
     use super::{
         count_failures, fx_only_failures_query, get_runs, missing_runs, RunData, RunsData,
     };
-    use crate::network::{get, post};
+    use crate::network::{self, get, post};
     use anyhow::Result;
     use reqwest;
     use std::fs::File;
     use std::path::Path;
     use wptfyi::{result, run, Wptfyi};
 
-    fn get_run_data(client: &reqwest::Client) -> Result<Vec<result::Run>> {
+    fn get_run_data(client: &reqwest::blocking::Client) -> Result<Vec<result::Run>> {
         let mut runs = Wptfyi::new(None).runs();
         for product in ["chrome", "firefox", "safari"].iter() {
             runs.add_product(product, "experimental")
@@ -146,7 +146,7 @@ pub mod update {
     }
 
     pub fn get_fx_only_failures(
-        client: &reqwest::Client,
+        client: &reqwest::blocking::Client,
         run_ids: &[i64],
         untriaged: bool,
     ) -> Result<String> {
@@ -168,7 +168,7 @@ pub mod update {
     }
 
     pub fn run() -> Result<()> {
-        let client = reqwest::Client::new();
+        let client = network::client();
 
         let data_path = Path::new("../docs/runs.json");
         let mut runs_data = load_runs_data(data_path)?;

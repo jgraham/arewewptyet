@@ -38,13 +38,16 @@ pub mod update {
     use std::{collections::BTreeMap, fs::File, path::Path};
 
     use super::fx_failures_query;
-    use crate::network::{get, post};
+    use crate::network::{self, get, post};
     use anyhow::{anyhow, Result};
     use csv;
     use reqwest;
     use wptfyi::{interop, result, run, search, Wptfyi};
 
-    fn get_run_data(wptfyi: &Wptfyi, client: &reqwest::Client) -> Result<Vec<result::Run>> {
+    fn get_run_data(
+        wptfyi: &Wptfyi,
+        client: &reqwest::blocking::Client,
+    ) -> Result<Vec<result::Run>> {
         let mut runs = wptfyi.runs();
         for product in ["chrome", "firefox", "safari"].iter() {
             runs.add_product(product, "experimental")
@@ -56,7 +59,7 @@ pub mod update {
 
     pub fn get_fx_failures(
         wptfyi: &Wptfyi,
-        client: &reqwest::Client,
+        client: &reqwest::blocking::Client,
         run_ids: &[i64],
         labels: &[&str],
     ) -> Result<result::SearchData> {
@@ -76,7 +79,7 @@ pub mod update {
 
     pub fn get_interop_data(
         wptfyi: &Wptfyi,
-        client: &reqwest::Client,
+        client: &reqwest::blocking::Client,
     ) -> Result<BTreeMap<String, interop::YearData>> {
         let runs = wptfyi.interop_data();
         Ok(interop::parse(&get(
@@ -88,7 +91,7 @@ pub mod update {
 
     pub fn get_interop_categories(
         wptfyi: &Wptfyi,
-        client: &reqwest::Client,
+        client: &reqwest::blocking::Client,
     ) -> Result<BTreeMap<String, interop::Categories>> {
         Ok(interop::parse_categories(&get(
             client,
@@ -114,7 +117,7 @@ pub mod update {
     }
 
     pub fn run() -> Result<()> {
-        let client = reqwest::Client::new();
+        let client = network::client();
         let fyi = Wptfyi::new(None);
 
         let runs = get_run_data(&fyi, &client)?;
