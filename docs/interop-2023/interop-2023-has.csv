@@ -1,39 +1,39 @@
-"Test","Firefox failures","Chrome","Safari"
-"/css/selectors/invalidation/has-with-pseudo-class.html","41 Failures","41 Passes","41 Passes"
-"/css/selectors/invalidation/lang-pseudo-class-in-has.html","1 Failures","0 Passes","1 Passes"
-"/css/selectors/invalidation/user-action-pseudo-classes-in-has.html","1 Failures","1 Passes","0 Passes"
-"/css/selectors/has-visited.html","1 Failures","1 Passes","1 Passes"
-"/css/selectors/invalidation/has-sibling.html","35 Failures","35 Passes","35 Passes"
-"/css/selectors/invalidation/empty-pseudo-in-has.html","2 Failures","2 Passes","2 Passes"
-"/css/selectors/invalidation/has-complexity.html","6 Failures","6 Passes","6 Passes"
-"/css/selectors/invalidation/has-in-sibling-position.html","114 Failures","114 Passes","114 Passes"
-"/css/selectors/invalidation/dir-pseudo-class-in-has.html","1 Failures","1 Passes","1 Passes"
-"/css/selectors/invalidation/host-pseudo-class-in-has.html","4 Failures","4 Passes","0 Passes"
-"/css/selectors/invalidation/not-pseudo-containing-complex-in-has.html","345 Failures","345 Passes","331 Passes"
-"/css/selectors/invalidation/fullscreen-pseudo-class-in-has.html","3 Failures","2 Passes","2 Passes"
-"/css/selectors/invalidation/location-pseudo-classes-in-has.html","1 Failures","1 Passes","1 Passes"
-"/css/selectors/invalidation/link-pseudo-in-has.html","1 Failures","1 Passes","1 Passes"
-"/css/selectors/invalidation/lang-pseudo-class-in-has-xhtml.xhtml","1 Failures","0 Passes","1 Passes"
-"/css/selectors/invalidation/subject-has-invalidation-with-display-none-anchor-element.html","1 Failures","1 Passes","1 Passes"
-"/css/selectors/invalidation/has-invalidation-after-removing-non-first-element.html","1 Failures","1 Passes","1 Passes"
-"/css/selectors/invalidation/has-in-ancestor-position.html","127 Failures","127 Passes","127 Passes"
-"/css/selectors/invalidation/attribute-or-elemental-selectors-in-has.html","13 Failures","13 Passes","13 Passes"
-"/css/selectors/invalidation/typed-child-indexed-pseudo-classes-in-has.html","48 Failures","48 Passes","27 Passes"
-"/css/selectors/has-matches-to-uninserted-elements.html","12 Failures","12 Passes","12 Passes"
-"/css/selectors/invalidation/has-in-parent-position.html","59 Failures","59 Passes","59 Passes"
-"/css/selectors/invalidation/has-with-not.html","10 Failures","10 Passes","10 Passes"
-"/css/selectors/invalidation/lang-pseudo-class-in-has-document-element.html","1 Failures","1 Passes","1 Passes"
-"/css/selectors/invalidation/target-pseudo-in-has.html","1 Failures","1 Passes","1 Passes"
-"/css/selectors/invalidation/modal-pseudo-class-in-has.html","5 Failures","4 Passes","4 Passes"
-"/css/selectors/invalidation/lang-pseudo-class-in-has-multiple-document-elements.html","1 Failures","1 Passes","1 Passes"
-"/css/selectors/has-relative-argument.html","35 Failures","35 Passes","35 Passes"
-"/css/selectors/has-specificity.html","7 Failures","7 Passes","7 Passes"
-"/css/selectors/invalidation/has-invalidation-for-wiping-an-element.html","2 Failures","2 Passes","2 Passes"
-"/css/selectors/parsing/parse-has.html","24 Failures","24 Passes","24 Passes"
-"/css/selectors/has-basic.html","18 Failures","18 Passes","18 Passes"
-"/css/selectors/invalidation/has-in-adjacent-position.html","102 Failures","102 Passes","102 Passes"
-"/css/selectors/invalidation/child-indexed-pseudo-classes-in-has.html","27 Failures","27 Passes","15 Passes"
-"/css/selectors/invalidation/is-pseudo-containing-complex-in-has.html","336 Failures","336 Passes","315 Passes"
-"/css/selectors/has-argument-with-explicit-scope.html","13 Failures","13 Passes","10 Passes"
-"/css/selectors/invalidation/input-pseudo-classes-in-has.html","9 Failures","9 Passes","8 Passes"
-"/css/selectors/parsing/parse-has-disallow-nesting-has-inside-has.html","2 Failures","2 Passes","2 Passes"
+"Test","Firefox Failures","Chrome Failures","Safari Failures"
+"/css/selectors/invalidation/fullscreen-pseudo-class-in-has.html",3,0,0
+"/css/selectors/invalidation/location-pseudo-classes-in-has.html",1,0,0
+"/css/selectors/invalidation/not-pseudo-containing-complex-in-has.html",345,0,14
+"/css/selectors/invalidation/lang-pseudo-class-in-has-xhtml.xhtml",1,1,0
+"/css/selectors/invalidation/subject-has-invalidation-with-display-none-anchor-element.html",1,0,0
+"/css/selectors/invalidation/link-pseudo-in-has.html",1,0,0
+"/css/selectors/invalidation/user-action-pseudo-classes-in-has.html",1,0,1
+"/css/selectors/invalidation/lang-pseudo-class-in-has.html",1,1,0
+"/css/selectors/invalidation/has-invalidation-after-removing-non-first-element.html",1,0,0
+"/css/selectors/invalidation/has-with-pseudo-class.html",41,0,0
+"/css/selectors/invalidation/has-sibling.html",35,0,0
+"/css/selectors/invalidation/empty-pseudo-in-has.html",2,0,0
+"/css/selectors/invalidation/has-complexity.html",6,0,0
+"/css/selectors/invalidation/has-in-sibling-position.html",114,0,0
+"/css/selectors/has-visited.html",1,0,0
+"/css/selectors/invalidation/host-pseudo-class-in-has.html",4,0,4
+"/css/selectors/invalidation/typed-child-indexed-pseudo-classes-in-has.html",48,0,21
+"/css/selectors/has-matches-to-uninserted-elements.html",12,0,0
+"/css/selectors/invalidation/target-pseudo-in-has.html",1,0,0
+"/css/selectors/invalidation/lang-pseudo-class-in-has-multiple-document-elements.html",1,0,0
+"/css/selectors/invalidation/has-in-ancestor-position.html",127,0,0
+"/css/selectors/invalidation/attribute-or-elemental-selectors-in-has.html",13,0,0
+"/css/selectors/invalidation/child-indexed-pseudo-classes-in-has.html",27,0,12
+"/css/selectors/invalidation/has-in-adjacent-position.html",102,0,0
+"/css/selectors/invalidation/has-with-not.html",10,0,0
+"/css/selectors/invalidation/lang-pseudo-class-in-has-document-element.html",1,0,0
+"/css/selectors/invalidation/has-in-parent-position.html",59,0,0
+"/css/selectors/invalidation/modal-pseudo-class-in-has.html",5,0,0
+"/css/selectors/parsing/parse-has.html",24,0,0
+"/css/selectors/has-basic.html",18,0,0
+"/css/selectors/invalidation/has-invalidation-for-wiping-an-element.html",2,0,0
+"/css/selectors/invalidation/dir-pseudo-class-in-has.html",1,0,0
+"/css/selectors/has-specificity.html",7,0,0
+"/css/selectors/has-relative-argument.html",35,0,0
+"/css/selectors/parsing/parse-has-disallow-nesting-has-inside-has.html",2,0,0
+"/css/selectors/invalidation/is-pseudo-containing-complex-in-has.html",336,0,21
+"/css/selectors/has-argument-with-explicit-scope.html",13,0,3
+"/css/selectors/invalidation/input-pseudo-classes-in-has.html",9,0,1

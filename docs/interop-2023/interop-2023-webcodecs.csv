@@ -1,81 +1,81 @@
-"Test","Firefox failures","Chrome","Safari"
-"/webcodecs/videoDecoder-codec-specific.https.any.html?vp8","19 Failures","18 Passes","17 Passes"
-"/webcodecs/full-cycle-test.https.any.html?vp9_p0","2 Failures","2 Passes","0 Passes"
-"/webcodecs/full-cycle-test.https.any.html?vp8","1 Failures","1 Passes","0 Passes"
-"/webcodecs/videoFrame-alpha.any.worker.html","2 Failures","2 Passes","2 Passes"
-"/webcodecs/videoColorSpace.any.worker.html","1 Failures","1 Passes","0 Passes"
-"/webcodecs/videoFrame-createImageBitmap.https.any.worker.html","1 Failures","1 Passes","1 Passes"
-"/webcodecs/videoDecoder-codec-specific.https.any.worker.html?av1","19 Failures","18 Passes","17 Passes"
-"/webcodecs/reconfiguring-encoder.https.any.html?h264_annexb","1 Failures","1 Passes","1 Passes"
-"/webcodecs/videoDecoder-codec-specific.https.any.html?h264_avc","19 Failures","18 Passes","17 Passes"
-"/webcodecs/videoFrame-createImageBitmap.https.any.html","1 Failures","1 Passes","1 Passes"
-"/webcodecs/reconfiguring-encoder.https.any.worker.html?h264_avc","1 Failures","1 Passes","1 Passes"
-"/webcodecs/temporal-svc-encoding.https.any.html?vp8","2 Failures","2 Passes","0 Passes"
-"/webcodecs/videoFrame-createImageBitmap.any.worker.html","3 Failures","3 Passes","3 Passes"
-"/webcodecs/temporal-svc-encoding.https.any.worker.html?av1","2 Failures","2 Passes","0 Passes"
-"/webcodecs/videoFrame-serialization.crossAgentCluster.https.html","13 Failures","12 Passes","8 Passes"
-"/webcodecs/videoDecoder-codec-specific.https.any.worker.html?h264_avc","19 Failures","18 Passes","17 Passes"
-"/webcodecs/videoFrame-drawImage.any.worker.html","8 Failures","8 Passes","6 Passes"
-"/webcodecs/encoded-video-chunk.any.worker.html","2 Failures","2 Passes","2 Passes"
-"/webcodecs/video-decoder.crossOriginIsolated.https.any.html","2 Failures","2 Passes","2 Passes"
-"/webcodecs/full-cycle-test.https.any.worker.html?vp9_p2","2 Failures","2 Passes","0 Passes"
-"/webcodecs/temporal-svc-encoding.https.any.worker.html?h264","2 Failures","2 Passes","0 Passes"
-"/webcodecs/reconfiguring-encoder.https.any.worker.html?vp9_p2","1 Failures","1 Passes","0 Passes"
-"/webcodecs/reconfiguring-encoder.https.any.html?vp9_p0","1 Failures","1 Passes","1 Passes"
-"/webcodecs/reconfiguring-encoder.https.any.html?av1","1 Failures","1 Passes","0 Passes"
-"/webcodecs/temporal-svc-encoding.https.any.html?vp9","2 Failures","2 Passes","0 Passes"
-"/webcodecs/full-cycle-test.https.any.html?vp9_p2","2 Failures","2 Passes","0 Passes"
-"/webcodecs/videoFrame-construction.crossOriginIsolated.https.any.worker.html","2 Failures","2 Passes","2 Passes"
-"/webcodecs/videoFrame-drawImage.any.html","8 Failures","8 Passes","6 Passes"
-"/webcodecs/full-cycle-test.https.any.html?h264_avc","2 Failures","2 Passes","0 Passes"
-"/webcodecs/videoDecoder-codec-specific.https.any.worker.html?vp9","19 Failures","18 Passes","17 Passes"
-"/webcodecs/full-cycle-test.https.any.worker.html?vp9_p0","2 Failures","2 Passes","0 Passes"
-"/webcodecs/videoColorSpace.any.html","1 Failures","1 Passes","0 Passes"
-"/webcodecs/videoFrame-construction.window.html","3 Failures","3 Passes","1 Passes"
-"/webcodecs/videoFrame-construction.crossOriginSource.sub.html","12 Failures","12 Passes","2 Passes"
-"/webcodecs/reconfiguring-encoder.https.any.worker.html?h264_annexb","1 Failures","1 Passes","1 Passes"
-"/webcodecs/videoFrame-createImageBitmap.any.html","3 Failures","3 Passes","3 Passes"
-"/webcodecs/video-decoder.https.any.html","11 Failures","11 Passes","11 Passes"
-"/webcodecs/videoFrame-construction.any.worker.html","30 Failures","30 Passes","26 Passes"
-"/webcodecs/video-decoder.crossOriginIsolated.https.any.worker.html","2 Failures","2 Passes","2 Passes"
-"/webcodecs/full-cycle-test.https.any.html?av1","2 Failures","2 Passes","0 Passes"
-"/webcodecs/videoDecoder-codec-specific.https.any.html?av1","19 Failures","18 Passes","17 Passes"
-"/webcodecs/temporal-svc-encoding.https.any.html?h264","2 Failures","2 Passes","0 Passes"
-"/webcodecs/videoFrame-copyTo.crossOriginIsolated.https.any.worker.html","2 Failures","2 Passes","2 Passes"
-"/webcodecs/encoded-video-chunk.any.html","2 Failures","2 Passes","2 Passes"
-"/webcodecs/full-cycle-test.https.any.worker.html?h264_annexb","2 Failures","2 Passes","0 Passes"
-"/webcodecs/videoFrame-texImage.any.html","6 Failures","6 Passes","0 Passes"
-"/webcodecs/videoDecoder-codec-specific.https.any.worker.html?vp8","19 Failures","18 Passes","17 Passes"
-"/webcodecs/video-encoder.https.any.html","10 Failures","10 Passes","9 Passes"
-"/webcodecs/reconfiguring-encoder.https.any.html?vp9_p2","1 Failures","1 Passes","0 Passes"
-"/webcodecs/videoDecoder-codec-specific.https.any.html?vp9","19 Failures","18 Passes","17 Passes"
-"/webcodecs/full-cycle-test.https.any.worker.html?vp8","1 Failures","1 Passes","0 Passes"
-"/webcodecs/video-frame-serialization.any.worker.html","7 Failures","7 Passes","6 Passes"
-"/webcodecs/videoFrame-copyTo.any.worker.html","18 Failures","18 Passes","17 Passes"
-"/webcodecs/videoFrame-canvasImageSource.html","6 Failures","6 Passes","4 Passes"
-"/webcodecs/full-cycle-test.https.any.worker.html?h264_avc","2 Failures","2 Passes","0 Passes"
-"/webcodecs/reconfiguring-encoder.https.any.worker.html?vp8","1 Failures","1 Passes","1 Passes"
-"/webcodecs/videoDecoder-codec-specific.https.any.worker.html?h264_annexb","19 Failures","18 Passes","17 Passes"
-"/webcodecs/videoDecoder-codec-specific.https.any.html?h264_annexb","19 Failures","18 Passes","17 Passes"
-"/webcodecs/video-encoder.https.any.worker.html","10 Failures","10 Passes","9 Passes"
-"/webcodecs/video-frame-serialization.any.html","7 Failures","7 Passes","6 Passes"
-"/webcodecs/encoded-video-chunk.crossOriginIsolated.https.any.worker.html","2 Failures","2 Passes","2 Passes"
-"/webcodecs/temporal-svc-encoding.https.any.html?av1","2 Failures","2 Passes","0 Passes"
-"/webcodecs/video-decoder.https.any.worker.html","11 Failures","11 Passes","11 Passes"
-"/webcodecs/reconfiguring-encoder.https.any.html?h264_avc","1 Failures","1 Passes","1 Passes"
-"/webcodecs/reconfiguring-encoder.https.any.html?vp8","1 Failures","1 Passes","1 Passes"
-"/webcodecs/video-encoder-config.https.any.worker.html","10 Failures","10 Passes","4 Passes"
-"/webcodecs/temporal-svc-encoding.https.any.worker.html?vp9","2 Failures","2 Passes","0 Passes"
-"/webcodecs/full-cycle-test.https.any.worker.html?av1","2 Failures","2 Passes","0 Passes"
-"/webcodecs/encoded-video-chunk.crossOriginIsolated.https.any.html","2 Failures","2 Passes","2 Passes"
-"/webcodecs/videoFrame-copyTo.crossOriginIsolated.https.any.html","2 Failures","2 Passes","2 Passes"
-"/webcodecs/reconfiguring-encoder.https.any.worker.html?vp9_p0","1 Failures","1 Passes","1 Passes"
-"/webcodecs/full-cycle-test.https.any.html?h264_annexb","2 Failures","2 Passes","0 Passes"
-"/webcodecs/videoFrame-construction.any.html","32 Failures","32 Passes","27 Passes"
-"/webcodecs/videoFrame-texImage.any.worker.html","6 Failures","6 Passes","0 Passes"
-"/webcodecs/video-encoder-config.https.any.html","10 Failures","10 Passes","4 Passes"
-"/webcodecs/reconfiguring-encoder.https.any.worker.html?av1","1 Failures","1 Passes","0 Passes"
-"/webcodecs/videoFrame-construction.crossOriginIsolated.https.any.html","2 Failures","2 Passes","2 Passes"
-"/webcodecs/videoFrame-alpha.any.html","2 Failures","2 Passes","2 Passes"
-"/webcodecs/videoFrame-copyTo.any.html","18 Failures","18 Passes","17 Passes"
-"/webcodecs/temporal-svc-encoding.https.any.worker.html?vp8","2 Failures","2 Passes","0 Passes"
+"Test","Firefox Failures","Chrome Failures","Safari Failures"
+"/webcodecs/reconfiguring-encoder.https.any.html?h264_annexb",1,0,0
+"/webcodecs/videoDecoder-codec-specific.https.any.html?vp8",19,0,1
+"/webcodecs/full-cycle-test.https.any.html?vp9_p0",2,0,2
+"/webcodecs/videoDecoder-codec-specific.https.any.worker.html?av1",19,0,1
+"/webcodecs/full-cycle-test.https.any.html?vp8",1,0,1
+"/webcodecs/videoFrame-alpha.any.worker.html",2,0,0
+"/webcodecs/videoColorSpace.any.worker.html",1,0,1
+"/webcodecs/videoFrame-createImageBitmap.https.any.worker.html",1,0,0
+"/webcodecs/temporal-svc-encoding.https.any.worker.html?av1",2,0,0
+"/webcodecs/temporal-svc-encoding.https.any.html?vp8",2,0,2
+"/webcodecs/videoFrame-createImageBitmap.any.worker.html",3,0,0
+"/webcodecs/videoDecoder-codec-specific.https.any.html?h264_avc",19,0,1
+"/webcodecs/videoFrame-createImageBitmap.https.any.html",1,0,0
+"/webcodecs/reconfiguring-encoder.https.any.worker.html?h264_avc",1,0,0
+"/webcodecs/full-cycle-test.https.any.worker.html?vp9_p2",2,0,0
+"/webcodecs/video-decoder.crossOriginIsolated.https.any.html",2,0,0
+"/webcodecs/full-cycle-test.https.any.html?vp9_p2",2,0,0
+"/webcodecs/temporal-svc-encoding.https.any.html?vp9",2,0,2
+"/webcodecs/videoFrame-drawImage.any.worker.html",8,0,2
+"/webcodecs/encoded-video-chunk.any.worker.html",2,0,0
+"/webcodecs/videoDecoder-codec-specific.https.any.worker.html?h264_avc",19,0,1
+"/webcodecs/videoFrame-serialization.crossAgentCluster.https.html",13,0,5
+"/webcodecs/videoDecoder-codec-specific.https.any.worker.html?vp8",19,0,1
+"/webcodecs/video-encoder.https.any.html",10,0,1
+"/webcodecs/videoFrame-texImage.any.html",6,0,6
+"/webcodecs/reconfiguring-encoder.https.any.html?vp9_p2",1,0,0
+"/webcodecs/reconfiguring-encoder.https.any.worker.html?vp9_p2",1,0,0
+"/webcodecs/reconfiguring-encoder.https.any.html?vp9_p0",1,0,0
+"/webcodecs/reconfiguring-encoder.https.any.html?av1",1,0,0
+"/webcodecs/videoColorSpace.any.html",1,0,1
+"/webcodecs/full-cycle-test.https.any.worker.html?vp9_p0",2,0,2
+"/webcodecs/video-decoder.crossOriginIsolated.https.any.worker.html",2,0,0
+"/webcodecs/full-cycle-test.https.any.html?av1",2,0,0
+"/webcodecs/videoFrame-drawImage.any.html",8,0,2
+"/webcodecs/videoFrame-construction.crossOriginIsolated.https.any.worker.html",2,0,0
+"/webcodecs/full-cycle-test.https.any.html?h264_avc",2,0,2
+"/webcodecs/videoDecoder-codec-specific.https.any.worker.html?vp9",19,0,1
+"/webcodecs/videoDecoder-codec-specific.https.any.html?vp9",19,0,1
+"/webcodecs/full-cycle-test.https.any.worker.html?vp8",1,0,1
+"/webcodecs/reconfiguring-encoder.https.any.worker.html?vp8",1,0,0
+"/webcodecs/videoDecoder-codec-specific.https.any.worker.html?h264_annexb",19,0,1
+"/webcodecs/videoDecoder-codec-specific.https.any.html?h264_annexb",19,0,1
+"/webcodecs/video-encoder.https.any.worker.html",10,0,1
+"/webcodecs/video-frame-serialization.any.html",7,0,1
+"/webcodecs/full-cycle-test.https.any.worker.html?h264_avc",2,0,2
+"/webcodecs/videoFrame-canvasImageSource.html",6,0,2
+"/webcodecs/videoFrame-construction.any.worker.html",30,0,4
+"/webcodecs/temporal-svc-encoding.https.any.worker.html?h264",2,0,2
+"/webcodecs/reconfiguring-encoder.https.any.html?h264_avc",1,0,0
+"/webcodecs/reconfiguring-encoder.https.any.html?vp8",1,0,0
+"/webcodecs/video-encoder-config.https.any.worker.html",10,0,6
+"/webcodecs/temporal-svc-encoding.https.any.html?av1",2,0,0
+"/webcodecs/video-decoder.https.any.worker.html",11,0,0
+"/webcodecs/video-decoder.https.any.html",11,0,0
+"/webcodecs/videoFrame-construction.crossOriginSource.sub.html",12,0,10
+"/webcodecs/videoFrame-construction.window.html",3,0,2
+"/webcodecs/reconfiguring-encoder.https.any.worker.html?h264_annexb",1,0,0
+"/webcodecs/videoFrame-createImageBitmap.any.html",3,0,0
+"/webcodecs/encoded-video-chunk.crossOriginIsolated.https.any.worker.html",2,0,0
+"/webcodecs/videoDecoder-codec-specific.https.any.html?av1",19,0,1
+"/webcodecs/temporal-svc-encoding.https.any.html?h264",2,0,2
+"/webcodecs/videoFrame-copyTo.any.worker.html",18,0,1
+"/webcodecs/video-frame-serialization.any.worker.html",7,0,1
+"/webcodecs/reconfiguring-encoder.https.any.worker.html?vp9_p0",1,0,0
+"/webcodecs/full-cycle-test.https.any.html?h264_annexb",2,0,2
+"/webcodecs/temporal-svc-encoding.https.any.worker.html?vp9",2,0,2
+"/webcodecs/encoded-video-chunk.crossOriginIsolated.https.any.html",2,0,0
+"/webcodecs/videoFrame-copyTo.crossOriginIsolated.https.any.html",2,0,0
+"/webcodecs/videoFrame-copyTo.crossOriginIsolated.https.any.worker.html",2,0,0
+"/webcodecs/full-cycle-test.https.any.worker.html?h264_annexb",2,0,2
+"/webcodecs/encoded-video-chunk.any.html",2,0,0
+"/webcodecs/full-cycle-test.https.any.worker.html?av1",2,0,0
+"/webcodecs/videoFrame-copyTo.any.html",18,0,1
+"/webcodecs/videoFrame-alpha.any.html",2,0,0
+"/webcodecs/temporal-svc-encoding.https.any.worker.html?vp8",2,0,2
+"/webcodecs/videoFrame-construction.crossOriginIsolated.https.any.html",2,0,0
+"/webcodecs/videoFrame-construction.any.html",32,0,5
+"/webcodecs/videoFrame-texImage.any.worker.html",6,0,6
+"/webcodecs/video-encoder-config.https.any.html",10,0,6
+"/webcodecs/reconfiguring-encoder.https.any.worker.html?av1",1,0,0

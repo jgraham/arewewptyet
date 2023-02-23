@@ -1,24 +1,24 @@
-"Test","Firefox failures","Chrome","Safari"
-"/css/css-contain/container-queries/font-relative-units.html","6 Failures","6 Passes","3 Passes"
-"/css/css-contain/container-queries/inline-size-bfc-floats.html","1 Failures","1 Passes","0 Passes"
-"/css/css-contain/container-queries/display-none.html","2 Failures","2 Passes","2 Passes"
-"/css/css-contain/container-queries/query-evaluation.html","15 Failures","0 Passes","0 Passes"
-"/css/css-contain/container-queries/percentage-padding-orthogonal.html","4 Failures","3 Passes","0 Passes"
-"/css/css-contain/container-queries/container-units-typed-om.html","24 Failures","24 Passes","24 Passes"
-"/css/css-contain/container-queries/transition-scrollbars.html","1 Failures","1 Passes","0 Passes"
-"/css/css-contain/container-queries/inner-first-line-non-matching.html","1 Failures","1 Passes","1 Passes"
-"/css/css-contain/container-queries/custom-layout-container-001.https.html","1 Failures","1 Passes","0 Passes"
-"/css/css-contain/container-queries/dialog-backdrop-create.html","1 Failures","1 Passes","1 Passes"
-"/css/css-contain/container-queries/container-units-svglength.html","7 Failures","7 Passes","0 Passes"
-"/css/css-contain/container-queries/container-for-shadow-dom.html","7 Failures","7 Passes","6 Passes"
-"/css/css-contain/container-queries/container-name-tree-scoped.html","2 Failures","0 Passes","0 Passes"
-"/css/css-contain/container-queries/font-relative-units-dynamic.html","5 Failures","5 Passes","1 Passes"
-"/css/css-contain/container-queries/container-units-computational-independence.html","6 Failures","6 Passes","6 Passes"
-"/css/css-contain/container-queries/container-longhand-animation-type.html","1 Failures","1 Passes","1 Passes"
-"/css/css-contain/container-queries/container-units-shadow.html","2 Failures","2 Passes","2 Passes"
-"/css/css-contain/container-queries/container-inner-at-rules.html","2 Failures","2 Passes","2 Passes"
-"/css/css-contain/container-queries/sibling-layout-dependency.html","4 Failures","4 Passes","4 Passes"
-"/css/css-contain/container-queries/nested-query-containers.html","1 Failures","0 Passes","1 Passes"
-"/css/css-contain/container-queries/auto-scrollbars.html","2 Failures","2 Passes","0 Passes"
-"/css/css-contain/container-queries/dialog-backdrop-remove.html","1 Failures","1 Passes","1 Passes"
-"/css/css-contain/container-queries/pseudo-elements-002.html","1 Failures","1 Passes","1 Passes"
+"Test","Firefox Failures","Chrome Failures","Safari Failures"
+"/css/css-contain/container-queries/container-for-shadow-dom.html",7,0,1
+"/css/css-contain/container-queries/query-evaluation.html",15,15,15
+"/css/css-contain/container-queries/display-none.html",2,0,0
+"/css/css-contain/container-queries/transition-scrollbars.html",1,0,1
+"/css/css-contain/container-queries/inner-first-line-non-matching.html",1,0,0
+"/css/css-contain/container-queries/custom-layout-container-001.https.html",1,0,1
+"/css/css-contain/container-queries/container-units-typed-om.html",24,0,0
+"/css/css-contain/container-queries/percentage-padding-orthogonal.html",4,1,4
+"/css/css-contain/container-queries/font-relative-units.html",6,0,3
+"/css/css-contain/container-queries/inline-size-bfc-floats.html",1,0,1
+"/css/css-contain/container-queries/dialog-backdrop-create.html",1,0,0
+"/css/css-contain/container-queries/font-relative-units-dynamic.html",5,0,4
+"/css/css-contain/container-queries/container-units-shadow.html",2,0,0
+"/css/css-contain/container-queries/nested-query-containers.html",1,1,0
+"/css/css-contain/container-queries/sibling-layout-dependency.html",4,0,0
+"/css/css-contain/container-queries/container-units-computational-independence.html",6,0,0
+"/css/css-contain/container-queries/container-name-tree-scoped.html",2,2,2
+"/css/css-contain/container-queries/container-units-svglength.html",7,0,7
+"/css/css-contain/container-queries/container-longhand-animation-type.html",1,0,0
+"/css/css-contain/container-queries/container-inner-at-rules.html",2,0,0
+"/css/css-contain/container-queries/auto-scrollbars.html",2,0,2
+"/css/css-contain/container-queries/pseudo-elements-002.html",1,0,0
+"/css/css-contain/container-queries/dialog-backdrop-remove.html",1,0,0

@@ -1,14 +1,14 @@
-"Test","Firefox failures","Chrome","Safari"
-"/css/motion/parsing/offset-path-computed.html","6 Failures","6 Passes","6 Passes"
-"/css/motion/parsing/offset-parsing-valid.html","9 Failures","9 Passes","7 Passes"
-"/css/motion/animation/offset-position-composition.html","28 Failures","28 Passes","28 Passes"
-"/css/motion/parsing/offset-position-computed.html","14 Failures","14 Passes","14 Passes"
-"/css/motion/offset-path-url.html","1 Failures","0 Passes","1 Passes"
-"/css/motion/inheritance.html","2 Failures","2 Passes","2 Passes"
-"/css/motion/offset-path-serialization.html","1 Failures","1 Passes","1 Passes"
-"/css/motion/offset-supports-calc.html","1 Failures","1 Passes","1 Passes"
-"/css/motion/offset-path-shape.html","1 Failures","0 Passes","1 Passes"
-"/css/motion/parsing/offset-position-parsing-valid.html","11 Failures","11 Passes","9 Passes"
-"/css/motion/parsing/offset-shorthand.html","13 Failures","9 Passes","13 Passes"
-"/css/motion/animation/offset-position-interpolation.html","256 Failures","256 Passes","232 Passes"
-"/css/motion/parsing/offset-path-parsing-valid.html","5 Failures","0 Passes","3 Passes"
+"Test","Firefox Failures","Chrome Failures","Safari Failures"
+"/css/motion/parsing/offset-path-computed.html",6,0,0
+"/css/motion/offset-path-serialization.html",1,0,0
+"/css/motion/inheritance.html",2,0,0
+"/css/motion/parsing/offset-position-computed.html",14,0,0
+"/css/motion/animation/offset-position-composition.html",28,0,0
+"/css/motion/parsing/offset-parsing-valid.html",9,0,2
+"/css/motion/parsing/offset-position-parsing-valid.html",11,0,2
+"/css/motion/offset-supports-calc.html",1,0,0
+"/css/motion/offset-path-shape.html",1,1,0
+"/css/motion/animation/offset-position-interpolation.html",256,0,24
+"/css/motion/parsing/offset-shorthand.html",13,4,0
+"/css/motion/offset-path-url.html",1,1,0
+"/css/motion/parsing/offset-path-parsing-valid.html",5,5,2

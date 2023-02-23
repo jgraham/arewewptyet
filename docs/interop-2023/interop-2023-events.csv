@@ -1,7 +1,7 @@
-"Test","Firefox failures","Chrome","Safari"
-"/pointerevents/pointerevent_pointercapture_in_frame.html?mouse","1 Failures","1 Passes","1 Passes"
-"/pointerevents/pointerevent_after_target_removed.html?mouse","4 Failures","0 Passes","0 Passes"
-"/pointerevents/pointerevent_attributes_hoverable_pointers.html?mouse","52 Failures","141 Passes","137 Passes"
-"/pointerevents/pointerevent_pointercancel_touch.html","1 Failures","22 Passes","0 Passes"
-"/uievents/mouse/mousemove_prevent_default_action.tentative.html","1 Failures","0 Passes","0 Passes"
-"/pointerevents/pointerevent_attributes_nohover_pointers.html","48 Failures","48 Passes","50 Passes"
+"Test","Firefox Failures","Chrome Failures","Safari Failures"
+"/pointerevents/pointerevent_after_target_removed.html?mouse",4,4,4
+"/pointerevents/pointerevent_pointercapture_in_frame.html?mouse",1,0,0
+"/pointerevents/pointerevent_attributes_hoverable_pointers.html?mouse",52,1,5
+"/uievents/mouse/mousemove_prevent_default_action.tentative.html",1,1,1
+"/pointerevents/pointerevent_attributes_nohover_pointers.html",48,0,0
+"/pointerevents/pointerevent_pointercancel_touch.html",1,0,1
