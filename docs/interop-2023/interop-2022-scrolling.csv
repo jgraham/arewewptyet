@@ -1,0 +1,12 @@
+test,firefox,chrome,safari
+/css/css-scroll-snap/snap-after-relayout/move-current-target.html,0/1,1/1,1/1
+/css/css-scroll-snap/snap-to-visible-areas-y-axis.html,0/1,1/1,1/1
+/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-initial-layout-000.html,0/1,1/1,1/1
+/css/cssom-view/scroll-behavior-main-frame-root.html,0/1,0/1,1/1
+/css/css-scroll-snap/input/snap-area-overflow-boundary.html,0/1,0/2,0/2
+/css/css-scroll-snap/input/keyboard.html,0/4,3/3,0/4
+/css/css-scroll-snap/scroll-snap-type-on-root-element.html,0/2,2/2,2/2
+/css/css-scroll-snap/snap-to-visible-areas-both.html,0/1,1/1,1/1
+/css/cssom-view/scroll-behavior-main-frame-window.html,0/1,0/1,1/1
+/css/css-overscroll-behavior/overscroll-behavior.html,0/1,1/1,0/1
+/css/css-scroll-snap/snap-to-visible-areas-x-axis.html,0/1,1/1,1/1

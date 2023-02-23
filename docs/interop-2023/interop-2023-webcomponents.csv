@@ -1,0 +1,11 @@
+test,firefox,chrome,safari
+/custom-elements/throw-on-dynamic-markup-insertion-counter-construct-xml-parser.xhtml,0/1,0/1,1/1
+/custom-elements/reactions/AriaMixin-string-attributes.html,0/76,76/76,76/76
+/custom-elements/perform-microtask-checkpoint-before-construction-xml-parser.xhtml,0/1,0/1,1/1
+/custom-elements/throw-on-dynamic-markup-insertion-counter-reactions-xml-parser.xhtml,0/1,0/1,1/1
+/custom-elements/reactions/Document.html,0/1,1/1,1/1
+/shadow-dom/capturing-and-bubbling-event-listeners-across-shadow-trees.html,0/5,5/5,5/5
+/custom-elements/adopted-callback.html,0/13,13/13,13/13
+/shadow-dom/focus-navigation/focus-with-negative-index.html,0/1,1/1,1/1
+/custom-elements/Document-createElement.html,0/3,3/3,3/3
+/custom-elements/CustomElementRegistry.html,0/1,1/1,1/1
