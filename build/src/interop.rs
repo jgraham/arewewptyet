@@ -148,7 +148,9 @@ pub mod update {
             let path = format!("../docs/interop-2023/{}.csv", name);
             let data_path = Path::new(&path);
             let out_f = File::create(data_path)?;
-            let mut writer = csv::Writer::from_writer(out_f);
+            let mut writer = csv::WriterBuilder::new()
+                .quote_style(csv::QuoteStyle::NonNumeric)
+                .from_writer(out_f);
 
             let results = get_fx_failures(
                 &fyi,
@@ -176,7 +178,7 @@ pub mod update {
             }
             let browser_list = maybe_browser_list.unwrap();
 
-            writer.write_record(["test", "firefox", "chrome", "safari"])?;
+            writer.write_record(["Test", "Firefox", "Chrome", "Safari"])?;
             for result in results.results.iter() {
                 let mut scores = vec![String::new(), String::new(), String::new()];
                 for (output_idx, browser_idx) in browser_list.iter().enumerate() {
