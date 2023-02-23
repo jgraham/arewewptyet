@@ -137,7 +137,6 @@ pub mod update {
         let categories_by_name = interop_2023_categories.by_name();
 
         for (name, focus_area) in interop_2023_data.focus_areas.iter() {
-            println!("{} {}", name, focus_area.counts_toward_score);
             if !focus_area.counts_toward_score {
                 continue;
             }
@@ -178,17 +177,23 @@ pub mod update {
             }
             let browser_list = maybe_browser_list.unwrap();
 
-            writer.write_record(["Test", "Firefox failures", "Chrome", "Safari"])?;
+            writer.write_record([
+                "Test",
+                "Firefox Failures",
+                "Chrome Failures",
+                "Safari Failures",
+            ])?;
             for result in results.results.iter() {
                 let mut scores = vec![String::new(), String::new(), String::new()];
                 for (output_idx, browser_idx) in browser_list.iter().enumerate() {
                     if let Some(status) = result.legacy_status.get(*browser_idx) {
                         if output_idx == 0 {
                             // For Firefox output the total as this is the number of failures
-                            scores[output_idx].push_str(&format!("{} Failures", status.total));
+                            scores[output_idx].push_str(&format!("{}", status.total));
                         } else {
                             // For Firefox output the total as this is the number of failures
-                            scores[output_idx].push_str(&format!("{} Passes", status.passes));
+                            scores[output_idx]
+                                .push_str(&format!("{}", status.total - status.passes));
                         }
                     }
                 }
