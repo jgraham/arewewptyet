@@ -1,4 +1,3 @@
-use super::WptfyiUrl;
 use crate::error::Error;
 use crate::result::{SearchData, Status};
 use serde::{Deserialize, Serialize};
@@ -74,7 +73,8 @@ pub struct SearchBody {
 #[derive(Debug, Default)]
 pub struct Search {
     host: String,
-    url: WptfyiUrl,
+    products: Vec<String>,
+    labels: Vec<String>,
     body: Option<SearchBody>,
 }
 
@@ -87,15 +87,25 @@ impl Search {
     }
 
     pub fn add_product(&mut self, name: &str, channel: &str) {
-        self.url.add_product(name, channel);
+        self.products.push(format!("{}[{}]", name, channel));
     }
 
     pub fn add_label(&mut self, label: &str) {
-        self.url.add_label(label);
+        self.labels.push(label.into());
     }
 
     pub fn url(&mut self) -> Url {
-        self.url.url(&self.host, "search")
+        let mut url = Url::parse(&format!("https://{}/api/search", self.host)).unwrap();
+        {
+            let mut query = url.query_pairs_mut();
+            for product in self.products.iter() {
+                query.append_pair("product", product);
+            }
+            for label in self.labels.iter() {
+                query.append_pair("label", label);
+            }
+        }
+        url
     }
 
     pub fn set_query(&mut self, run_ids: &[i64], query: Query) {

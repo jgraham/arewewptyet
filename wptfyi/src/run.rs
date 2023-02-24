@@ -1,4 +1,3 @@
-use super::WptfyiUrl;
 use crate::error::Error;
 use crate::result::Run;
 use std::collections::HashMap;
@@ -7,7 +6,9 @@ use url::Url;
 #[derive(Debug, Default)]
 pub struct Runs {
     host: String,
-    url: WptfyiUrl,
+    products: Vec<String>,
+    labels: Vec<String>,
+    max_count: Option<i64>,
 }
 
 impl Runs {
@@ -19,19 +20,32 @@ impl Runs {
     }
 
     pub fn add_product(&mut self, name: &str, channel: &str) {
-        self.url.add_product(name, channel);
+        self.products.push(format!("{}[{}]", name, channel));
     }
 
     pub fn add_label(&mut self, label: &str) {
-        self.url.add_label(label);
+        self.labels.push(label.into());
     }
 
     pub fn set_max_count(&mut self, max_count: i64) {
-        self.url.set_max_count(Some(max_count));
+        self.max_count = Some(max_count);
     }
 
     pub fn url(&mut self) -> Url {
-        self.url.url(&self.host, "runs")
+        let mut url = Url::parse(&format!("https://{}/api/runs", self.host)).unwrap();
+        {
+            let mut query = url.query_pairs_mut();
+            for product in self.products.iter() {
+                query.append_pair("product", product);
+            }
+            for label in self.labels.iter() {
+                query.append_pair("label", label);
+            }
+            if let Some(count) = self.max_count {
+                query.append_pair("max-count", &format!("{}", count));
+            }
+        }
+        url
     }
 }
 
