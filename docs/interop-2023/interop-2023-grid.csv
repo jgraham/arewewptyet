@@ -1,5 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-grid/grid-definition/grid-template-columns-rows-resolved-values-001.html",15,0,0,"1639412,1656584"
+"/css/css-grid/grid-definition/grid-template-columns-rows-resolved-values-001.html",15,0,0,"1639412 1656584"
 "/css/css-grid/alignment/grid-align-baseline-multicol-003.html",2,0,2,""
 "/css/css-grid/layout-algorithm/grid-minimum-contribution-baseline-shim-vertical-rl.html",2,0,2,""
 "/css/css-grid/alignment/grid-item-no-aspect-ratio-stretch-6.html",1,0,1,1719002
@@ -40,7 +40,7 @@
 "/css/css-grid/layout-algorithm/grid-percent-rows-spanned-shrinkwrap-001.html",1,0,0,""
 "/css/css-grid/alignment/grid-baseline-align-cycles-001.html",1,0,1,1712862
 "/css/css-grid/grid-definition/grid-auto-repeat-aspect-ratio-002.html",1,0,0,""
-"/css/css-grid/grid-definition/grid-inline-template-columns-rows-resolved-values-001.html",15,0,0,"1639412,1656584"
+"/css/css-grid/grid-definition/grid-inline-template-columns-rows-resolved-values-001.html",15,0,0,"1639412 1656584"
 "/css/css-grid/layout-algorithm/grid-percent-rows-filled-shrinkwrap-001.html",1,0,0,""
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-horiz-005.html",1,0,1,""
 "/css/css-grid/alignment/grid-alignment-implies-size-change-018.html",1,0,0,""
