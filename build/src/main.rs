@@ -19,7 +19,7 @@ fn main() {
 
     if !errors.is_empty() {
         for err in errors {
-            println!("{}", err);
+            eprintln!("{:?}", err);
         }
         process::exit(1);
     }
