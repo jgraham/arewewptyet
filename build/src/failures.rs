@@ -1,11 +1,15 @@
+use crate::network::{self, get, post};
 use anyhow::Result;
 use serde::{Deserialize, Serialize};
 use std::collections::HashSet;
+use std::fs::File;
+use std::path::Path;
 use time::serde::iso8601;
 use time::OffsetDateTime;
 use wptfyi::result::{Run, SearchData, Status};
 use wptfyi::run;
 use wptfyi::search::{AndClause, Clause, LinkClause, NotClause, OrClause, Query, ResultClause};
+use wptfyi::{result, Wptfyi};
 
 fn fx_only_failures_query(untriaged: bool) -> Query {
     let mut and_parts = Vec::new();
@@ -126,81 +130,68 @@ fn count_failures(failures_str: &str) -> Result<FailureCount> {
     })
 }
 
-pub mod update {
-    use super::{
-        count_failures, fx_only_failures_query, get_runs, missing_runs, RunData, RunsData,
-    };
-    use crate::network::{self, get, post};
-    use anyhow::Result;
-    use reqwest;
-    use std::fs::File;
-    use std::path::Path;
-    use wptfyi::{result, run, Wptfyi};
+fn get_run_data(client: &reqwest::blocking::Client) -> Result<Vec<result::Run>> {
+    let mut runs = Wptfyi::new(None).runs();
+    for product in ["chrome", "firefox", "safari"].iter() {
+        runs.add_product(product, "experimental")
+    }
+    runs.add_label("master");
+    runs.set_max_count(100);
+    Ok(run::parse(&get(client, &String::from(runs.url()), None)?)?)
+}
 
-    fn get_run_data(client: &reqwest::blocking::Client) -> Result<Vec<result::Run>> {
-        let mut runs = Wptfyi::new(None).runs();
-        for product in ["chrome", "firefox", "safari"].iter() {
-            runs.add_product(product, "experimental")
-        }
-        runs.add_label("master");
-        runs.set_max_count(100);
-        Ok(run::parse(&get(client, &String::from(runs.url()), None)?)?)
+pub fn get_fx_only_failures(
+    client: &reqwest::blocking::Client,
+    run_ids: &[i64],
+    untriaged: bool,
+) -> Result<String> {
+    let mut search = Wptfyi::new(None).search();
+    for product in ["chrome", "firefox", "safari"].iter() {
+        search.add_product(product, "experimental")
+    }
+    search.set_query(run_ids, fx_only_failures_query(untriaged));
+    search.add_label("master");
+    post(client, &String::from(search.url()), None, search.body())
+}
+
+pub fn load_runs_data(path: &Path) -> Result<RunsData> {
+    if let Ok(f) = File::open(path) {
+        Ok(serde_json::from_reader(f)?)
+    } else {
+        Ok(RunsData::new())
+    }
+}
+
+pub fn run() -> Result<()> {
+    let client = network::client();
+
+    let data_path = Path::new("../docs/runs.json");
+    let mut runs_data = load_runs_data(data_path)?;
+
+    let runs = get_run_data(&client)?;
+    let runs = get_runs(&runs)?;
+    let missing = missing_runs(&runs_data, runs);
+    for new_run in missing.into_iter().rev() {
+        let failures_all_str = match get_fx_only_failures(&client, &new_run.run_ids, false) {
+            Ok(x) => x,
+            Err(_) => continue,
+        };
+        let failures_untriaged_str = match get_fx_only_failures(&client, &new_run.run_ids, true) {
+            Ok(x) => x,
+            Err(_) => continue,
+        };
+        let count_all = count_failures(&failures_all_str)?;
+        let count_untriaged = count_failures(&failures_untriaged_str)?;
+        runs_data.runs.push(RunData {
+            revision: new_run.revision,
+            run_ids: new_run.run_ids,
+            date: new_run.date,
+            all_failures: count_all,
+            untriaged_failures: count_untriaged,
+        })
     }
 
-    pub fn get_fx_only_failures(
-        client: &reqwest::blocking::Client,
-        run_ids: &[i64],
-        untriaged: bool,
-    ) -> Result<String> {
-        let mut search = Wptfyi::new(None).search();
-        for product in ["chrome", "firefox", "safari"].iter() {
-            search.add_product(product, "experimental")
-        }
-        search.set_query(run_ids, fx_only_failures_query(untriaged));
-        search.add_label("master");
-        post(client, &String::from(search.url()), None, search.body())
-    }
-
-    pub fn load_runs_data(path: &Path) -> Result<RunsData> {
-        if let Ok(f) = File::open(path) {
-            Ok(serde_json::from_reader(f)?)
-        } else {
-            Ok(RunsData::new())
-        }
-    }
-
-    pub fn run() -> Result<()> {
-        let client = network::client();
-
-        let data_path = Path::new("../docs/runs.json");
-        let mut runs_data = load_runs_data(data_path)?;
-
-        let runs = get_run_data(&client)?;
-        let runs = get_runs(&runs)?;
-        let missing = missing_runs(&runs_data, runs);
-        for new_run in missing.into_iter().rev() {
-            let failures_all_str = match get_fx_only_failures(&client, &new_run.run_ids, false) {
-                Ok(x) => x,
-                Err(_) => continue,
-            };
-            let failures_untriaged_str = match get_fx_only_failures(&client, &new_run.run_ids, true)
-            {
-                Ok(x) => x,
-                Err(_) => continue,
-            };
-            let count_all = count_failures(&failures_all_str)?;
-            let count_untriaged = count_failures(&failures_untriaged_str)?;
-            runs_data.runs.push(RunData {
-                revision: new_run.revision,
-                run_ids: new_run.run_ids,
-                date: new_run.date,
-                all_failures: count_all,
-                untriaged_failures: count_untriaged,
-            })
-        }
-
-        let out_f = File::create(data_path)?;
-        serde_json::to_writer(out_f, &runs_data)?;
-        Ok(())
-    }
+    let out_f = File::create(data_path)?;
+    serde_json::to_writer(out_f, &runs_data)?;
+    Ok(())
 }

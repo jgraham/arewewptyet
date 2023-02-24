@@ -6,11 +6,7 @@ mod network;
 use std::process;
 
 fn main() {
-    let results = vec![
-        failures::update::run(),
-        latency::update::run(),
-        interop::update::run(),
-    ];
+    let results = vec![failures::run(), latency::run(), interop::run()];
 
     let errors = results
         .iter()

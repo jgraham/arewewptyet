@@ -1,8 +1,11 @@
+use crate::network::{self, get};
 use anyhow::Result;
 use lazy_static::lazy_static;
 use regex::Regex;
 use serde::{Deserialize, Serialize};
 use std::collections::{HashMap, HashSet};
+use std::fs::File;
+use std::path::Path;
 use time::serde::iso8601;
 use time::OffsetDateTime;
 
@@ -169,69 +172,59 @@ pub fn extract_sync_points(sync_commits: &str) -> Result<impl Iterator<Item = Ge
         .filter(filter_update)
         .map(|x| x.into()))
 }
-
-pub mod update {
-    use super::*;
-    use serde_json;
-    use std::fs::File;
-    use std::path::Path;
-
-    use crate::network::{self, get};
-
-    fn get_sync_commits(client: &reqwest::blocking::Client) -> Result<String> {
-        get(client,
+fn get_sync_commits(client: &reqwest::blocking::Client) -> Result<String> {
+    get(client,
             "https://hg.mozilla.org/integration/autoland/json-log/tip/testing/web-platform/meta/mozilla-sync",
             None)
-    }
+}
 
-    fn get_pr_for_rev(client: &reqwest::blocking::Client, wpt_rev: &str) -> Result<String> {
-        let url = format!(
-            "https://api.github.com/repos/web-platform-tests/wpt/commits/{}/pulls",
-            wpt_rev
-        );
-        let mut headers = reqwest::header::HeaderMap::new();
-        headers.insert(
-            "Accept",
-            "application/vnd.github.groot-preview+json".parse().unwrap(),
-        );
-        get(client, &url, Some(headers))
-    }
+fn get_pr_for_rev(client: &reqwest::blocking::Client, wpt_rev: &str) -> Result<String> {
+    let url = format!(
+        "https://api.github.com/repos/web-platform-tests/wpt/commits/{}/pulls",
+        wpt_rev
+    );
+    let mut headers = reqwest::header::HeaderMap::new();
+    headers.insert(
+        "Accept",
+        "application/vnd.github.groot-preview+json".parse().unwrap(),
+    );
+    get(client, &url, Some(headers))
+}
 
-    fn load_sync_data(path: &Path) -> Result<SyncData> {
-        if let Ok(f) = File::open(path) {
-            Ok(serde_json::from_reader(f)?)
-        } else {
-            Ok(SyncData::new())
+fn load_sync_data(path: &Path) -> Result<SyncData> {
+    if let Ok(f) = File::open(path) {
+        Ok(serde_json::from_reader(f)?)
+    } else {
+        Ok(SyncData::new())
+    }
+}
+
+pub fn run() -> Result<()> {
+    let client = network::client();
+
+    let sync_points_data = get_sync_commits(&client)?;
+    let sync_points = extract_sync_points(&sync_points_data)?;
+
+    let data_path = Path::new("../docs/landings.json");
+    let sync_data = load_sync_data(data_path)?;
+    let mut landings = LandingData::new(sync_data);
+    let missing = landings.missing(sync_points);
+    println!("Found {} missing sync points", missing.len());
+    for sync_point in missing.into_iter().rev() {
+        let pr_data = get_pr_for_rev(&client, &sync_point.wpt_rev)?;
+        println!("{}", pr_data);
+        let mut prs: Vec<GitHubPr> = serde_json::from_str(&pr_data)?;
+        if prs.is_empty() {
+            println!("No PR found for commit {}", &sync_point.wpt_rev);
+            continue;
+        } else if prs.len() > 1 {
+            println!("Multiple PRs found for commit {}", &sync_point.wpt_rev);
         }
+        let pr = prs.remove(0);
+        landings.insert(sync_point, pr);
     }
 
-    pub fn run() -> Result<()> {
-        let client = network::client();
-
-        let sync_points_data = get_sync_commits(&client)?;
-        let sync_points = extract_sync_points(&sync_points_data)?;
-
-        let data_path = Path::new("../docs/landings.json");
-        let sync_data = load_sync_data(data_path)?;
-        let mut landings = LandingData::new(sync_data);
-        let missing = landings.missing(sync_points);
-        println!("Found {} missing sync points", missing.len());
-        for sync_point in missing.into_iter().rev() {
-            let pr_data = get_pr_for_rev(&client, &sync_point.wpt_rev)?;
-            println!("{}", pr_data);
-            let mut prs: Vec<GitHubPr> = serde_json::from_str(&pr_data)?;
-            if prs.is_empty() {
-                println!("No PR found for commit {}", &sync_point.wpt_rev);
-                continue;
-            } else if prs.len() > 1 {
-                println!("Multiple PRs found for commit {}", &sync_point.wpt_rev);
-            }
-            let pr = prs.remove(0);
-            landings.insert(sync_point, pr);
-        }
-
-        let out_f = File::create(data_path)?;
-        serde_json::to_writer(out_f, &landings.sync_data)?;
-        Ok(())
-    }
+    let out_f = File::create(data_path)?;
+    serde_json::to_writer(out_f, &landings.sync_data)?;
+    Ok(())
 }
