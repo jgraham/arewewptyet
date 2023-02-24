@@ -1,9 +1,10 @@
 use anyhow::Result;
-use chrono::{DateTime, Utc};
 use lazy_static::lazy_static;
 use regex::Regex;
 use serde::{Deserialize, Serialize};
 use std::collections::{HashMap, HashSet};
+use time::serde::iso8601;
+use time::OffsetDateTime;
 
 lazy_static! {
     static ref BACKOUT_RE: Regex = Regex::new(r"Backed out \d+ changeset").unwrap();
@@ -20,7 +21,8 @@ pub struct HgLog {
 #[derive(Debug, Deserialize)]
 struct GitHubPr {
     number: u64,
-    closed_at: DateTime<Utc>,
+    #[serde(with = "iso8601")]
+    closed_at: OffsetDateTime,
 }
 
 #[derive(Debug, Deserialize)]
@@ -105,7 +107,7 @@ impl LandingData {
         let data = SyncPointWptRev {
             wpt_rev: sync_point.wpt_rev,
             wpt_pr: pr.number,
-            wpt_merge_time: pr.closed_at.timestamp(),
+            wpt_merge_time: pr.closed_at.unix_timestamp(),
             gecko_push_time: sync_point.push_date,
         };
         self.have_shas.insert(data.wpt_rev.clone());

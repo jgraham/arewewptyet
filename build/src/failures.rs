@@ -1,7 +1,8 @@
 use anyhow::Result;
-use chrono::{DateTime, Utc};
 use serde::{Deserialize, Serialize};
 use std::collections::HashSet;
+use time::serde::iso8601;
+use time::OffsetDateTime;
 use wptfyi::result::{Run, SearchData, Status};
 use wptfyi::run;
 use wptfyi::search::{AndClause, Clause, LinkClause, NotClause, OrClause, Query, ResultClause};
@@ -70,7 +71,7 @@ pub fn get_runs(runs: &[Run]) -> Result<Vec<NewRun>> {
 pub struct NewRun {
     revision: String,
     run_ids: Vec<i64>,
-    date: DateTime<Utc>,
+    date: OffsetDateTime,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
@@ -88,7 +89,8 @@ impl RunsData {
 struct RunData {
     revision: String,
     run_ids: Vec<i64>,
-    date: DateTime<Utc>,
+    #[serde(with = "iso8601")]
+    date: OffsetDateTime,
     all_failures: FailureCount,
     untriaged_failures: FailureCount,
 }

@@ -1,5 +1,6 @@
-use chrono::{DateTime, Utc};
 use serde::{Deserialize, Serialize};
+use time::serde::iso8601;
+use time::OffsetDateTime;
 
 #[derive(Clone, Debug, Deserialize, Serialize)]
 #[serde(rename_all = "UPPERCASE")]
@@ -23,9 +24,12 @@ pub struct Run {
     pub revision: String,
     pub full_revision_hash: String,
     pub results_url: String,
-    pub created_at: DateTime<Utc>,
-    pub time_start: DateTime<Utc>,
-    pub time_end: DateTime<Utc>,
+    #[serde(with = "iso8601")]
+    pub created_at: OffsetDateTime,
+    #[serde(with = "iso8601")]
+    pub time_start: OffsetDateTime,
+    #[serde(with = "iso8601")]
+    pub time_end: OffsetDateTime,
     pub raw_results_url: String,
     pub labels: Vec<String>,
 }
