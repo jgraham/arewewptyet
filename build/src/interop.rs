@@ -217,7 +217,7 @@ pub fn write_focus_area(
         let mut bugs_col = String::with_capacity(8 * bugs.len());
         for bug in bugs.iter() {
             if !bugs_col.is_empty() {
-                bugs_col.push(',');
+                bugs_col.push(' ');
             }
             bugs_col.push_str(bug);
         }
