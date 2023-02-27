@@ -1,14 +1,14 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/motion/parsing/offset-path-computed.html",6,0,0,1742216
-"/css/motion/parsing/offset-position-computed.html",14,0,0,""
 "/css/motion/animation/offset-position-composition.html",28,0,0,1674749
+"/css/motion/parsing/offset-position-computed.html",14,0,0,""
 "/css/motion/parsing/offset-parsing-valid.html",9,0,2,""
-"/css/motion/inheritance.html",2,0,0,""
-"/css/motion/offset-path-serialization.html",1,0,0,""
-"/css/motion/offset-path-url.html",1,1,0,""
-"/css/motion/offset-supports-calc.html",1,0,0,""
 "/css/motion/parsing/offset-position-parsing-valid.html",11,0,2,""
-"/css/motion/offset-path-shape.html",1,1,0,""
+"/css/motion/offset-path-serialization.html",1,0,0,""
+"/css/motion/inheritance.html",2,0,0,""
+"/css/motion/offset-supports-calc.html",1,0,0,""
+"/css/motion/offset-path-url.html",1,1,0,""
 "/css/motion/parsing/offset-shorthand.html",13,4,0,""
+"/css/motion/offset-path-shape.html",1,1,0,""
 "/css/motion/animation/offset-position-interpolation.html",256,0,24,1674749
 "/css/motion/parsing/offset-path-parsing-valid.html",5,5,2,""
