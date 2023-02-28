@@ -1,6 +1,6 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-grid/subgrid/subgrid-baseline-003.html",1,1,0,""
 "/css/css-grid/subgrid/subgrid-baseline-004.html",1,1,0,""
+"/css/css-grid/subgrid/subgrid-baseline-003.html",1,1,0,""
 "/css/css-grid/subgrid/subgrid-stretch.html",1,1,0,""
 "/css/css-grid/subgrid/abs-pos-002.html",1,1,0,""
 "/css/css-grid/subgrid/independent-formatting-context.html",1,0,0,""
