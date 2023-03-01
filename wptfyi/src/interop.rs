@@ -1,6 +1,7 @@
 use crate::error::Error;
+use csv;
 use serde::{Deserialize, Serialize};
-use std::collections::BTreeMap;
+use std::{collections::BTreeMap, fmt::Display};
 use url::Url;
 
 #[derive(Debug, Deserialize, Serialize)]
@@ -110,4 +111,48 @@ impl CategoryData {
 
 pub fn parse_categories(json: &str) -> Result<BTreeMap<String, Categories>, Error> {
     Ok(serde_json::from_str(json)?)
+}
+
+#[derive(Debug, Copy, Clone)]
+pub enum BrowserChannel {
+    Stable,
+    Experimental,
+}
+
+impl Display for BrowserChannel {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        f.write_str(match self {
+            BrowserChannel::Stable => "stable",
+            BrowserChannel::Experimental => "experimental",
+        })
+    }
+}
+
+pub struct ScoreData {
+    channel: BrowserChannel,
+}
+
+impl ScoreData {
+    pub fn new(channel: BrowserChannel) -> ScoreData {
+        ScoreData { channel }
+    }
+
+    pub fn url(&self) -> Url {
+        // TODO: Return a proper result type here
+        Url::parse(
+            &format!("https://raw.githubusercontent.com/web-platform-tests/results-analysis/gh-pages/data/interop-2023/interop-2023-{}-v2.csv", self.channel)
+        )
+        .unwrap()
+    }
+}
+
+pub type ScoreRow = BTreeMap<String, String>;
+
+pub fn parse_scores(csv: &str) -> Result<Vec<ScoreRow>, Error> {
+    let mut reader = csv::Reader::from_reader(csv.as_bytes());
+    let mut output = Vec::new();
+    for row in reader.deserialize() {
+        output.push(row?);
+    }
+    Ok(output)
 }
