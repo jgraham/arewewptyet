@@ -111,6 +111,18 @@ pub fn get_interop_categories(
     )?)?)
 }
 
+pub fn get_interop_scores(
+    wptfyi: &Wptfyi,
+    client: &reqwest::blocking::Client,
+    browser_channel: interop::BrowserChannel,
+) -> Result<Vec<interop::ScoreRow>> {
+    Ok(interop::parse_scores(&get(
+        client,
+        &String::from(wptfyi.interop_scores(browser_channel).url()),
+        None,
+    )?)?)
+}
+
 fn latest_runs(runs: &[result::Run]) -> Result<Vec<&result::Run>> {
     let mut runs_by_commit = run::runs_by_commit(runs);
     let latest_rev = runs_by_commit
@@ -227,6 +239,68 @@ pub fn write_focus_area(
     Ok(())
 }
 
+pub fn interop_columns(focus_areas: &BTreeMap<String, interop::FocusArea>) -> Vec<&str> {
+    let mut columns = Vec::with_capacity(focus_areas.len());
+    for (name, data) in focus_areas.iter() {
+        if data.counts_toward_score {
+            columns.push(name.as_ref());
+        }
+    }
+    columns
+}
+
+fn browser_score(browser: &str, columns: &[&str], row: &interop::ScoreRow) -> Result<f64> {
+    let mut total_score: u64 = 0;
+    for column in columns {
+        let column = format!("{}-{}", browser, column);
+        let score = row
+            .get(&column)
+            .ok_or_else(|| anyhow!("Failed to get column {}", column))?;
+        let value: u64 = score
+            .parse::<u64>()
+            .map_err(|_| anyhow!("Failed to parse score"))?;
+        total_score += value;
+    }
+    Ok(total_score as f64 / (10 * columns.len()) as f64)
+}
+
+pub fn write_browser_interop_scores(
+    browsers: &[&str],
+    scores: &[interop::ScoreRow],
+    interop_2023_data: &interop::YearData,
+) -> Result<()> {
+    let browser_columns = interop_columns(&interop_2023_data.focus_areas);
+
+    let data_path = Path::new("../docs/interop-2023/scores.csv");
+    let out_f = File::create(data_path)?;
+    let mut writer = csv::WriterBuilder::new()
+        .quote_style(csv::QuoteStyle::NonNumeric)
+        .from_writer(out_f);
+
+    let mut headers = Vec::with_capacity(browsers.len() + 1);
+    headers.push("date");
+    headers.extend_from_slice(browsers);
+    writer.write_record(headers)?;
+
+    let mut output: Vec<String> = Vec::with_capacity(browsers.len() + 1);
+
+    for row in scores {
+        output.resize(0, "".into());
+        output.push(
+            row.get("date")
+                .ok_or_else(|| anyhow!("Failed to read date"))?
+                .into(),
+        );
+        for browser in browsers {
+            let score = browser_score(browser, &browser_columns, row)?;
+            output.push(format!("{:.2}", score))
+        }
+        writer.write_record(&output)?;
+    }
+
+    Ok(())
+}
+
 pub fn run() -> Result<()> {
     let client = network::client();
     let fyi = Wptfyi::new(None);
@@ -263,5 +337,9 @@ pub fn run() -> Result<()> {
             &metadata,
         )?;
     }
+
+    let scores = get_interop_scores(&fyi, &client, interop::BrowserChannel::Experimental)?;
+    write_browser_interop_scores(&["firefox", "chrome", "safari"], &scores, interop_2023_data)?;
+
     Ok(())
 }
