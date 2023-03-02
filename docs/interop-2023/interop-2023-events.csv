@@ -1,7 +1,7 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/pointerevents/pointerevent_pointercapture_in_frame.html?mouse",1,0,0,1700234
 "/pointerevents/pointerevent_after_target_removed.html?mouse",4,4,4,""
-"/pointerevents/pointerevent_pointercancel_touch.html",1,0,1,1655753
 "/pointerevents/pointerevent_attributes_hoverable_pointers.html?mouse",52,1,5,1655753
+"/pointerevents/pointerevent_pointercancel_touch.html",1,0,1,1655753
 "/pointerevents/pointerevent_attributes_nohover_pointers.html",48,0,0,1655753
+"/pointerevents/pointerevent_pointercapture_in_frame.html?mouse",1,0,0,1700234
 "/uievents/mouse/mousemove_prevent_default_action.tentative.html",1,1,1,""
