@@ -1,7 +1,7 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/shadow-dom/focus-navigation/focus-with-negative-index.html",1,0,0,1785036
 "/custom-elements/Document-createElement.html",3,0,0,1783398
-"/custom-elements/CustomElementRegistry.html",1,0,0,1663878
+"/custom-elements/CustomElementRegistry.html",1,0,0,"1556358 1663878"
 "/custom-elements/throw-on-dynamic-markup-insertion-counter-reactions-xml-parser.xhtml",1,1,0,1819922
 "/custom-elements/reactions/Document.html",1,0,0,1783398
 "/custom-elements/reactions/AriaMixin-string-attributes.html",76,0,0,1790332
