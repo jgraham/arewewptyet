@@ -1,7 +1,4 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-backgrounds/border-image-space-001.html",1,0,1,""
 "/css/css-backgrounds/css3-border-image-repeat-repeat.html",1,0,0,""
-"/css/css-backgrounds/animations/border-image-slice-interpolation.html",15,15,15,""
-"/css/css-backgrounds/animations/border-image-source-interpolation.html",21,13,17,""
-"/css/css-backgrounds/animations/border-image-width-interpolation.html",21,21,21,""
+"/css/css-backgrounds/border-image-space-001.html",1,0,1,""
 "/css/css-backgrounds/border-image-slice-percentage.html",1,0,1,""
