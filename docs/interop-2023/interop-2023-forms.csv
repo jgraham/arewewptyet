@@ -1,24 +1,24 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/html/browsers/browsing-the-web/navigating-across-documents/replace-before-load/form-requestsubmit.html",1,0,0,1718123
-"/html/semantics/forms/the-input-element/number.html",2,0,0,""
 "/css/css-ui/appearance-slider-horizontal-001.html",1,0,0,""
-"/html/browsers/browsing-the-web/navigating-across-documents/replace-before-load/form-submit-button-click.html",1,0,0,1718123
 "/css/css-writing-modes/forms/text-input-vertical-overflow-no-scroll.html",12,0,0,1802466
-"/css/css-writing-modes/forms/range-input-appearance-native-vertical-rtl.optional.html",1,0,0,1802687
-"/css/css-writing-modes/forms/range-input-appearance-none-vertical-rtl.optional.html",1,0,0,1802687
-"/html/rendering/non-replaced-elements/form-controls/resets.html",5,0,0,"1708370 1733789"
+"/html/semantics/forms/the-input-element/number.html",2,0,0,""
 "/html/semantics/forms/the-input-element/email-set-value.html",1,0,1,1819880
-"/dom/events/Event-dispatch-click.html",3,0,0,1658996
+"/css/css-writing-modes/forms/range-input-appearance-none-vertical-rtl.optional.html",1,0,0,1802687
 "/css/css-writing-modes/forms/text-input-block-size.optional.html",14,14,14,""
-"/html/semantics/forms/the-input-element/radio.html",2,0,0,1685968
+"/html/rendering/non-replaced-elements/form-controls/resets.html",5,0,0,"1708370 1733789"
 "/css/css-ui/webkit-appearance-square-button-001.html",1,0,0,""
-"/html/semantics/forms/the-input-element/range-restore-oninput-onchange-event.https.html",2,0,0,""
-"/html/semantics/forms/constraints/infinite_backtracking.html",1,0,0,""
 "/css/css-ui/appearance-push-button-001.html",1,0,0,""
+"/html/semantics/forms/constraints/infinite_backtracking.html",1,0,0,""
+"/css/css-writing-modes/forms/range-input-appearance-native-vertical-rtl.optional.html",1,0,0,1802687
+"/html/semantics/forms/the-input-element/radio.html",2,0,0,1685968
+"/html/semantics/forms/textfieldselection/selection-start-end-extra.html",1,0,0,1818686
+"/dom/events/Event-dispatch-click.html",3,0,0,1658996
+"/html/browsers/browsing-the-web/navigating-across-documents/replace-before-load/form-submit-button-click.html",1,0,0,1718123
+"/html/semantics/forms/the-input-element/range-restore-oninput-onchange-event.https.html",2,0,0,""
+"/html/browsers/browsing-the-web/navigating-across-documents/replace-before-load/form-submit.html",1,0,0,1718123
+"/css/css-ui/webkit-appearance-slider-horizontal-001.html",1,0,0,""
+"/css/css-ui/webkit-appearance-push-button-001.html",1,0,0,""
 "/css/css-ui/appearance-square-button-001.html",1,0,0,""
 "/html/semantics/forms/the-input-element/selection-pointer.html",5,0,0,1738866
-"/html/semantics/forms/textfieldselection/selection-start-end-extra.html",1,0,0,1818686
-"/html/browsers/browsing-the-web/navigating-across-documents/replace-before-load/form-submit.html",1,0,0,1718123
-"/css/css-ui/webkit-appearance-push-button-001.html",1,0,0,""
-"/css/css-ui/webkit-appearance-slider-horizontal-001.html",1,0,0,""
 "/html/dom/reflection-forms.html",76,0,0,675943
