@@ -10,11 +10,11 @@
 "/css/css-masking/clip-path/clip-path-viewBox-1b.html",1,1,1,""
 "/css/css-masking/clip-path/clip-path-element-userSpaceOnUse-004.html",1,1,1,""
 "/css/css-masking/parsing/clip-path-shape-parsing.html",20,20,20,""
-"/css/css-masking/mask-image/mask-image-3h.html",1,0,0,""
-"/css/css-masking/clip-path/clip-path-contentBox-1c.html",1,1,1,""
+"/css/css-masking/mask-image/mask-image-3h.html",1,0,0,1821793
+"/css/css-masking/clip-path/clip-path-contentBox-1c.html",1,1,1,1821793
 "/css/css-masking/clip-path/clip-path-inline-003.html",1,0,1,""
 "/css/css-masking/clip-path-svg-content/clip-path-text-001.svg",1,0,0,""
-"/css/css-masking/clip-path/clip-path-borderBox-1c.html",1,1,1,""
+"/css/css-masking/clip-path/clip-path-borderBox-1c.html",1,1,1,1821793
 "/css/css-masking/animations/clip-path-interpolation-002.html",36,36,36,""
 "/css/css-masking/clip-path/svg-clip-path-fixed-values.html",1,0,0,""
 "/css/css-masking/clip-path/clip-path-shape-002-units.html",1,1,1,""
@@ -40,7 +40,7 @@
 "/css/css-masking/clip-path-svg-content/clip-path-text-002.svg",1,0,0,""
 "/css/css-masking/clip-path-svg-content/clip-path-shape-circle-004.svg",1,1,1,""
 "/css/css-masking/clip-path/clip-path-document-element.html",1,0,1,""
-"/css/css-masking/clip-path/clip-path-borderBox-1a.html",1,1,1,""
+"/css/css-masking/clip-path/clip-path-borderBox-1a.html",1,1,1,1821793
 "/css/css-masking/mask-image/mask-origin-2.html",1,1,1,""
 "/css/css-masking/parsing/clip-path-valid.html",9,1,0,""
 "/css/css-masking/clip-path/clip-path-path-with-zoom.html",1,0,0,""
