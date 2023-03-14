@@ -5,7 +5,12 @@
 
 version: 2
 updates:
-  - package-ecosystem: "cargo" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "cargo"
+    directory: "/build"
     schedule:
-      interval: "weekly"
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/wptfyi"
+    schedule:
+      interval: "daily"
+
