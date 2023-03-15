@@ -1,5 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-flexbox/flexbox-break-request-horiz-001a.html",1,0,0,""
+"/css/css-flexbox/flexbox-break-request-horiz-001a.html",1,0,0,1270891
 "/css/css-flexbox/flex-aspect-ratio-img-column-011.html",1,0,1,""
 "/css/css-flexbox/aspect-ratio-intrinsic-size-006.html",1,0,0,1819703
 "/css/css-flexbox/flexbox-align-self-vert-rtl-002.xhtml",1,0,1,1818933
@@ -24,14 +24,14 @@
 "/css/css-flexbox/alignment/flex-align-baseline-007.html",1,0,1,""
 "/css/css-flexbox/align-items-baseline-row-vert.html",1,0,1,""
 "/css/css-flexbox/alignment/flex-align-baseline-flex-003.html",6,0,5,""
-"/css/css-flexbox/flexbox-break-request-vert-001a.html",1,0,0,""
-"/css/css-flexbox/flexbox-break-request-vert-001b.html",1,0,0,""
+"/css/css-flexbox/flexbox-break-request-vert-001a.html",1,0,0,1270891
+"/css/css-flexbox/flexbox-break-request-vert-001b.html",1,0,0,1270891
 "/css/css-flexbox/alignment/flex-align-baseline-fieldset-002.html",1,0,1,1821559
 "/css/css-flexbox/alignment/flex-align-baseline-002.html",5,0,5,""
 "/css/css-flexbox/alignment/flex-align-baseline-fieldset-001.html",2,0,2,1821559
 "/css/css-flexbox/percentage-heights-013.html",1,0,0,""
 "/css/css-flexbox/aspect-ratio-intrinsic-size-002.html",1,0,0,1819703
-"/css/css-flexbox/flexbox-break-request-horiz-001b.html",1,0,0,""
+"/css/css-flexbox/flexbox-break-request-horiz-001b.html",1,0,0,1270891
 "/css/css-flexbox/table-as-item-stretch-cross-size-5.html",1,0,0,""
 "/css/css-flexbox/aspect-ratio-intrinsic-size-004.html",1,0,0,1819703
 "/css/css-flexbox/alignment/flex-align-baseline-multicol-003.html",2,0,2,""
