@@ -61,7 +61,7 @@ impl InteropData {
     pub fn url(&self) -> Url {
         // TODO: Return a proper result type here
         Url::parse(&format!(
-            "https://{}/static/interop-data_v2.json",
+            "https://{}/static/interop-data.json",
             self.host
         ))
         .unwrap()
