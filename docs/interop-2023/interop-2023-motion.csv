@@ -1,10 +1,10 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/motion/offset-path-url.html",1,1,0,1598158
-"/css/motion/animation/offset-interpolation.html",6,6,6,1822203
-"/css/motion/animation/offset-rotate-interpolation.html",18,18,18,1822203
-"/css/motion/animation/offset-path-interpolation-001.html",12,12,12,1822203
-"/css/motion/animation/offset-path-interpolation-005.html",24,24,24,1822203
+"/css/motion/animation/offset-interpolation.html",6,0,6,1822203
+"/css/motion/animation/offset-rotate-interpolation.html",18,0,18,1822203
+"/css/motion/animation/offset-path-interpolation-005.html",24,0,24,1822203
 "/css/motion/offset-path-shape.html",1,1,0,1598156
-"/css/motion/animation/offset-position-interpolation.html",12,12,12,"1674749 1822203"
-"/css/motion/animation/offset-anchor-interpolation.html",12,12,12,1822203
+"/css/motion/animation/offset-path-interpolation-001.html",12,0,12,1822203
+"/css/motion/animation/offset-position-interpolation.html",12,0,12,"1674749 1822203"
 "/css/motion/parsing/offset-path-parsing-valid.html",5,5,2,""
+"/css/motion/animation/offset-anchor-interpolation.html",12,0,12,1822203
