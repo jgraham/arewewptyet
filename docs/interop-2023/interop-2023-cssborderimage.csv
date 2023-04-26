@@ -1,9 +1,9 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-backgrounds/animations/border-image-slice-interpolation.html",15,0,15,1822203
 "/css/css-backgrounds/animations/border-image-source-interpolation.html",21,4,17,1822203
-"/css/css-backgrounds/border-image-slice-fill-001.html",1,0,0,1819485
-"/css/css-backgrounds/css3-border-image-repeat-repeat.html",1,0,0,1820659
+"/css/css-backgrounds/border-image-slice-fill-002.html",1,0,0,1819485
 "/css/css-backgrounds/border-image-slice-fill-003.html",1,0,0,1819485
+"/css/css-backgrounds/css3-border-image-repeat-repeat.html",1,0,0,1820659
+"/css/css-backgrounds/border-image-slice-fill-001.html",1,0,0,1819485
 "/css/css-backgrounds/animations/border-image-width-interpolation.html",21,0,21,1822203
 "/css/css-backgrounds/border-image-repeat-repeat-001.html",1,0,0,1820659
-"/css/css-backgrounds/border-image-slice-fill-002.html",1,0,0,1819485
