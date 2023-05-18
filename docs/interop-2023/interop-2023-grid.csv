@@ -47,12 +47,12 @@
 "/css/css-grid/grid-definition/grid-support-grid-template-areas-001.html",10,0,0,1650967
 "/css/css-grid/grid-layout-properties.html",5,4,4,1639412
 "/css/css-grid/alignment/grid-alignment-style-changes-001.html",3,0,0,""
-"/css/css-grid/parsing/grid-template-areas-valid.html",3,0,0,""
+"/css/css-grid/parsing/grid-template-areas-valid.html",3,0,0,1833499
 "/css/css-grid/alignment/replaced-alignment-with-aspect-ratio-007.html",1,0,0,""
 "/css/css-grid/alignment/grid-align-baseline-flex-001.html",20,0,16,""
 "/css/css-grid/grid-definition/grid-percentage-rows-indefinite-height-002.html",4,0,0,""
-"/css/css-grid/parsing/grid-template-shorthand-areas-valid.html",2,0,2,""
-"/css/css-grid/table-grid-item-dynamic-004.html",1,0,0,""
+"/css/css-grid/parsing/grid-template-shorthand-areas-valid.html",2,0,2,1833491
+"/css/css-grid/table-grid-item-dynamic-004.html",1,0,0,1521088
 "/css/css-grid/grid-definition/grid-change-fit-content-argument-001.html",2,0,0,""
 "/css/css-grid/abspos/grid-positioned-items-implicit-grid-line-001.html",2,0,0,1500622
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-changes-grid-area-size-007.html",1,0,0,""
@@ -79,7 +79,7 @@
 "/css/css-grid/grid-model/grid-container-ignores-first-letter-001.html",4,0,0,""
 "/css/css-grid/grid-definition/grid-auto-repeat-minmax.html",1,0,0,""
 "/css/css-grid/alignment/grid-align-baseline-fieldset-001.html",1,0,1,""
-"/css/css-grid/parsing/grid-template-areas-computed.html",3,0,0,""
+"/css/css-grid/parsing/grid-template-areas-computed.html",3,0,0,1833499
 "/css/css-grid/grid-items/grid-item-inline-contribution-001.html",1,0,0,1714951
 "/css/css-grid/grid-items/grid-size-with-orthogonal-child-dynamic.html",1,0,1,""
 "/css/css-grid/alignment/grid-alignment-implies-size-change-012.html",1,0,0,""
@@ -134,7 +134,7 @@
 "/css/css-grid/layout-algorithm/baseline-alignment-affects-intrinsic-size-001.html",24,0,24,""
 "/css/css-grid/alignment/grid-align-baseline-multicol-002.html",5,0,5,""
 "/css/css-grid/parsing/grid-template-shorthand-valid.html",1,0,1,""
-"/css/css-grid/parsing/grid-columns-rows-get-set-multiple.html",1,0,0,1675233
+"/css/css-grid/parsing/grid-columns-rows-get-set-multiple.html",1,0,0,"1481876 1675233"
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-changes-grid-area-size-010.html",1,0,0,""
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-lr-004.html",1,0,1,1634325
 "/css/css-grid/layout-algorithm/baseline-alignment-affects-intrinsic-size-003.html",24,0,24,""
