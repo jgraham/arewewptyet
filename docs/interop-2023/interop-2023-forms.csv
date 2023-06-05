@@ -1,15 +1,15 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/html/browsers/browsing-the-web/navigating-across-documents/replace-before-load/form-requestsubmit.html",1,0,0,1718123
-"/html/semantics/forms/constraints/form-validation-validity-patternMismatch.html",7,0,7,""
-"/css/css-writing-modes/forms/range-input-appearance-none-vertical-rtl.optional.html",1,1,1,1802687
 "/css/css-writing-modes/forms/text-input-vertical-overflow-no-scroll.html",12,0,0,1802466
-"/html/rendering/non-replaced-elements/form-controls/resets.html",5,0,0,"1708370 1733789"
-"/html/semantics/forms/the-input-element/pattern_attribute.html",3,0,3,""
-"/html/browsers/browsing-the-web/navigating-across-documents/replace-before-load/form-submit-button-click.html",1,0,1,1718123
 "/dom/events/Event-dispatch-click.html",3,0,0,1658996
+"/html/browsers/browsing-the-web/navigating-across-documents/replace-before-load/form-requestsubmit.html",1,0,0,1718123
+"/html/browsers/browsing-the-web/navigating-across-documents/replace-before-load/form-submit-button-click.html",1,0,0,1718123
+"/html/semantics/forms/constraints/form-validation-validity-patternMismatch.html",7,0,0,""
+"/css/css-writing-modes/forms/range-input-appearance-none-vertical-rtl.optional.html",1,1,1,1802687
 "/css/css-writing-modes/forms/range-input-appearance-native-vertical-rtl.optional.html",1,1,1,1802687
 "/html/browsers/browsing-the-web/navigating-across-documents/replace-before-load/form-submit.html",1,0,0,1718123
-"/html/semantics/forms/the-input-element/range-restore-oninput-onchange-event.https.html",2,0,0,1825222
+"/html/rendering/non-replaced-elements/form-controls/resets.html",5,0,0,"1708370 1733789"
 "/html/semantics/forms/the-input-element/radio.html",2,0,0,1685968
+"/html/semantics/forms/the-input-element/pattern_attribute.html",3,0,0,""
 "/html/semantics/forms/constraints/infinite_backtracking.html",1,0,0,""
+"/html/semantics/forms/the-input-element/range-restore-oninput-onchange-event.https.html",2,0,0,1825222
 "/html/dom/reflection-forms.html",76,0,0,675943
