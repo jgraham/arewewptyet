@@ -1,7 +1,7 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/html/browsers/browsing-the-web/navigating-across-documents/replace-before-load/form-requestsubmit.html",1,0,0,1718123
 "/css/css-writing-modes/forms/text-input-vertical-overflow-no-scroll.html",12,0,0,1802466
-"/html/semantics/forms/the-input-element/image-click-form-data.html",2,0,0,""
+"/html/semantics/forms/the-input-element/image-click-form-data.html",2,0,0,1435748
 "/html/rendering/non-replaced-elements/form-controls/resets.html",5,0,0,"1708370 1733789"
 "/css/css-writing-modes/forms/range-input-appearance-native-vertical-rtl.optional.html",1,1,1,1802687
 "/html/browsers/browsing-the-web/navigating-across-documents/replace-before-load/form-submit.html",1,0,0,1718123
