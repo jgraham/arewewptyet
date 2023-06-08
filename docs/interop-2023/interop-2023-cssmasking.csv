@@ -1,5 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-masking/clip-path/interpolation.html",2,2,2,""
+"/css/css-masking/clip-path/interpolation.html",2,2,2,1837340
 "/css/css-masking/clip-path/clip-path-inline-002.html",1,0,1,1834648
 "/css/css-masking/clip-path/clip-path-inline-003.html",1,0,1,1834648
 "/css/css-masking/parsing/clip-path-valid.html",9,6,5,1823475
