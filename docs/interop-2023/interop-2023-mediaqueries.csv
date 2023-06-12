@@ -1,5 +1,2 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/mediaqueries/mq-negative-range-002.html",1,0,0,""
-"/css/mediaqueries/mq-negative-range-001.html",1,0,0,""
 "/css/mediaqueries/media-query-matches-in-iframe.html",10,0,0,1834613
-"/css/mediaqueries/test_media_queries.html",3,0,0,"1783531 1834382"
