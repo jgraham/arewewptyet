@@ -1,6 +1,6 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/pointerevents/pointerevent_pointercapture_in_frame.html?mouse",1,0,0,1700234
 "/pointerevents/pointerevent_after_target_removed.html?mouse",4,4,4,1823658
+"/pointerevents/pointerevent_pointercapture_in_frame.html?mouse",1,0,0,1700234
 "/pointerevents/pointerevent_attributes_hoverable_pointers.html?mouse",8,0,5,"1655753 1823661"
 "/uievents/mouse/mousemove_prevent_default_action.tentative.html",1,1,1,1823663
 "/pointerevents/pointerevent_attributes_nohover_pointers.html",0,0,0,1655753
