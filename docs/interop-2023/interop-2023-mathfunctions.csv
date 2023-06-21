@@ -1,7 +1,7 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-values/exp-log-serialize.html",2,2,2,1834164
-"/css/css-values/sin-cos-tan-serialize.html",16,0,4,"1834164 1834361"
 "/css/css-values/round-mod-rem-serialize.html",9,6,6,1816413
+"/css/css-values/sin-cos-tan-serialize.html",16,0,4,"1834164 1834361"
 "/css/css-values/signs-abs-computed.html",188,2,2,1814588
 "/css/css-values/signs-abs-serialize.html",16,0,5,1814588
 "/css/css-values/hypot-pow-sqrt-computed.html",1,0,0,1837342
