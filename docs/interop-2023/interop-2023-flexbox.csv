@@ -1,8 +1,8 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-flexbox/aspect-ratio-intrinsic-size-005.html",1,0,1,1819703
 "/css/css-flexbox/flexbox-align-self-vert-rtl-001.xhtml",1,0,1,1818933
-"/css/css-flexbox/alignment/flex-align-baseline-grid-003.html",2,0,2,""
-"/css/css-flexbox/alignment/flex-align-baseline-007.html",1,0,0,""
+"/css/css-flexbox/alignment/flex-align-baseline-grid-003.html",2,0,2,1818933
+"/css/css-flexbox/alignment/flex-align-baseline-007.html",1,0,0,1818933
 "/css/css-flexbox/aspect-ratio-intrinsic-size-003.html",1,0,0,1819703
 "/css/css-flexbox/baseline-synthesis-003.html",1,0,1,1835562
 "/css/css-flexbox/flex-minimum-width-flex-items-013.html",1,0,1,""
