@@ -1,7 +1,7 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/workers/modules/dedicated-worker-import-data-url-cross-origin.html",1,0,1,""
+"/workers/modules/dedicated-worker-import-data-url-cross-origin.html",1,0,1,1831583
 "/workers/modules/shared-worker-import-csp.html",4,0,3,1841363
 "/workers/modules/dedicated-worker-parse-error-failure.html",2,0,2,1831324
-"/workers/modules/shared-worker-parse-error-failure.html",2,0,2,""
+"/workers/modules/shared-worker-parse-error-failure.html",2,0,2,1627938
 "/workers/modules/dedicated-worker-import-csp.html",4,0,3,1841363
-"/workers/modules/shared-worker-import-data-url-cross-origin.html",1,0,1,""
+"/workers/modules/shared-worker-import-data-url-cross-origin.html",1,0,1,1831583
