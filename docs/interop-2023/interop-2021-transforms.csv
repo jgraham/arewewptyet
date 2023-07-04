@@ -1,5 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-transforms/transform-2d-getComputedStyle-001.html",5,0,0,""
+"/css/css-transforms/transform-2d-getComputedStyle-001.html",5,0,0,1841292
 "/css/css-transforms/transform-table-011.html",1,0,0,733849
 "/css/css-transforms/transform-box/svgbox-border-box.html",1,1,0,""
 "/css/css-transforms/transform-box/svgbox-initial.html",1,0,0,""
