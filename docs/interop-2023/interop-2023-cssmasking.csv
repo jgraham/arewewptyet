@@ -1,23 +1,23 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-masking/clip-path/clip-path-document-element-will-change.html",1,0,1,1834636
-"/css/css-masking/clip-path/animations/clip-path-shape-interpolation-002.html",1,1,1,1823463
 "/css/css-masking/clip-path/clip-path-element-userSpaceOnUse-004.html",1,1,1,1834644
-"/css/css-masking/clip-path/interpolation.html",2,0,2,1837340
-"/css/css-masking/clip-path/clip-path-inline-003.html",1,0,1,1834648
-"/css/css-masking/clip-path/clip-path-inline-002.html",1,0,1,1834648
-"/css/css-masking/parsing/mask-valid.sub.html",9,9,3,1834641
-"/css/css-masking/inheritance.sub.html",12,12,12,877294
-"/css/css-masking/clip-path/clip-path-document-element.html",1,0,1,1834636
+"/css/css-masking/clip-path/animations/clip-path-shape-interpolation-002.html",1,1,1,1823463
 "/css/css-masking/clip-path/clip-path-shape-004.html",1,1,1,1823463
-"/css/css-masking/clip-path/clip-path-shape-002-units.html",1,1,1,1823463
+"/css/css-masking/inheritance.sub.html",12,12,12,877294
+"/css/css-masking/clip-path/clip-path-inline-003.html",1,0,1,1834648
+"/css/css-masking/clip-path/interpolation.html",2,0,2,1837340
+"/css/css-masking/parsing/mask-valid.sub.html",9,9,3,1834641
+"/css/css-masking/clip-path/clip-path-shape-002.html",1,1,1,1823463
+"/css/css-masking/animations/clip-path-interpolation-shape.html",284,284,284,"1822203 1841284"
+"/css/css-masking/clip-path/clip-path-inline-002.html",1,0,1,1834648
+"/css/css-masking/clip-path/clip-path-document-element.html",1,0,1,1834636
 "/css/css-masking/parsing/clip-path-valid.html",9,1,5,1823475
 "/css/css-masking/mask-image/mask-origin-2.html",1,1,1,1823257
-"/css/css-masking/animations/clip-path-interpolation-shape.html",284,284,284,"1822203 1841284"
-"/css/css-masking/clip-path/animations/clip-path-shape-interpolation-001.html",1,1,1,1823463
-"/css/css-masking/clip-path/clip-path-shape-001.html",1,1,1,1823463
-"/css/css-masking/clip-path/clip-path-element-userSpaceOnUse-003.html",1,1,1,1834644
 "/css/css-masking/clip-path/clip-path-shape-003.html",1,1,1,1823463
-"/css/css-masking/clip-path/clip-path-shape-002.html",1,1,1,1823463
+"/css/css-masking/clip-path/clip-path-element-userSpaceOnUse-003.html",1,1,1,1834644
+"/css/css-masking/clip-path/clip-path-shape-001.html",1,1,1,1823463
 "/css/css-masking/parsing/clip-path-shape-parsing.html",20,20,20,1823463
+"/css/css-masking/clip-path/animations/clip-path-shape-interpolation-001.html",1,1,1,1823463
+"/css/css-masking/clip-path/clip-path-shape-002-units.html",1,1,1,1823463
 "/css/css-masking/parsing/mask-position-valid.html",9,9,0,1823479
 "/css/css-masking/clip-path/clip-path-inline-001.html",1,0,1,1834648
