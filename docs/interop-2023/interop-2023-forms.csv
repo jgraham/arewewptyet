@@ -1,5 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-writing-modes/forms/text-input-vertical-overflow-no-scroll.html",12,0,0,1802466
-"/dom/events/Event-dispatch-click.html",3,0,0,1658996
-"/html/semantics/forms/the-input-element/radio.html",2,0,0,"1685926 1685968"
 "/html/semantics/forms/the-input-element/range-restore-oninput-onchange-event.https.html",2,0,0,1825222
+"/html/semantics/forms/the-input-element/radio.html",2,0,0,"1685926 1685968"
+"/dom/events/Event-dispatch-click.html",3,0,0,1658996
