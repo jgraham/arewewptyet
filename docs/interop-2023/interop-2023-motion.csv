@@ -1,6 +1,3 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/motion/offset-path-url.html",1,0,0,1598158
-"/css/motion/parsing/offset-path-computed.html",6,6,6,1742216
-"/css/motion/offset-path-shape-rect-001.html",1,0,1,"1598156 1598159"
-"/css/motion/parsing/offset-path-parsing-valid.html",7,0,6,1598158
-"/css/motion/offset-path-shape-rect-002.html",1,0,1,"1598156 1598159"
+"/css/motion/parsing/offset-path-parsing-valid.html",1,0,0,1598158
