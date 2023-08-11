@@ -71,7 +71,7 @@
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-horiz-005.html",1,0,1,""
 "/css/css-grid/layout-algorithm/grid-percent-rows-filled-shrinkwrap-001.html",1,0,0,1841700
 "/css/css-grid/alignment/grid-alignment-implies-size-change-018.html",1,0,0,""
-"/css/css-grid/alignment/grid-align-baseline-flex-001.html",12,0,8,""
+"/css/css-grid/alignment/grid-align-baseline-flex-001.html",12,0,8,1848424
 "/css/css-grid/grid-definition/grid-percentage-rows-indefinite-height-002.html",4,0,0,1841684
 "/css/css-grid/parsing/grid-template-areas-valid.html",3,0,0,1833499
 "/css/css-grid/alignment/replaced-alignment-with-aspect-ratio-007.html",1,0,0,""
@@ -89,7 +89,7 @@
 "/css/css-grid/alignment/grid-column-axis-self-baseline-synthesized-004.html",3,0,0,""
 "/css/css-grid/alignment/grid-alignment-implies-size-change-030.html",1,0,0,""
 "/css/css-grid/alignment/grid-justify-baseline-002.html",5,0,5,""
-"/css/css-grid/alignment/grid-align-baseline-flex-003.html",4,0,3,""
+"/css/css-grid/alignment/grid-align-baseline-flex-003.html",4,0,3,1848424
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-lr-005.html",1,0,1,""
 "/css/css-grid/alignment/grid-self-baseline-not-applied-if-sizing-cyclic-dependency-001.html",8,0,0,1712251
 "/css/css-grid/alignment/grid-align-baseline.html",1,0,0,1634309
@@ -101,7 +101,7 @@
 "/css/css-grid/alignment/grid-align-baseline-fieldset-003.html",1,0,1,1848252
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-changes-grid-area-size-003.html",1,0,0,""
 "/css/css-grid/grid-items/aspect-ratio-005.html",1,0,0,1740236
-"/css/css-grid/alignment/grid-align-baseline-flex-004.html",4,0,3,""
+"/css/css-grid/alignment/grid-align-baseline-flex-004.html",4,0,3,1848424
 "/css/css-grid/alignment/grid-baseline-001.html",1,0,0,""
 "/css/css-grid/grid-items/grid-size-with-orthogonal-child-dynamic.html",1,0,1,1841315
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-002.html",1,0,1,1634325
@@ -116,7 +116,7 @@
 "/css/css-grid/grid-definition/grid-auto-repeat-aspect-ratio-001.html",1,0,0,1740236
 "/css/css-grid/alignment/grid-item-aspect-ratio-stretch-2.html",1,0,0,1719002
 "/css/css-grid/grid-definition/grid-auto-repeat-min-size-004.html",1,0,0,"1689768 1841677"
-"/css/css-grid/alignment/grid-align-baseline-flex-002.html",12,0,10,""
+"/css/css-grid/alignment/grid-align-baseline-flex-002.html",12,0,10,1848424
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-004.html",1,0,0,1634325
 "/css/css-grid/grid-items/aspect-ratio-003.html",1,0,0,1740236
 "/css/css-grid/alignment/grid-column-axis-self-baseline-synthesized-002.html",3,0,0,""
