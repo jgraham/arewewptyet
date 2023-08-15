@@ -1,6 +1,6 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/custom-elements/reactions/HTMLElement.html",0,0,0,1710159
-"/shadow-dom/focus-navigation/focus-with-negative-index.html",1,0,0,1785036
-"/custom-elements/reactions/Document.html",1,0,0,1783398
-"/custom-elements/Document-createElement.html",3,0,0,"1419329 1783398"
 "/custom-elements/perform-microtask-checkpoint-before-construction-xml-parser.xhtml",1,1,0,1819923
+"/custom-elements/reactions/Document.html",1,0,0,1783398
+"/custom-elements/reactions/HTMLElement.html",0,0,0,1710159
+"/custom-elements/Document-createElement.html",3,0,0,"1419329 1783398"
+"/shadow-dom/focus-navigation/focus-with-negative-index.html",1,0,0,1785036
