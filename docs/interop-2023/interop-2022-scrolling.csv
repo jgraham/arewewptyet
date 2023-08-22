@@ -1,7 +1,7 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-scroll-snap/snap-to-visible-areas-y-axis.html",1,0,0,1531589
-"/css/css-scroll-snap/snap-to-visible-areas-both.html",1,0,0,1531589
 "/css/css-scroll-snap/input/snap-area-overflow-boundary.html",2,2,2,1744876
-"/css/cssom-view/scroll-behavior-main-frame-window.html",1,1,0,1841305
+"/css/cssom-view/scroll-behavior-main-frame-root.html",1,1,0,1841305
+"/css/css-scroll-snap/snap-to-visible-areas-both.html",1,0,0,1531589
 "/css/css-scroll-snap/snap-to-visible-areas-x-axis.html",1,0,0,1531589
 "/css/css-overscroll-behavior/overscroll-behavior.html",1,0,1,1689546
