@@ -111,7 +111,7 @@
 "/css/css-grid/alignment/grid-align-baseline.html",1,0,0,"1609403 1634309"
 "/css/css-grid/alignment/grid-container-baseline-001.html",7,0,0,1623963
 "/css/css-grid/alignment/grid-column-axis-self-baseline-synthesized-004.html",3,0,0,""
-"/css/css-grid/alignment/grid-align-baseline-table-001.html",2,0,1,""
+"/css/css-grid/alignment/grid-align-baseline-table-001.html",2,0,1,1848446
 "/css/css-grid/layout-algorithm/flex-tracks-with-fractional-size.html",1,0,0,1737353
 "/css/css-grid/alignment/grid-item-aspect-ratio-stretch-1.html",1,0,0,1719002
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-lr-002.html",1,0,1,""
@@ -158,8 +158,8 @@
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-changes-grid-area-size-008.html",1,0,1,""
 "/css/css-grid/grid-items/aspect-ratio-001.html",1,0,0,1740236
 "/css/css-grid/grid-definition/grid-auto-repeat-dynamic-001.html",1,0,0,1841677
-"/css/css-grid/alignment/grid-align-baseline-table-002.html",2,0,0,""
-"/css/css-grid/alignment/grid-align-baseline-table-003.html",1,0,0,""
+"/css/css-grid/alignment/grid-align-baseline-table-002.html",2,0,0,1848446
+"/css/css-grid/alignment/grid-align-baseline-table-003.html",1,0,0,1848446
 "/css/css-grid/grid-model/grid-container-ignores-first-line-001.html",4,0,0,1841317
 "/css/css-grid/grid-model/grid-inline-first-line-003.html",1,0,0,1841318
 "/css/css-grid/alignment/grid-item-aspect-ratio-stretch-3.html",1,0,1,1719002
