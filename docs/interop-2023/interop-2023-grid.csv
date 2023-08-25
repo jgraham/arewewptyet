@@ -49,10 +49,10 @@
 "/css/css-grid/alignment/grid-align-baseline-grid-002.html",2,0,2,1848441
 "/css/css-grid/grid-layout-properties.html",5,4,4,"1639412 1841663"
 "/css/css-grid/grid-definition/grid-support-grid-template-areas-001.html",10,0,0,1650967
-"/css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-rl-007.html",1,0,1,""
+"/css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-rl-007.html",1,0,1,1848253
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-horiz-002.html",1,0,1,""
 "/css/css-grid/alignment/grid-alignment-style-changes-001.html",3,0,0,1609403
-"/css/css-grid/alignment/self-baseline/grid-self-baseline-changes-grid-area-size-009.html",1,0,0,""
+"/css/css-grid/alignment/self-baseline/grid-self-baseline-changes-grid-area-size-009.html",1,0,0,1609403
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-rl-004.html",1,0,1,1634325
 "/css/css-grid/parsing/grid-template-shorthand-valid.html",1,0,1,1841328
 "/css/css-grid/layout-algorithm/baseline-alignment-affects-intrinsic-size-001.html",24,0,24,1841693
@@ -64,7 +64,7 @@
 "/css/css-grid/alignment/grid-align-baseline-fieldset-003.html",1,0,1,1848252
 "/css/css-grid/grid-items/aspect-ratio-005.html",1,0,0,1740236
 "/css/css-grid/alignment/grid-align-baseline-flex-004.html",4,0,3,1848424
-"/css/css-grid/alignment/grid-baseline-001.html",1,0,0,""
+"/css/css-grid/alignment/grid-baseline-001.html",1,0,0,1609403
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-changes-grid-area-size-003.html",1,0,0,""
 "/css/css-grid/grid-definition/grid-auto-repeat-max-size-002.html",2,0,0,1841677
 "/css/css-grid/grid-items/grid-size-with-orthogonal-child-dynamic.html",1,0,1,1841315
