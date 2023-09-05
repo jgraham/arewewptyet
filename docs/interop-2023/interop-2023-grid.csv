@@ -11,7 +11,7 @@
 "/css/css-grid/alignment/replaced-alignment-with-aspect-ratio-006.html",1,0,0,1850042
 "/css/css-grid/alignment/grid-item-no-aspect-ratio-stretch-6.html",1,0,1,1719002
 "/css/css-grid/alignment/grid-align-baseline-multicol-003.html",2,0,2,1840944
-"/css/css-grid/alignment/grid-row-axis-self-baseline-synthesized-005.html",2,0,0,1642695
+"/css/css-grid/alignment/grid-row-axis-self-baseline-synthesized-005.html",2,0,0,"1609403 1642695"
 "/css/css-grid/layout-algorithm/grid-minimum-contribution-baseline-shim-vertical-rl.html",2,0,2,1841697
 "/css/css-grid/grid-definition/grid-template-columns-rows-resolved-values-001.html",15,0,0,"1639412 1656584 1841678"
 "/css/css-grid/grid-definition/grid-auto-fill-rows-001.html",2,0,0,1841677
@@ -52,8 +52,8 @@
 "/css/css-grid/parsing/grid-template-areas-valid.html",3,0,0,1833499
 "/css/css-grid/alignment/grid-align-baseline-flex-001.html",12,0,8,1848424
 "/css/css-grid/grid-definition/grid-percentage-rows-indefinite-height-002.html",4,0,0,1841684
-"/css/css-grid/alignment/grid-row-axis-self-baseline-synthesized-001.html",4,0,1,1712519
-"/css/css-grid/alignment/grid-row-axis-self-baseline-synthesized-002.html",4,0,1,1712519
+"/css/css-grid/alignment/grid-row-axis-self-baseline-synthesized-001.html",4,0,1,"1609403 1712519"
+"/css/css-grid/alignment/grid-row-axis-self-baseline-synthesized-002.html",4,0,1,"1609403 1712519"
 "/css/css-grid/alignment/grid-align-baseline-vertical.html",1,0,0,"1609403 1634309"
 "/css/css-grid/grid-items/grid-item-inline-contribution-002.html",1,0,0,1718365
 "/css/css-grid/grid-definition/grid-percentage-rows-indefinite-height-001.html",104,0,0,1841684
@@ -70,7 +70,7 @@
 "/css/css-grid/alignment/grid-container-baseline-001.html",7,0,0,1623963
 "/css/css-grid/grid-model/grid-container-ignores-first-line-001.html",4,0,0,1841317
 "/css/css-grid/alignment/grid-item-aspect-ratio-stretch-3.html",1,0,1,1719002
-"/css/css-grid/alignment/grid-row-axis-self-baseline-synthesized-004.html",4,0,1,""
+"/css/css-grid/alignment/grid-row-axis-self-baseline-synthesized-004.html",4,0,1,1609403
 "/css/css-grid/grid-definition/grid-auto-repeat-dynamic-003.html",1,0,0,1841677
 "/css/css-grid/alignment/grid-align-baseline-grid-002.html",2,0,2,1848441
 "/css/css-grid/alignment/grid-baseline-align-cycles-001.html",1,0,1,1712862
@@ -84,7 +84,7 @@
 "/css/css-grid/alignment/grid-justify-baseline-004.html",1,0,1,1848253
 "/css/css-grid/layout-algorithm/grid-flex-track-intrinsic-sizes-001.html",13,0,0,1841696
 "/css/css-grid/alignment/grid-alignment-style-changes-003.html",3,0,2,"1500630 1609403"
-"/css/css-grid/alignment/grid-row-axis-self-baseline-synthesized-003.html",4,0,1,1712519
+"/css/css-grid/alignment/grid-row-axis-self-baseline-synthesized-003.html",4,0,1,"1609403 1712519"
 "/css/css-grid/grid-items/aspect-ratio-004.html",1,0,0,1740236
 "/css/css-grid/alignment/grid-alignment-implies-size-change-012.html",1,0,0,1850042
 "/css/css-grid/alignment/grid-baseline-004.html",7,0,1,"1650885 1650906"
