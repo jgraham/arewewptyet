@@ -1,16 +1,7 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/workers/modules/dedicated-worker-import-data-url-cross-origin.html",1,0,0,1831583
-"/workers/modules/shared-worker-import-csp.html",3,3,3,1841363
-"/workers/modules/dedicated-worker-import-blob-url.any.html",1,1,1,""
-"/workers/modules/shared-worker-options-credentials.html",25,25,25,""
-"/workers/modules/dedicated-worker-import-data-url.any.worker.html",1,1,1,""
-"/workers/modules/dedicated-worker-import.any.worker.html",1,1,1,""
-"/workers/modules/dedicated-worker-import-csp.html",4,4,4,1841363
-"/workers/modules/shared-worker-import-data-url.window.html",1,1,1,""
-"/workers/modules/dedicated-worker-import-blob-url.any.worker.html",1,1,1,""
+"/workers/modules/shared-worker-import-csp.html",3,0,3,1841363
 "/workers/modules/shared-worker-import-data-url-cross-origin.html",1,0,0,1831583
-"/workers/modules/shared-worker-import.window.html",1,1,1,""
-"/workers/modules/dedicated-worker-import.any.html",1,1,1,""
-"/workers/modules/dedicated-worker-options-credentials.html",25,25,25,""
-"/workers/modules/dedicated-worker-import-data-url.any.html",1,1,1,""
-"/workers/modules/shared-worker-import-blob-url.window.html",1,1,1,""
+"/workers/modules/dedicated-worker-import-csp.html",3,0,3,1841363
+"/workers/modules/dedicated-worker-options-credentials.html",2,2,2,""
+"/workers/modules/shared-worker-options-credentials.html",2,2,2,""
