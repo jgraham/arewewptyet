@@ -1,5 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000.html",1,1,0,""
+"/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000.html",1,1,1,""
 "/css/css-scroll-snap/overflowing-snap-areas.html",2,0,2,""
 "/css/css-scroll-snap/snap-after-relayout/changing-scroll-snap-align.html",1,1,1,""
 "/css/css-scroll-snap/input/snap-area-overflow-boundary.html",2,2,2,1744876
