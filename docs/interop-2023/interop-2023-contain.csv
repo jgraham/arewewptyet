@@ -1,17 +1,17 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-contain/parsing/contain-valid.html",1,0,0,1744309
 "/css/css-contain/content-visibility/content-visibility-064.html",1,0,0,"1646355 1660384 1800868"
+"/css/css-contain/content-visibility/content-visibility-077.html",1,0,1,1836525
 "/css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-008.html",1,0,0,1837116
 "/css/css-contain/parsing/contain-computed.html",3,0,0,"1672669 1744309"
-"/css/css-contain/contain-size-flexbox-002.html",1,0,0,"1560420 1820050"
-"/css/css-contain/contain-size-grid-002.html",1,0,0,1488878
 "/css/css-contain/contain-style-counters-002.html",1,0,0,1837118
-"/css/css-contain/content-visibility/content-visibility-077.html",1,0,1,1836525
-"/css/css-contain/content-visibility/content-visibility-075.html",1,0,1,1668136
+"/css/css-contain/contain-size-grid-002.html",1,0,0,1488878
 "/css/css-contain/contain-layout-005.html",1,0,0,1554327
 "/css/css-contain/content-visibility/content-visibility-048.html",2,0,1,"1646355 1822694"
 "/css/css-contain/content-visibility/content-visibility-076.html",1,0,1,1668136
 "/css/css-contain/contain-size-grid-003.html",28,0,0,1488878
-"/css/css-contain/contain-size-grid-004.html",8,0,0,1488878
+"/css/css-contain/contain-size-flexbox-002.html",1,0,0,"1560420 1820050"
 "/css/css-contain/contain-size-grid-006.html",7,0,0,1488878
+"/css/css-contain/content-visibility/content-visibility-075.html",1,0,1,1668136
+"/css/css-contain/contain-size-grid-004.html",8,0,0,1488878
 "/css/css-contain/content-visibility/content-visibility-058.html",1,0,1,"1646355 1660384 1797467"
