@@ -1,14 +1,14 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-masking/clip-path/interpolation.html",2,0,2,1837340
 "/css/css-masking/clip-path/clip-path-document-element-will-change.html",1,0,1,1834636
-"/css/css-masking/clip-path/clip-path-inline-002.html",1,0,1,1834648
 "/css/css-masking/clip-path/clip-path-element-userSpaceOnUse-004.html",1,1,1,1834644
+"/css/css-masking/parsing/mask-valid.sub.html",19,19,3,1834641
 "/css/css-masking/clip-path/clip-path-inline-003.html",1,0,1,1834648
-"/css/css-masking/parsing/mask-valid.sub.html",18,18,2,1834641
+"/css/css-masking/clip-path/clip-path-inline-002.html",1,0,1,1834648
 "/css/css-masking/clip-path/clip-path-document-element.html",1,0,1,1834636
-"/css/css-masking/clip-path/clip-path-polygon-010.html",1,0,0,1852323
-"/css/css-masking/inheritance.sub.html",12,12,2,877294
 "/css/css-masking/clip-path/clip-path-element-userSpaceOnUse-003.html",1,1,1,1834644
+"/css/css-masking/clip-path/clip-path-polygon-010.html",1,0,0,1852323
 "/css/css-masking/clip-path/clip-path-fillBox-1a.html",1,0,1,1821793
 "/css/css-masking/parsing/clip-path-valid.html",10,2,7,1823475
+"/css/css-masking/inheritance.sub.html",12,12,2,877294
 "/css/css-masking/clip-path/clip-path-inline-001.html",1,0,1,1834648
