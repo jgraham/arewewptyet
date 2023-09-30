@@ -1,5 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/selectors/invalidation/has-complexity.html",1,0,0,""
+"/css/selectors/invalidation/has-complexity.html",1,0,0,1853258
 "/css/selectors/invalidation/user-action-pseudo-classes-in-has.html",1,0,1,1759031
 "/css/selectors/parsing/parse-has.html",1,1,0,1771692
 "/css/selectors/parsing/parse-has-disallow-nesting-has-inside-has.html",2,2,0,1773973
