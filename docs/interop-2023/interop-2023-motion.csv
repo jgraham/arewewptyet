@@ -1,6 +1,6 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/motion/animation/offset-path-interpolation-005.html",54,0,54,"1822203 1840430"
-"/css/motion/animation/offset-rotate-interpolation.html",36,0,36,1822203
 "/css/motion/animation/offset-path-interpolation-001.html",24,0,24,1822203
+"/css/motion/animation/offset-rotate-interpolation.html",36,0,36,1822203
+"/css/motion/animation/offset-path-interpolation-005.html",54,0,54,"1822203 1840430"
 "/css/motion/animation/offset-position-interpolation.html",24,0,24,"1674749 1822203"
 "/css/motion/animation/offset-anchor-interpolation.html",24,0,24,1822203
