@@ -1,14 +1,14 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-masking/animations/clip-path-interpolation-001.html",30,0,30,1822203
 "/css/css-masking/clip-path/clip-path-element-userSpaceOnUse-004.html",1,1,1,1834644
-"/css/css-masking/clip-path/clip-path-inline-003.html",1,0,1,1834648
-"/css/css-masking/clip-path/clip-path-inline-002.html",1,0,1,1834648
-"/css/css-masking/animations/mask-image-interpolation.html",54,0,54,1822203
 "/css/css-masking/clip-path/clip-path-document-element.html",1,0,1,1834636
+"/css/css-masking/clip-path/clip-path-inline-003.html",1,0,1,1834648
+"/css/css-masking/animations/mask-image-interpolation.html",54,0,54,1822203
+"/css/css-masking/clip-path/clip-path-element-userSpaceOnUse-003.html",1,1,1,1834644
+"/css/css-masking/animations/clip-interpolation.html",36,0,36,1822203
 "/css/css-masking/parsing/mask-valid.sub.html",11,10,0,"1834641 877294"
 "/css/css-masking/clip-path/clip-path-document-element-will-change.html",1,0,1,1834636
-"/css/css-masking/animations/clip-interpolation.html",36,0,36,1822203
-"/css/css-masking/clip-path/clip-path-element-userSpaceOnUse-003.html",1,1,1,1834644
-"/css/css-masking/inheritance.sub.html",12,12,2,877294
+"/css/css-masking/clip-path/clip-path-inline-002.html",1,0,1,1834648
 "/css/css-masking/animations/clip-path-interpolation-002.html",72,0,72,1822203
+"/css/css-masking/inheritance.sub.html",12,12,2,877294
 "/css/css-masking/clip-path/clip-path-inline-001.html",1,0,1,1834648
