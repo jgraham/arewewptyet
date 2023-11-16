@@ -1,5 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-backgrounds/animations/border-image-slice-interpolation.html",30,0,30,1822203
 "/css/css-backgrounds/border-image-slice-fill-003.html",1,0,0,"1819485 1854737"
-"/css/css-backgrounds/animations/border-image-width-interpolation.html",42,0,42,1822203
 "/css/css-backgrounds/border-image-slice-fill-002.html",1,0,0,"1819485 1854733"
+"/css/css-backgrounds/animations/border-image-width-interpolation.html",42,0,42,1822203
