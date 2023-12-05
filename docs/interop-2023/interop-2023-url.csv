@@ -1,17 +1,17 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/url/a-element-origin-xhtml.xhtml",6,5,0,"1553105 1723456 1815914 1815925 1815926"
-"/url/url-origin.any.worker.html",6,5,0,""
-"/url/url-setters-stripping.any.html",108,90,0,""
-"/url/historical.any.worker.html",1,0,0,1636761
-"/url/url-setters-a-area.window.html?exclude=(file|javascript|mailto)",124,116,6,""
-"/url/url-setters.any.worker.html?exclude=(file|javascript|mailto)",60,58,3,""
 "/url/url-constructor.any.html?exclude=(file|javascript|mailto)",130,129,0,""
+"/url/historical.any.worker.html",1,0,0,1636761
+"/url/url-origin.any.worker.html",6,5,0,""
+"/url/a-element-origin-xhtml.xhtml",6,5,0,"1553105 1723456 1815914 1815925 1815926"
 "/url/a-element-origin.html",6,5,0,""
-"/url/a-element-xhtml.xhtml?exclude=(file|javascript|mailto)",130,129,0,""
-"/url/url-setters.any.html?exclude=(file|javascript|mailto)",60,58,3,""
-"/url/historical.any.html",1,0,0,1636761
-"/url/url-setters-stripping.any.worker.html",108,90,0,""
+"/url/url-setters-stripping.any.html",108,90,0,""
 "/url/failure.html",240,185,0,1722328
+"/url/historical.any.html",1,0,0,1636761
+"/url/url-setters-a-area.window.html?exclude=(file|javascript|mailto)",124,116,6,""
+"/url/url-setters-stripping.any.worker.html",108,90,0,""
 "/url/a-element.html?exclude=(file|javascript|mailto)",130,129,0,""
-"/url/url-origin.any.html",6,5,0,"1553105 1723456 1815914 1815925 1815926"
+"/url/url-setters.any.html?exclude=(file|javascript|mailto)",60,58,3,""
+"/url/a-element-xhtml.xhtml?exclude=(file|javascript|mailto)",130,129,0,""
+"/url/url-setters.any.worker.html?exclude=(file|javascript|mailto)",60,58,3,""
 "/url/url-constructor.any.worker.html?exclude=(file|javascript|mailto)",130,129,0,""
+"/url/url-origin.any.html",6,5,0,"1553105 1723456 1815914 1815925 1815926"
