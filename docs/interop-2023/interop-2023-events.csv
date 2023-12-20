@@ -1,3 +1,4 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/pointerevents/pointerevent_after_target_removed.html?mouse",4,0,4,1823658
 "/pointerevents/pointerevent_attributes_hoverable_pointers.html?mouse",0,0,0,"1655753 1823661"
+"/html/user-activation/activation-trigger-pointerevent.html?mouse",1,1,1,""
