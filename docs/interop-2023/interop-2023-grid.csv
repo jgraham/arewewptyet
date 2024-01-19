@@ -31,7 +31,7 @@
 "/css/css-grid/layout-algorithm/grid-minimum-contribution-baseline-shim.html",2,0,0,1841697
 "/css/css-grid/grid-model/grid-container-ignores-first-letter-001.html",4,0,0,1841317
 "/css/css-grid/grid-layout-properties.html",4,0,0,"1639412 1841663"
-"/css/css-grid/alignment/self-baseline/grid-self-baseline-horiz-002.html",1,0,1,""
+"/css/css-grid/alignment/self-baseline/grid-self-baseline-horiz-002.html",1,0,1,1634325
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-rl-007.html",1,0,1,1848253
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-rl-004.html",1,0,1,1634325
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-changes-grid-area-size-009.html",1,0,0,"1609403 1850053"
@@ -54,7 +54,7 @@
 "/css/css-grid/alignment/grid-self-baseline-not-applied-if-sizing-cyclic-dependency-001.html",6,0,0,1712251
 "/css/css-grid/alignment/grid-align-baseline-002.html",5,0,2,1848253
 "/css/css-grid/alignment/grid-align-baseline-flex-003.html",4,0,3,1848424
-"/css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-lr-005.html",1,0,1,""
+"/css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-lr-005.html",1,0,1,1634325
 "/css/css-grid/alignment/grid-alignment-implies-size-change-030.html",1,0,0,1850042
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-lr-004.html",1,0,1,1634325
 "/css/css-grid/grid-definition/grid-percentage-rows-indefinite-height-001.html",104,0,0,1841684
@@ -69,14 +69,14 @@
 "/css/css-grid/layout-algorithm/grid-intrinsic-size-with-orthogonal-items.html",7,0,6,1716493
 "/css/css-grid/alignment/grid-justify-baseline-005.html",2,0,2,1848253
 "/css/css-grid/alignment/grid-column-axis-self-baseline-synthesized-001.html",4,0,0,1609403
-"/css/css-grid/alignment/self-baseline/grid-self-baseline-horiz-003.html",1,0,1,""
+"/css/css-grid/alignment/self-baseline/grid-self-baseline-horiz-003.html",1,0,1,1634325
 "/css/css-grid/alignment/grid-column-axis-self-baseline-synthesized-005.html",2,0,0,"1609403 1642695"
 "/css/css-grid/alignment/grid-align-baseline-fieldset-002.html",1,0,1,1848252
 "/css/css-grid/alignment/replaced-alignment-with-aspect-ratio-001.html",1,0,0,1850042
 "/css/css-grid/layout-algorithm/grid-flex-track-intrinsic-sizes-003.html",24,0,0,1841696
 "/css/css-grid/alignment/grid-alignment-implies-size-change-031.html",1,0,0,1850042
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-horiz-007.html",1,0,1,1634325
-"/css/css-grid/alignment/self-baseline/grid-self-baseline-008.html",1,0,0,""
+"/css/css-grid/alignment/self-baseline/grid-self-baseline-008.html",1,0,0,1634325
 "/css/css-grid/grid-items/replaced-element-013.html",1,0,0,1841316
 "/css/css-grid/layout-algorithm/baseline-alignment-affects-intrinsic-size-004.html",24,0,24,1841693
 "/css/css-grid/grid-definition/grid-inline-template-columns-rows-resolved-values-001.html",15,0,0,"1639412 1656584 1841678"
@@ -96,7 +96,7 @@
 "/css/css-grid/alignment/grid-align-baseline-multicol-001.html",2,0,2,1840944
 "/css/css-grid/layout-algorithm/grid-intrinsic-size-dynamic-block-size.html",1,0,0,1841698
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-007.html",1,0,0,1634325
-"/css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-lr-002.html",1,0,1,""
+"/css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-lr-002.html",1,0,1,1634325
 "/css/css-grid/layout-algorithm/flex-sizing-rows-indefinite-height.html",1,0,0,1841694
 "/css/css-grid/layout-algorithm/grid-template-flexible-rerun-track-sizing.html",1,0,0,1841699
 "/css/css-grid/alignment/grid-justify-baseline-003.html",1,0,1,1848253
@@ -132,7 +132,7 @@
 "/css/css-grid/grid-items/replaced-element-012.html",1,0,0,1841316
 "/css/css-grid/layout-algorithm/grid-flex-track-intrinsic-sizes-002.html",4,0,0,1841696
 "/css/css-grid/grid-definition/grid-change-fit-content-argument-001.html",2,0,0,1841679
-"/css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-rl-005.html",1,0,1,""
+"/css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-rl-005.html",1,0,1,1634325
 "/css/css-grid/alignment/grid-alignment-implies-size-change-014.html",1,0,0,1850042
 "/css/css-grid/abspos/grid-positioned-items-implicit-grid-line-001.html",2,0,0,1500622
 "/css/css-grid/alignment/grid-alignment-implies-size-change-011.html",1,0,0,1850042
