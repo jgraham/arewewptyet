@@ -1,6 +1,6 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/webcodecs/videoFrame-createImageBitmap.https.any.worker.html",1,0,0,1872311
-"/webcodecs/videoFrame-createImageBitmap.https.any.html",1,0,0,1872311
 "/webcodecs/videoFrame-drawImage.any.worker.html",3,0,1,1875485
+"/webcodecs/videoFrame-createImageBitmap.https.any.html",1,0,0,1872311
 "/webcodecs/videoFrame-canvasImageSource.html",2,0,0,"1800882 1857849"
 "/webcodecs/videoFrame-drawImage.any.html",3,0,1,1875485
