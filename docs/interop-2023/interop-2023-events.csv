@@ -1,2 +1,2 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/pointerevents/pointerevent_after_target_removed.html?mouse",4,0,4,1823658
+"/pointerevents/pointerevent_after_target_removed.html?mouse",4,1,4,1823658
