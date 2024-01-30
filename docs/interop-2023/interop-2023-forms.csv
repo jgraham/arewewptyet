@@ -1,4 +1,4 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-writing-modes/forms/meter-appearance-native-vertical.optional.html",1,0,0,""
-"/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html",1,0,0,""
-"/css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html",1,0,0,""
+"/css/css-writing-modes/forms/meter-appearance-native-vertical.optional.html",1,0,0,1877318
+"/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html",1,0,0,1877318
+"/css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html",1,0,0,1877318
