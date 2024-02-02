@@ -1,9 +1,9 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-grid/alignment/replaced-alignment-with-aspect-ratio-006.html",1,0,0,1850042
-"/css/css-grid/alignment/grid-content-distribution-026.html",1,1,1,""
+"/css/css-grid/alignment/grid-content-distribution-026.html",1,1,1,1878371
 "/css/css-grid/layout-algorithm/grid-minimum-contribution-baseline-shim-vertical-rl.html",2,0,2,1841697
 "/css/css-grid/alignment/grid-item-no-aspect-ratio-stretch-6.html",1,0,1,1719002
-"/css/css-grid/alignment/grid-content-distribution-027.html",1,1,1,""
+"/css/css-grid/alignment/grid-content-distribution-027.html",1,1,1,1878371
 "/css/css-grid/alignment/grid-row-axis-self-baseline-synthesized-005.html",2,0,0,"1609403 1642695 1878123"
 "/css/css-grid/grid-definition/grid-template-columns-rows-resolved-values-001.html",15,0,0,"1639412 1656584 1841678"
 "/css/css-grid/alignment/grid-align-baseline-multicol-003.html",2,0,2,1840944
@@ -103,7 +103,7 @@
 "/css/css-grid/alignment/grid-align-baseline-grid-002.html",2,0,1,1848441
 "/css/css-grid/grid-definition/grid-auto-repeat-dynamic-003.html",1,0,0,1841677
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-004.html",1,0,0,1634325
-"/css/css-grid/alignment/grid-place-content-001.html",2,2,2,""
+"/css/css-grid/alignment/grid-place-content-001.html",2,2,2,1878372
 "/css/css-grid/grid-definition/grid-auto-repeat-min-size-004.html",1,0,0,"1689768 1841677"
 "/css/css-grid/alignment/grid-content-alignment-second-pass-001.html",6,0,0,1850142
 "/css/css-grid/alignment/grid-item-aspect-ratio-stretch-4.html",1,0,1,1719002
