@@ -129,18 +129,19 @@ impl Display for BrowserChannel {
 }
 
 pub struct ScoreData {
+    year: u64,
     channel: BrowserChannel,
 }
 
 impl ScoreData {
-    pub fn new(channel: BrowserChannel) -> ScoreData {
-        ScoreData { channel }
+    pub fn new(year: u64, channel: BrowserChannel) -> ScoreData {
+        ScoreData { year, channel }
     }
 
     pub fn url(&self) -> Url {
         // TODO: Return a proper result type here
         Url::parse(
-            &format!("https://raw.githubusercontent.com/web-platform-tests/results-analysis/gh-pages/data/interop-2023/interop-2023-{}-v2.csv", self.channel)
+            &format!("https://raw.githubusercontent.com/web-platform-tests/results-analysis/gh-pages/data/interop-{}/interop-{}-{}-v2.csv", self.year, self.year, self.channel)
         )
         .unwrap()
     }

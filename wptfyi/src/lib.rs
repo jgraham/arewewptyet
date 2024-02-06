@@ -36,7 +36,11 @@ impl Wptfyi {
         metadata::Metadata::new(self.host.clone())
     }
 
-    pub fn interop_scores(&self, browser_channel: interop::BrowserChannel) -> interop::ScoreData {
-        interop::ScoreData::new(browser_channel)
+    pub fn interop_scores(
+        &self,
+        year: u64,
+        browser_channel: interop::BrowserChannel,
+    ) -> interop::ScoreData {
+        interop::ScoreData::new(year, browser_channel)
     }
 }

@@ -114,11 +114,12 @@ pub fn get_interop_categories(
 pub fn get_interop_scores(
     wptfyi: &Wptfyi,
     client: &reqwest::blocking::Client,
+    year: u64,
     browser_channel: interop::BrowserChannel,
 ) -> Result<Vec<interop::ScoreRow>> {
     Ok(interop::parse_scores(&get(
         client,
-        &String::from(wptfyi.interop_scores(browser_channel).url()),
+        &String::from(wptfyi.interop_scores(year, browser_channel).url()),
         None,
     )?)?)
 }
@@ -142,6 +143,7 @@ fn latest_runs(runs: &[result::Run]) -> Result<Vec<&result::Run>> {
 pub fn write_focus_area(
     fyi: &Wptfyi,
     client: &reqwest::blocking::Client,
+    year: u64,
     name: &str,
     focus_area: &FocusArea,
     run_ids: &[i64],
@@ -155,7 +157,7 @@ pub fn write_focus_area(
         .get(name)
         .ok_or_else(|| anyhow!("Didn't find category {}", name))?
         .labels;
-    let path = format!("../docs/interop-2023/{}.csv", name);
+    let path = format!("../docs/interop-{}/{}.csv", year, name);
     let data_path = Path::new(&path);
     let out_f = File::create(data_path)?;
     let mut writer = csv::WriterBuilder::new()
@@ -265,13 +267,15 @@ fn browser_score(browser: &str, columns: &[&str], row: &interop::ScoreRow) -> Re
 }
 
 pub fn write_browser_interop_scores(
+    year: u64,
     browsers: &[&str],
     scores: &[interop::ScoreRow],
-    interop_2023_data: &interop::YearData,
+    interop_year_data: &interop::YearData,
 ) -> Result<()> {
-    let browser_columns = interop_columns(&interop_2023_data.focus_areas);
+    let browser_columns = interop_columns(&interop_year_data.focus_areas);
 
-    let data_path = Path::new("../docs/interop-2023/scores.csv");
+    let path = format!("../docs/interop-{}/scores.csv", year);
+    let data_path = Path::new(&path);
     let out_f = File::create(data_path)?;
     let mut writer = csv::WriterBuilder::new()
         .quote_style(csv::QuoteStyle::NonNumeric)
@@ -301,7 +305,7 @@ pub fn write_browser_interop_scores(
     Ok(())
 }
 
-pub fn run() -> Result<()> {
+pub fn run(year: u64) -> Result<()> {
     let client = network::client();
     let fyi = Wptfyi::new(None);
 
@@ -313,23 +317,24 @@ pub fn run() -> Result<()> {
 
     let interop_data = get_interop_data(&fyi, &client)?;
 
-    let interop_2023_data = interop_data
-        .get("2023")
-        .ok_or_else(|| anyhow!("Failed to get Interop-2023 metadata"))?;
+    let interop_year_data = interop_data
+        .get(&year.to_string())
+        .ok_or_else(|| anyhow!("Failed to get Interop metadata"))?;
 
     let interop_categories = get_interop_categories(&fyi, &client)?;
 
-    let interop_2023_categories = interop_categories
-        .get("2023")
-        .ok_or_else(|| anyhow!("Failed to get Interop-2023 categories"))?;
-    let categories_by_name = interop_2023_categories.by_name();
+    let interop_year_categories = interop_categories
+        .get(&year.to_string())
+        .ok_or_else(|| anyhow!("Failed to get Interop categories"))?;
+    let categories_by_name = interop_year_categories.by_name();
 
     let metadata = get_metadata(&fyi, &client)?;
 
-    for (name, focus_area) in interop_2023_data.focus_areas.iter() {
+    for (name, focus_area) in interop_year_data.focus_areas.iter() {
         write_focus_area(
             &fyi,
             &client,
+            year,
             name,
             focus_area,
             &run_ids,
@@ -338,8 +343,13 @@ pub fn run() -> Result<()> {
         )?;
     }
 
-    let scores = get_interop_scores(&fyi, &client, interop::BrowserChannel::Experimental)?;
-    write_browser_interop_scores(&["firefox", "chrome", "safari"], &scores, interop_2023_data)?;
+    let scores = get_interop_scores(&fyi, &client, year, interop::BrowserChannel::Experimental)?;
+    write_browser_interop_scores(
+        year,
+        &["firefox", "chrome", "safari"],
+        &scores,
+        interop_year_data,
+    )?;
 
     Ok(())
 }

@@ -6,7 +6,8 @@ mod network;
 use std::process;
 
 fn main() {
-    let results = vec![failures::run(), latency::run(), interop::run()];
+    let year = 2024;
+    let results = vec![failures::run(), latency::run(), interop::run(year)];
 
     let errors = results
         .iter()
