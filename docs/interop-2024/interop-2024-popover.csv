@@ -1,5 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/html/semantics/popovers/popover-attribute-basic.html",0,0,0,"1800283 1808641 1817540 1819242"
-"/html/semantics/popovers/popover-light-dismiss-flat-tree.html",1,1,1,1878104
-"/html/semantics/popovers/popover-light-dismiss-flat-tree-nested.html",1,1,1,1878104
 "/html/semantics/popovers/popover-shadow-dom.html",1,0,1,"1800283 1828566 1867737"
+"/html/semantics/popovers/popover-light-dismiss-flat-tree-nested.html",1,1,1,1878104
+"/html/semantics/popovers/popover-light-dismiss-flat-tree.html",1,1,1,1878104
