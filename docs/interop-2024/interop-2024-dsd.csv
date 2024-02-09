@@ -1,4 +1,4 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/shadow-dom/shadow-root-clonable.html",1,0,1,""
 "/shadow-dom/declarative/declarative-shadow-dom-basic.html",1,0,1,"1676798 1721033 1797854 1859504 1860676"
+"/shadow-dom/shadow-root-clonable.html",1,0,1,""
 "/shadow-dom/declarative/declarative-shadow-dom-attachment.html",68,0,68,1651486
