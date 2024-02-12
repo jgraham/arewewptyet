@@ -22,7 +22,7 @@
 "/IndexedDB/idlharness.any.html",3,0,0,"1878143 934640"
 "/IndexedDB/idlharness.any.sharedworker.html",3,0,0,""
 "/IndexedDB/idbfactory-databases-opaque-origin.html",4,0,0,934640
-"/IndexedDB/idbfactory-origin-isolation.html",1,0,0,""
+"/IndexedDB/idbfactory-origin-isolation.html",1,0,0,934640
 "/IndexedDB/get-databases.any.worker.html",5,0,0,934640
 "/IndexedDB/back-forward-cache-open-transaction.window.html",2,2,0,1814534
 "/IndexedDB/idbfactory-deleteDatabase-opaque-origin.html",2,0,0,1878137
