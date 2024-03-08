@@ -1,29 +1,29 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/IndexedDB/database-names-by-origin.html",5,0,0,1878132
 "/IndexedDB/structured-clone.any.worker.html?101-last",1,0,0,1878149
-"/IndexedDB/idlharness.any.sharedworker.html",3,0,0,"1878143 934640"
 "/IndexedDB/idbfactory-databases-opaque-origin.html",4,0,0,934640
+"/IndexedDB/idlharness.any.sharedworker.html",3,0,0,"1878143 934640"
 "/IndexedDB/idbfactory_open9.htm",4,0,0,1275496
-"/IndexedDB/reading-autoincrement-indexes.any.html",3,0,0,1404276
 "/IndexedDB/idbfactory-origin-isolation.html",1,0,0,934640
 "/IndexedDB/reading-autoincrement-indexes.any.serviceworker.html",3,0,0,1404276
 "/IndexedDB/serialize-sharedarraybuffer-throws.https.html",1,0,1,1878148
 "/IndexedDB/idb-binary-key-detached.htm",2,0,2,1878134
+"/IndexedDB/reading-autoincrement-indexes.any.worker.html",3,0,0,1404276
+"/IndexedDB/reading-autoincrement-indexes.any.html",3,0,0,1404276
 "/IndexedDB/idlharness.any.worker.html",3,0,0,"1878143 934640"
+"/IndexedDB/get-databases.any.worker.html",5,0,0,934640
+"/IndexedDB/reading-autoincrement-indexes.any.sharedworker.html",3,0,0,1404276
 "/IndexedDB/reading-autoincrement-indexes-cursors.any.html",2,0,0,1404276
 "/IndexedDB/idb-explicit-commit.any.html",2,0,1,1799374
-"/IndexedDB/get-databases.any.worker.html",5,0,0,934640
-"/IndexedDB/reading-autoincrement-indexes.any.worker.html",3,0,0,1404276
-"/IndexedDB/reading-autoincrement-indexes.any.sharedworker.html",3,0,0,1404276
 "/IndexedDB/idbfactory-deleteDatabase-opaque-origin.html",2,0,0,1878137
-"/IndexedDB/reading-autoincrement-indexes-cursors.any.sharedworker.html",2,0,0,1404276
-"/IndexedDB/idbfactory-open-opaque-origin.html",2,0,0,1404276
-"/IndexedDB/reading-autoincrement-indexes-cursors.any.worker.html",2,0,0,1404276
-"/IndexedDB/structured-clone.any.html?101-last",2,0,0,1878149
 "/IndexedDB/ready-state-destroyed-execution-context.html",1,0,1,1878146
 "/IndexedDB/idbobjectstore_createIndex15-autoincrement.htm",2,0,0,1404276
-"/IndexedDB/idlharness.any.html",3,0,0,"1878143 934640"
+"/IndexedDB/idbfactory-open-opaque-origin.html",2,0,0,1404276
+"/IndexedDB/reading-autoincrement-indexes-cursors.any.sharedworker.html",2,0,0,1404276
+"/IndexedDB/reading-autoincrement-indexes-cursors.any.worker.html",2,0,0,1404276
+"/IndexedDB/structured-clone.any.html?101-last",2,0,0,1878149
 "/IndexedDB/get-databases.any.html",5,0,0,934640
+"/IndexedDB/idlharness.any.html",3,0,0,"1878143 934640"
 "/IndexedDB/back-forward-cache-open-transaction.window.html",2,2,0,1814534
 "/IndexedDB/idlharness.any.serviceworker.html",3,0,0,"1878143 934640"
 "/IndexedDB/reading-autoincrement-indexes-cursors.any.serviceworker.html",2,0,0,1404276
