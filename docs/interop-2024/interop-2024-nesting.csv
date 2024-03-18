@@ -1,4 +1,4 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-nesting/parsing.html",5,0,0,"1798383 1812484 1845420 1864418 1884879"
-"/css/css-syntax/custom-property-rule-ambiguity.html",4,0,4,"1858167 1884879"
 "/css/css-syntax/var-with-blocks.html",4,0,4,1878156
+"/css/css-syntax/custom-property-rule-ambiguity.html",4,0,4,"1858167 1884879"
