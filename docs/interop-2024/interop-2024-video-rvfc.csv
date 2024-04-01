@@ -1,9 +1,9 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/video-rvfc/request-video-frame-callback-repeating.html",2,0,1,1800882
 "/video-rvfc/request-video-frame-callback-before-xr-session.https.html",1,5,4,1800882
+"/video-rvfc/request-video-frame-callback.html",5,0,0,1800882
+"/video-rvfc/request-video-frame-callback-parallel.html",2,0,0,1800882
 "/video-rvfc/request-video-frame-callback-dom.html",3,0,1,1800882
 "/video-rvfc/request-video-frame-callback-during-xr-session.https.html",2,2,2,1800882
-"/video-rvfc/request-video-frame-callback-parallel.html",2,0,0,1800882
 "/video-rvfc/idlharness.window.html",6,0,0,1800882
-"/video-rvfc/request-video-frame-callback.html",5,0,0,1800882
 "/video-rvfc/request-video-frame-callback-webrtc.https.html",2,0,2,1800882
