@@ -1,13 +1,13 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/wai-aria/role/menu-roles.html",9,9,9,1849160
+"/html-aam/table-roles.html",3,3,3,""
 "/wai-aria/role/tree-roles.html",2,2,0,1849160
+"/css/css-display/accessibility/display-contents-role-and-label.html",13,9,12,1877811
+"/html/dom/aria-element-reflection.html",11,0,0,1875206
+"/accname/name/comp_name_from_content.html",10,6,3,1878355
+"/wai-aria/role/listbox-roles.html",1,1,1,1849160
+"/wai-aria/idlharness.window.html",14,0,0,"1769586 1859211 1861201"
+"/wai-aria/role/tab-roles.html",2,2,2,1849160
+"/wai-aria/role/list-roles.html",2,2,2,1849160
 "/wai-aria/role/grid-roles.html",6,6,6,"1656330 1849160"
 "/html/dom/aria-element-reflection-disconnected.html",1,0,1,1878351
-"/accname/name/comp_name_from_content.html",10,6,3,1878355
-"/css/css-display/accessibility/display-contents-role-and-label.html",13,9,12,1877811
-"/html-aam/table-roles.html",3,3,3,""
-"/html/dom/aria-element-reflection.html",11,0,0,1875206
-"/wai-aria/role/tab-roles.html",2,2,2,1849160
-"/wai-aria/idlharness.window.html",14,0,0,"1769586 1859211 1861201"
-"/wai-aria/role/listbox-roles.html",1,1,1,1849160
-"/wai-aria/role/list-roles.html",2,2,2,1849160
