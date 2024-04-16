@@ -1,4 +1,3 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
+"/html/semantics/popovers/popover-focus-2.html",1,0,1,"1833747 1840611"
 "/html/semantics/popovers/popover-attribute-basic.html",0,0,0,"1800283 1808641 1817540 1819242"
-"/html/semantics/popovers/popover-focus-2.html",1,1,1,"1833747 1840611"
-"/html/semantics/popovers/popover-light-dismiss.html",1,1,0,"1800283 1843675 1889173"
