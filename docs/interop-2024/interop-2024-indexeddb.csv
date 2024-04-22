@@ -1,11 +1,11 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/IndexedDB/structured-clone.any.worker.html?101-last",1,0,0,1878149
+"/IndexedDB/structured-clone.any.html?101-last",2,0,0,1878149
 "/IndexedDB/idb-binary-key-detached.htm",2,0,2,1878134
 "/IndexedDB/serialize-sharedarraybuffer-throws.https.html",1,0,1,1878148
-"/IndexedDB/structured-clone.any.html?101-last",2,0,0,1878149
-"/IndexedDB/idb-binary-key-roundtrip.htm",1,1,1,1833647
 "/IndexedDB/idbfactory-deleteDatabase-opaque-origin.html",2,0,0,1878137
-"/IndexedDB/back-forward-cache-open-connection.window.html",1,0,1,1878720
 "/IndexedDB/idbfactory_open9.htm",4,0,0,1275496
-"/IndexedDB/idbfactory-databases-opaque-origin.html",3,0,0,"1878137 934640"
 "/IndexedDB/idbfactory-open-opaque-origin.html",2,0,0,"1404276 1878137"
+"/IndexedDB/idb-binary-key-roundtrip.htm",1,1,1,1833647
+"/IndexedDB/idbfactory-databases-opaque-origin.html",3,0,0,"1878137 934640"
+"/IndexedDB/back-forward-cache-open-transaction.window.html",2,2,0,1814534
