@@ -1,7 +1,7 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-display/accessibility/display-contents-role-and-label.html",11,8,11,1877811
-"/accname/name/comp_name_from_content.html",10,6,3,1878355
-"/html/dom/aria-element-reflection-disconnected.html",1,0,1,1878351
-"/html-aam/table-roles.html",3,3,3,""
-"/html/dom/aria-element-reflection.html",11,0,0,1875206
 "/wai-aria/idlharness.window.html",14,0,0,"1769586 1859211 1861201"
+"/css/css-display/accessibility/display-contents-role-and-label.html",6,3,6,1877811
+"/html/dom/aria-element-reflection-disconnected.html",1,0,1,1878351
+"/accname/name/comp_name_from_content.html",10,6,3,1878355
+"/html/dom/aria-element-reflection.html",11,0,0,1875206
+"/html-aam/table-roles.html",3,3,3,""
