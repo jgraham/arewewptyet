@@ -1,5 +1,4 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/IndexedDB/idb-binary-key-detached.htm",2,0,2,1878134
 "/IndexedDB/idb-binary-key-roundtrip.htm",1,1,1,1833647
 "/IndexedDB/back-forward-cache-open-transaction.window.html",2,2,0,1814534
 "/IndexedDB/structured-clone.any.html?101-last",1,0,0,1878149
