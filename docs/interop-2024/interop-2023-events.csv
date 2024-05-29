@@ -1,14 +1,14 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/pointerevents/pointerevent_click_is_a_pointerevent.html?mouse",4,0,4,1710498
-"/pointerevents/coalesced_events_attributes_under_load.https.html?mouse",1,1,1,1885287
-"/pointerevents/pointerevent_click_during_capture.html?mouse-auxclick",2,2,2,1885232
 "/pointerevents/pointerevent_contextmenu_is_a_pointerevent.html?mouse",2,0,2,1675246
-"/pointerevents/pointerevent_fractional_coordinates.html?mouse",1,0,0,1680669
-"/pointerevents/coalesced_events_attributes.https.html?mouse",1,0,1,1885287
-"/pointerevents/pointerevent_click_during_capture.html?mouse-click",2,2,2,"1655753 1885232"
 "/pointerevents/pointerevent_boundary_events_at_implicit_release_hoverable_pointers.html",1,0,0,1645239
-"/pointerevents/pointerevent_auxclick_is_a_pointerevent.html?mouse",2,0,2,1675246
-"/pointerevents/idlharness.https.window.html",9,0,9,"1647540 1656377"
-"/pointerevents/pointerevent_capture_suppressing_mouse.html",1,0,1,"1680651 1793267"
+"/pointerevents/pointerevent_click_during_capture.html?mouse-click",2,2,2,"1655753 1885232"
+"/pointerevents/pointerevent_click_during_capture.html?mouse-auxclick",2,2,2,1885232
 "/pointerevents/pointerevent_click_is_a_pointerevent_multiple_clicks.html?mouse",1,0,1,1710498
+"/pointerevents/coalesced_events_attributes_under_load.https.html?mouse",1,1,1,1885287
+"/pointerevents/pointerevent_capture_suppressing_mouse.html",1,0,1,"1680651 1793267"
+"/pointerevents/pointerevent_click_is_a_pointerevent.html?mouse",4,0,4,1710498
+"/pointerevents/idlharness.https.window.html",9,0,9,"1647540 1656377"
+"/pointerevents/pointerevent_auxclick_is_a_pointerevent.html?mouse",2,0,2,1675246
+"/pointerevents/coalesced_events_attributes.https.html?mouse",1,0,1,1885287
 "/pointerevents/pointerevent_after_target_appended.html?mouse",2,0,2,1885223
+"/pointerevents/pointerevent_fractional_coordinates.html?mouse",1,0,0,1680669
