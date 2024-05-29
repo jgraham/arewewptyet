@@ -1,15 +1,15 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/html/dom/elements/global-attributes/dir-shadow-39.html",1,0,1,1857719
 "/html/dom/elements/global-attributes/dir-shadow-33.html",1,0,0,1857719
+"/html/dom/elements/global-attributes/dir-shadow-04.html",1,0,0,1857719
+"/html/dom/elements/global-attributes/dir-shadow-34.html",1,0,0,1857719
+"/html/dom/elements/global-attributes/dir-shadow-03.html",1,0,0,1857719
 "/html/dom/elements/global-attributes/dir-auto-dynamic-changes.window.html",4,0,4,"1855002 1856776"
 "/html/dom/elements/global-attributes/dir-slots-directionality.html",6,0,3,1849785
 "/html/dom/elements/global-attributes/dir-shadow-24.html",1,0,0,1857719
-"/html/dom/elements/global-attributes/dir-shadow-34.html",1,0,0,1857719
-"/html/dom/elements/global-attributes/dir-shadow-03.html",1,0,0,1857719
-"/html/dom/elements/global-attributes/dir-shadow-04.html",1,0,0,1857719
 "/html/dom/elements/global-attributes/dir-shadow-06.html",1,0,1,1857719
-"/html/dom/elements/global-attributes/dir-shadow-36.html",1,0,1,1857719
-"/html/dom/elements/global-attributes/dir-shadow-38.html",1,0,1,1857719
 "/html/dom/elements/global-attributes/dir-shadow-31.html",1,0,0,1857719
-"/html/dom/elements/global-attributes/dir-shadow-30.html",1,0,0,1857719
+"/html/dom/elements/global-attributes/dir-shadow-38.html",1,0,1,1857719
 "/html/dom/elements/global-attributes/dir-shadow-18.html",1,0,0,1857719
+"/html/dom/elements/global-attributes/dir-shadow-36.html",1,0,1,1857719
+"/html/dom/elements/global-attributes/dir-shadow-30.html",1,0,0,1857719

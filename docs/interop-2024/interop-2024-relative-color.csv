@@ -1,19 +1,19 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-color/relative-currentcolor-rgb-02.html",1,1,0,1701488
 "/css/css-color/relative-currentcolor-oklch-01.html",1,1,0,1701488
-"/css/css-color/relative-currentcolor-rgb-01.html",1,1,0,1701488
 "/css/css-color/relative-currentcolor-hsl-02.html",1,1,0,1701488
-"/css/css-color/relative-currentcolor-hsl-01.html",1,1,0,1701488
-"/css/css-color/relative-currentcolor-oklab-01.html",1,1,0,1701488
+"/css/css-color/relative-currentcolor-rgb-01.html",1,1,0,1701488
 "/css/css-color/parsing/color-computed-relative-color.html",5,0,5,"1887462 1895330"
-"/css/css-color/parsing/color-valid-relative-color.html",20,20,2,"1746070 1897837"
+"/css/css-color/relative-currentcolor-oklab-01.html",1,1,0,1701488
 "/css/css-color/relative-currentcolor-xyzd65-01.html",1,1,0,1701488
-"/css/css-color/relative-currentcolor-a98rgb-01.html",1,1,0,1701488
-"/css/css-color/relative-currentcolor-hwb-01.html",1,1,0,1701488
+"/css/css-color/parsing/color-valid-relative-color.html",20,20,2,"1746070 1897837"
 "/css/css-color/relative-currentcolor-displayp3-01.html",1,1,0,1701488
+"/css/css-color/relative-currentcolor-hsl-01.html",1,1,0,1701488
+"/css/css-color/relative-currentcolor-a98rgb-01.html",1,1,0,1701488
 "/css/css-color/relative-currentcolor-xyzd50-01.html",1,1,0,1701488
+"/css/css-color/relative-currentcolor-prophoto-01.html",1,1,0,1701488
+"/css/css-color/relative-currentcolor-hwb-01.html",1,1,0,1701488
 "/css/css-color/relative-currentcolor-lch-01.html",1,1,0,1701488
 "/css/css-color/relative-currentcolor-rec2020-01.html",1,1,0,1701488
-"/css/css-color/relative-currentcolor-prophoto-01.html",1,1,0,1701488
 "/css/css-color/relative-currentcolor-lab-01.html",1,1,0,1701488
 "/css/css-color/relative-currentcolor-rec2020-02.html",1,1,0,1701488
