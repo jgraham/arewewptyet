@@ -1,5 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/html/dom/aria-element-reflection-disconnected.html",1,0,1,1878351
+"/html/dom/aria-element-reflection.html",11,0,0,"1875206 1893937"
 "/html-aam/table-roles.html",3,1,3,""
 "/wai-aria/idlharness.window.html",14,0,0,"1769586 1859211 1861201"
-"/html/dom/aria-element-reflection.html",11,0,0,"1875206 1893937"
