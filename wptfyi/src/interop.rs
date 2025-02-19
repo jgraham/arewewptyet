@@ -5,6 +5,14 @@ use std::{collections::BTreeMap, fmt::Display};
 use url::Url;
 
 #[derive(Debug, Deserialize, Serialize)]
+pub struct InteropMetadata {
+    valid_years: Vec<String>,
+    valid_mobile_years: Vec<String>,
+    #[serde(flatten)]
+    years: BTreeMap<String, YearData>,
+}
+
+#[derive(Debug, Deserialize, Serialize)]
 pub struct YearData {
     pub table_sections: Vec<TableSections>,
     #[serde(default)]
@@ -60,16 +68,14 @@ impl InteropData {
 
     pub fn url(&self) -> Url {
         // TODO: Return a proper result type here
-        Url::parse(&format!(
-            "https://{}/static/interop-data.json",
-            self.host
-        ))
-        .unwrap()
+        Url::parse(&format!("https://{}/static/interop-data.json", self.host)).unwrap()
     }
 }
 
 pub fn parse(json: &str) -> Result<BTreeMap<String, YearData>, Error> {
-    Ok(serde_json::from_str(json)?)
+    println!("{}", json);
+    let metadata: InteropMetadata = serde_json::from_str(json)?;
+    Ok(metadata.years)
 }
 
 #[derive(Debug, Deserialize, Serialize)]
@@ -87,7 +93,7 @@ impl Categories {
     }
 }
 
-#[derive(Debug, Deserialize, Serialize)]
+#[derive(Debug, Default, Deserialize, Serialize)]
 pub struct Category {
     pub name: String,
     pub labels: Vec<String>,

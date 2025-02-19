@@ -159,6 +159,9 @@ pub fn write_focus_area(
         .labels;
     let path = format!("../docs/interop-{}/{}.csv", year, name);
     let data_path = Path::new(&path);
+    if let Some(dir_name) = data_path.parent() {
+        fs::create_dir_all(dir_name)?;
+    }
     let out_f = File::create(data_path)?;
     let mut writer = csv::WriterBuilder::new()
         .quote_style(csv::QuoteStyle::NonNumeric)
