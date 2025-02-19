@@ -1,0 +1,23 @@
+{
+  "2025": [
+    "interop-2025-anchor-positioning",
+    "interop-2025-core-web-vitals",
+    "interop-2025-scope",
+    "interop-2025-writingmodes",
+    "interop-2024-layout",
+    "interop-2020-modules",
+    "interop-2025-navigation-api",
+    "interop-2025-backdrop-filter",
+    "interop-2025-mutation-events",
+    "interop-2023-events",
+    "interop-2025-scrollend",
+    "interop-2025-storageaccess",
+    "interop-2025-details",
+    "interop-2025-text-decoration",
+    "interop-2025-view-transitions",
+    "interop-2025-webassembly",
+    "interop-2025-urlpattern",
+    "interop-2025-webcompat",
+    "interop-2025-webrtc"
+  ]
+}

@@ -1,7 +1,8 @@
 use crate::network::{self, get, post};
 use anyhow::{anyhow, Result};
+use serde::{Deserialize, Serialize};
 use std::collections::{BTreeMap, BTreeSet};
-use std::fs::File;
+use std::fs::{self, File};
 use std::path::Path;
 use url::Url;
 use wptfyi::interop::{Category, FocusArea};
@@ -308,6 +309,77 @@ pub fn write_browser_interop_scores(
     Ok(())
 }
 
+#[derive(Debug, Deserialize, Serialize)]
+struct BugResponse {
+    bugs: Vec<BugData>,
+}
+
+#[derive(Debug, Deserialize, Serialize)]
+struct BugData {
+    alias: String,
+    cf_user_story: String,
+    component: String,
+    id: u64,
+    depends_on: Vec<u64>,
+    product: String,
+    resolution: String,
+    summary: String,
+}
+
+fn get_bug_data(client: &reqwest::blocking::Client, year: u64) -> Result<Option<Vec<BugData>>> {
+    let data_path = Path::new("../docs/bugzilla_bugs.json");
+    let bugs: BTreeMap<String, Vec<String>> = serde_json::from_reader(fs::File::open(&data_path)?)?;
+    if let Some(aliases) = bugs.get(&year.to_string()) {
+        let bugzilla_url = format!("https://bugzilla.mozilla.org/rest/bug?alias={}&include_fields=id,summary,alias,product,component,resolution,depends_on,cf_user_story", aliases.join(","));
+        let resp = network::get(client, &bugzilla_url, None)?;
+        println!("{}", resp);
+        let bug_data: BugResponse = serde_json::from_str(&resp)?;
+        Ok(Some(bug_data.bugs))
+    } else {
+        Ok(None)
+    }
+}
+
+fn write_bugzilla_data(year: u64, bug_data: &[BugData]) -> Result<()> {
+    let path = format!("../docs/interop-{}/bugs.csv", year);
+    let data_path = Path::new(&path);
+    let out_f = File::create(data_path)?;
+    let mut writer = csv::WriterBuilder::new()
+        .quote_style(csv::QuoteStyle::NonNumeric)
+        .from_writer(out_f);
+    let headers = [
+        "Bug",
+        "Alias",
+        "Title",
+        "Product",
+        "Component",
+        "Resolution",
+        "User Story",
+        "Depends On",
+    ];
+    writer.write_record(headers)?;
+
+    for bug_data in bug_data.iter() {
+        writer.write_record([
+            &bug_data.id.to_string(),
+            &bug_data.alias,
+            &bug_data.summary,
+            &bug_data.product,
+            &bug_data.component,
+            &bug_data.resolution,
+            &bug_data.cf_user_story,
+            &bug_data
+                .depends_on
+                .iter()
+                .map(|x| x.to_string())
+                .collect::<Vec<String>>()
+                .join(","),
+        ])?;
+    }
+
+    Ok(())
+}
+
 pub fn run(year: u64) -> Result<()> {
     let client = network::client();
     let fyi = Wptfyi::new(None);
@@ -353,6 +425,10 @@ pub fn run(year: u64) -> Result<()> {
         &scores,
         interop_year_data,
     )?;
+
+    if let Some(bug_data) = get_bug_data(&client, year)? {
+        write_bugzilla_data(year, &bug_data)?;
+    }
 
     Ok(())
 }
