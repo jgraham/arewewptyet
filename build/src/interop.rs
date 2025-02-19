@@ -168,9 +168,9 @@ pub fn write_focus_area(
         .from_writer(out_f);
 
     let results = get_fx_failures(
-        &fyi,
-        &client,
-        &run_ids,
+        fyi,
+        client,
+        run_ids,
         &labels
             .iter()
             .filter_map(|x| {
@@ -201,7 +201,7 @@ pub fn write_focus_area(
         "Bugs",
     ])?;
     for result in results.results.iter() {
-        let mut scores = vec![String::new(), String::new(), String::new()];
+        let mut scores = [String::new(), String::new(), String::new()];
         for (output_idx, browser_idx) in browser_list.iter().enumerate() {
             if let Some(status) = result.legacy_status.get(*browser_idx) {
                 if output_idx == 0 {

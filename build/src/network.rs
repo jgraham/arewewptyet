@@ -1,5 +1,4 @@
 use anyhow::Result;
-use reqwest;
 use serde::Serialize;
 use std::io::Read;
 

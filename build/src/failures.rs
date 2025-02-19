@@ -14,7 +14,7 @@ use wptfyi::{result, Wptfyi};
 fn fx_only_failures_query(untriaged: bool) -> Query {
     let mut and_parts = Vec::new();
 
-    let pass_statuses = vec![Status::Ok, Status::Pass];
+    let pass_statuses = [Status::Ok, Status::Pass];
     let pass_browsers = vec!["chrome", "safari"];
 
     for status in pass_statuses.iter() {
@@ -122,7 +122,7 @@ fn count_failures(failures_str: &str) -> Result<FailureCount> {
     let subtest_count = results
         .results
         .iter()
-        .map(|result| result.legacy_status.get(0).map(|x| x.total).unwrap_or(0))
+        .map(|result| result.legacy_status.first().map(|x| x.total).unwrap_or(0))
         .sum();
     Ok(FailureCount {
         tests: test_count,
