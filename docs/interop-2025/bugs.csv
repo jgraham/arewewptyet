@@ -1,7 +1,7 @@
 "Bug","Alias","Title","Product","Component","Resolution","User Story","Depends On"
-1815172,"interop-2023-events","[meta] Interop 2023 Pointer and Mouse Events","Core","DOM: Events","FIXED","","1823658,1653882,1823661,1823663,1857235,1875424"
-1878105,"interop-2024-layout","[meta] Interop 2024 Layout","Core","Layout","","","1300366,1310551,1481876,1500622,1521088,1634325,1650885,1663035,1703401,1712251,1712862,1714951,1716493,1718365,1732317,1737353,1740236,1833481,1840778,1840782,1840944,1840957,1841298,1841299,1841300,1841301,1841303,1841304,1841315,1841316,1841317,1841663,1841678,1841679,1841684,1841693,1841694,1841695,1841696,1841697,1841698,1841699,1841700,1848441,1850139,1850142,1866930,1878116,1878123,1878125,1878127,1878128,1878130,1902793,1902795,1906145,1719002,1785914,1819703,1840779,1841677,1848253,1850042,1865438,1878109,1878117,1878371,1878372,1878373,1878374"
-1948267,"interop-2025-writingmodes","[Meta] [Interop 2025] Writing Modes","Core","Layout: Text and Fonts","","","1310551,1769799,1949064"
+1815172,"interop-2023-events","[meta] Interop 2023 Pointer and Mouse Events","Core","DOM: Events","FIXED","","1823658;1653882;1823661;1823663;1857235;1875424"
+1878105,"interop-2024-layout","[meta] Interop 2024 Layout","Core","Layout","","","1300366;1310551;1481876;1500622;1521088;1634325;1650885;1663035;1703401;1712251;1712862;1714951;1716493;1718365;1732317;1737353;1740236;1833481;1840778;1840782;1840944;1840957;1841298;1841299;1841300;1841301;1841303;1841304;1841315;1841316;1841317;1841663;1841678;1841679;1841684;1841693;1841694;1841695;1841696;1841697;1841698;1841699;1841700;1848441;1850139;1850142;1866930;1878116;1878123;1878125;1878127;1878128;1878130;1902793;1902795;1906145;1719002;1785914;1819703;1840779;1841677;1848253;1850042;1865438;1878109;1878117;1878371;1878372;1878373;1878374"
+1948267,"interop-2025-writingmodes","[Meta] [Interop 2025] Writing Modes","Core","Layout: Text and Fonts","","","1310551;1769799;1949064"
 1948268,"interop-2025-anchor-positioning","[meta] [Interop 2025] CSS Anchor Positioning","Core","CSS Parsing and Computation","","",1838746
 1948271,"interop-2025-scope","[meta] [Interop 2025] Scope","Core","CSS Parsing and Computation","","",1830512
 1948273,"interop-2025-mutation-events","[meta] [Interop 2025] Remove mutation events","Core","DOM: Events","","",769207
@@ -9,11 +9,11 @@
 1948278,"interop-2025-backdrop-filter","[meta] [Interop 2025] backdrop-filter","Core","Graphics: WebRender","","",""
 1948280,"interop-2025-storageaccess","[meta] [Interop 2025] Storage Access API","Core","Privacy: Anti-Tracking","","",""
 1948284,"interop-2025-core-web-vitals","[meta] [interop 2025] Core Web Vitals","Core","Performance","","",1948647
-1948286,"interop-2025-scrollend","[meta] [Interop 2025] scrollend event","Core","Panning and Zooming","","","1785102,1945692"
-1948289,"interop-2025-details","[meta] [Interop 2025] details element","Core","DOM: Core & HTML","","","1761043,1901037"
+1948286,"interop-2025-scrollend","[meta] [Interop 2025] scrollend event","Core","Panning and Zooming","","","1785102;1945692"
+1948289,"interop-2025-details","[meta] [Interop 2025] details element","Core","DOM: Core & HTML","","","1761043;1901037"
 1948294,"interop-2025-view-transitions","[meta] [Interop 2025] View Transitions","Core","CSS Parsing and Computation","","",1823896
 1948295,"interop-2025-urlpattern","[meta] [Interop 2025] URLPattern","Core","DOM: Networking","","",1731418
-1948300,"interop-2025-webrtc","[meta] [Interop 2025] WebRTC","Core","WebRTC","","","1927886,1948971"
-1948302,"interop-2025-webcompat","[meta] [Interop 2025] Web Compat","Core","General","","","1730147,1941949"
+1948300,"interop-2025-webrtc","[meta] [Interop 2025] WebRTC","Core","WebRTC","","","1927886;1948971"
+1948302,"interop-2025-webcompat","[meta] [Interop 2025] Web Compat","Core","General","","","1730147;1941949"
 1948307,"interop-2025-text-decoration","[Meta] [Interop 2025] text-decoration","Core","Layout: Text and Fonts","","",""
 1948310,"interop-2025-webassembly","[meta] [Interop 2025] WebAssembly","Core","JavaScript: WebAssembly","","",""

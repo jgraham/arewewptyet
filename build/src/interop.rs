@@ -373,7 +373,7 @@ fn write_bugzilla_data(year: u64, bug_data: &[BugData]) -> Result<()> {
                 .iter()
                 .map(|x| x.to_string())
                 .collect::<Vec<String>>()
-                .join(","),
+                .join(";"),
         ])?;
     }
 
