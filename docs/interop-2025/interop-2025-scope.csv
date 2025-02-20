@@ -1,30 +1,30 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-cascade/scope-media.html",1,0,0,1830512
 "/css/css-cascade/scope-focus.html",4,0,2,1830512
-"/css/css-cascade/scope-layer.html",1,0,0,1830512
-"/css/css-cascade/scope-name-defining-rules.html",4,0,0,1830512
-"/css/css-cascade/scope-hover.html",4,0,2,1830512
-"/css/css-cascade/scope-declarations.html",5,0,5,""
+"/css/css-cascade/scope-visited-cssom.html",8,0,1,1830512
+"/css/css-cascade/scope-specificity.html",11,0,0,"1830512 1928695"
 "/css/css-cascade/scope-pseudo-element.html",1,0,0,""
+"/css/css-cascade/scope-declarations.html",5,0,5,""
+"/css/css-cascade/scope-hover.html",4,0,2,1830512
+"/css/css-cascade/scope-name-defining-rules.html",4,0,0,1830512
+"/css/css-cascade/scope-layer.html",1,0,0,1830512
+"/css/css-cascade/scope-media.html",1,0,0,1830512
 "/css/css-cascade/scope-deep.html",1,0,0,1830512
-"/css/css-cascade/scope-overlapping-has.html",1,0,0,""
-"/css/css-cascade/scope-visited.html",1,0,1,1830512
-"/css/css-cascade/at-scope-parsing.html",15,0,0,1830512
-"/css/css-cascade/scope-supports.html",1,0,0,1830512
+"/css/css-cascade/scope-starting-style.html",1,0,0,1830512
+"/css/css-cascade/scope-implicit.html",8,0,0,"1830512 1886317"
+"/css/css-cascade/scope-shadow-sharing.html",1,0,1,""
+"/css/css-cascade/scope-part.html",1,0,0,""
+"/css/css-cascade/scope-evaluation.html",16,0,0,"1830512 1886314"
 "/css/css-cascade/scope-cssom.html",13,0,0,1830512
-"/css/css-cascade/scope-proximity.html",5,0,0,1830512
-"/css/css-cascade/scope-shadow.html",9,0,9,"1830512 1878994"
-"/css/css-cascade/scope-nesting.html",22,0,2,"1830512 1873611 1873614 1936293"
-"/css/css-cascade/scope-implicit-external.html",2,0,0,1830512
-"/css/css-cascade/scope-invalidation.html",26,0,7,"1830512 1933903"
-"/css/css-cascade/scope-container.html",1,0,0,"1830512 1906098"
 "/css/css-cascade/scope-style-sharing-002.html",12,0,0,""
 "/css/css-cascade/at-scope-relative-syntax.html",8,0,1,""
-"/css/css-cascade/scope-evaluation.html",16,0,0,"1830512 1886314"
-"/css/css-cascade/scope-part.html",1,0,0,""
-"/css/css-cascade/scope-implicit.html",8,0,0,"1830512 1886317"
-"/css/css-cascade/scope-starting-style.html",1,0,0,1830512
-"/css/css-cascade/scope-shadow-sharing.html",1,0,1,""
-"/css/css-cascade/scope-specificity.html",11,0,0,"1830512 1928695"
-"/css/css-cascade/scope-visited-cssom.html",8,0,1,1830512
+"/css/css-cascade/scope-invalidation.html",26,0,7,"1830512 1933903"
+"/css/css-cascade/scope-container.html",1,0,0,"1830512 1906098"
+"/css/css-cascade/scope-shadow.html",9,0,9,"1830512 1878994"
+"/css/css-cascade/scope-proximity.html",5,0,0,1830512
+"/css/css-cascade/scope-supports.html",1,0,0,1830512
+"/css/css-cascade/at-scope-parsing.html",15,0,0,1830512
+"/css/css-cascade/scope-nesting.html",22,0,2,"1830512 1873611 1873614 1936293"
+"/css/css-cascade/scope-overlapping-has.html",1,0,0,""
+"/css/css-cascade/scope-visited.html",1,0,1,1830512
+"/css/css-cascade/scope-implicit-external.html",2,0,0,1830512
 "/css/css-cascade/scope-style-sharing-001.html",12,0,0,""
