@@ -8,7 +8,7 @@
 1948275,"interop-2025-navigation-api","[meta] [Interop 2025] Navigation API","Core","DOM: Navigation","","",1777171
 1948278,"interop-2025-backdrop-filter","[meta] [Interop 2025] backdrop-filter","Core","Graphics: WebRender","","",""
 1948280,"interop-2025-storageaccess","[meta] [Interop 2025] Storage Access API","Core","Privacy: Anti-Tracking","","",""
-1948284,"interop-2025-core-web-vitals","[meta] [interop 2025] Core Web Vitals","Core","Performance","","",1948647
+1948284,"interop-2025-core-web-vitals","[meta] [interop 2025] Core Web Vitals","Core","Performance","","","1934683;1948647"
 1948286,"interop-2025-scrollend","[meta] [Interop 2025] scrollend event","Core","Panning and Zooming","","","1785102;1945692"
 1948289,"interop-2025-details","[meta] [Interop 2025] details element","Core","DOM: Core & HTML","","","1761043;1901037"
 1948294,"interop-2025-view-transitions","[meta] [Interop 2025] View Transitions","Core","CSS Parsing and Computation","","",1823896
