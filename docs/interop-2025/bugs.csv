@@ -14,6 +14,6 @@
 1948294,"interop-2025-view-transitions","[meta] [Interop 2025] View Transitions","Core","CSS Parsing and Computation","","",1823896
 1948295,"interop-2025-urlpattern","[meta] [Interop 2025] URLPattern","Core","DOM: Networking","","",1731418
 1948300,"interop-2025-webrtc","[meta] [Interop 2025] WebRTC","Core","WebRTC","","","1927886;1948971"
-1948302,"interop-2025-webcompat","[meta] [Interop 2025] Web Compat","Core","General","","","1730147;1941949"
+1948302,"interop-2025-webcompat","[meta] [Interop 2025] Web Compat","Core","General","","platform-scheduled: 2025-06-31","1730147;1941949"
 1948307,"interop-2025-text-decoration","[Meta] [Interop 2025] text-decoration","Core","Layout: Text and Fonts","","",""
 1948310,"interop-2025-webassembly","[meta] [Interop 2025] WebAssembly","Core","JavaScript: WebAssembly","","",""
