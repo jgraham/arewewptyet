@@ -6,7 +6,7 @@
 1948271,"interop-2025-scope","[meta] [Interop 2025] Scope","Core","CSS Parsing and Computation","","",1830512
 1948273,"interop-2025-mutation-events","[meta] [Interop 2025] Remove mutation events","Core","DOM: Events","","",769207
 1948275,"interop-2025-navigation-api","[meta] [Interop 2025] Navigation API","Core","DOM: Navigation","","",1777171
-1948278,"interop-2025-backdrop-filter","[meta] [Interop 2025] backdrop-filter","Core","Graphics: WebRender","","",""
+1948278,"interop-2025-backdrop-filter","[meta] [Interop 2025] backdrop-filter","Core","Graphics: WebRender","","platform-scheduled:2025-12-31",""
 1948280,"interop-2025-storageaccess","[meta] [Interop 2025] Storage Access API","Core","Privacy: Anti-Tracking","","",""
 1948284,"interop-2025-core-web-vitals","[meta] [interop 2025] Core Web Vitals","Core","Performance","","","1934683;1948647"
 1948286,"interop-2025-scrollend","[meta] [Interop 2025] scrollend event","Core","Panning and Zooming","","","1785102;1945692"
@@ -14,7 +14,7 @@
 1948294,"interop-2025-view-transitions","[meta] [Interop 2025] View Transitions","Core","CSS Parsing and Computation","","",1823896
 1948295,"interop-2025-urlpattern","[meta] [Interop 2025] URLPattern","Core","DOM: Networking","","",1731418
 1948300,"interop-2025-webrtc","[meta] [Interop 2025] WebRTC","Core","WebRTC","","","1927886;1948971"
-1948302,"interop-2025-webcompat","[meta] [Interop 2025] Web Compat","Core","General","","platform-scheduled: 2025-06-30","1730147;1941949"
+1948302,"interop-2025-webcompat","[meta] [Interop 2025] Web Compat","Core","General","","","1730147;1941949"
 1948305,"interop-2025-modules","[meta] [Interop 2025] Modules","Core","JavaScript Engine","","platform-scheduled:2025-06-30",1736059
 1948307,"interop-2025-text-decoration","[Meta] [Interop 2025] text-decoration","Core","Layout: Text and Fonts","","",""
 1948310,"interop-2025-webassembly","[meta] [Interop 2025] WebAssembly","Core","JavaScript: WebAssembly","","",""
