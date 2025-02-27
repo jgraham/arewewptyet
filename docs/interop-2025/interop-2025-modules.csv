@@ -1,29 +1,29 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/html/semantics/scripting-1/the-script-element/json-module/invalid-content-type.any.sharedworker.html",1,0,0,1846737
 "/html/semantics/scripting-1/the-script-element/json-module/cors-crossorigin-requests.html",2,0,0,1706244
+"/html/semantics/scripting-1/the-script-element/json-module/invalid-content-type.any.sharedworker.html",1,0,0,1846737
 "/html/semantics/scripting-1/the-script-element/json-module/charset.html",1,0,2,1707081
-"/html/semantics/scripting-1/the-script-element/import-attributes/empty-attributes-clause.html",2,0,0,""
 "/html/semantics/scripting-1/the-script-element/import-attributes/dynamic-import-with-attributes-argument.any.html",1,0,0,1846737
-"/html/semantics/scripting-1/the-script-element/import-attributes/invalid-type-attribute-error.html",1,0,0,""
 "/html/semantics/scripting-1/the-script-element/json-module/charset-2.html",1,0,0,1707081
-"/html/semantics/scripting-1/the-script-element/json-module/repeated-imports.any.sharedworker.html",1,0,3,1846737
-"/html/semantics/scripting-1/the-script-element/json-module/charset-bom.any.sharedworker.html",1,0,2,1846737
-"/html/semantics/scripting-1/the-script-element/json-module/non-object.any.worker.html",1,0,0,1846737
-"/html/semantics/scripting-1/the-script-element/import-attributes/dynamic-import-with-attributes-argument.any.worker.html",1,0,0,1846737
+"/html/semantics/scripting-1/the-script-element/import-attributes/invalid-type-attribute-error.html",1,0,0,""
 "/html/semantics/scripting-1/the-script-element/json-module/non-object.any.html",1,0,0,1846737
-"/html/semantics/scripting-1/the-script-element/import-attributes/dynamic-import-with-attributes-argument.any.sharedworker.html",1,0,0,1846737
-"/html/semantics/scripting-1/the-script-element/json-module/parse-error.html",1,1,1,""
+"/html/semantics/scripting-1/the-script-element/import-attributes/dynamic-import-with-attributes-argument.any.worker.html",1,0,0,1846737
+"/html/semantics/scripting-1/the-script-element/import-attributes/empty-attributes-clause.html",2,0,0,""
+"/html/semantics/scripting-1/the-script-element/json-module/non-object.any.worker.html",1,0,0,1846737
+"/html/semantics/scripting-1/the-script-element/json-module/charset-bom.any.sharedworker.html",1,0,2,1846737
+"/html/semantics/scripting-1/the-script-element/json-module/repeated-imports.any.sharedworker.html",1,0,2,1846737
 "/html/semantics/scripting-1/the-script-element/json-module/integrity.html",1,0,0,1707081
 "/html/semantics/scripting-1/the-script-element/json-module/charset-bom.any.worker.html",1,0,2,1846737
-"/html/semantics/scripting-1/the-script-element/json-module/referrer-policies.sub.html",1,0,0,1706244
-"/html/semantics/scripting-1/the-script-element/json-module/repeated-imports.any.worker.html",1,0,3,1846737
+"/html/semantics/scripting-1/the-script-element/json-module/credentials.sub.html",1,0,0,1706244
+"/html/semantics/scripting-1/the-script-element/json-module/load-error-events.html",9,0,2,""
+"/html/semantics/scripting-1/the-script-element/json-module/json-module-service-worker-test.https.html",2,0,0,1846737
 "/html/semantics/scripting-1/the-script-element/json-module/non-object.any.sharedworker.html",1,0,0,1846737
+"/html/semantics/scripting-1/the-script-element/json-module/repeated-imports.any.worker.html",1,0,3,1846737
+"/html/semantics/scripting-1/the-script-element/json-module/referrer-policies.sub.html",1,0,0,1706244
+"/html/semantics/scripting-1/the-script-element/import-attributes/dynamic-import-with-attributes-argument.any.sharedworker.html",1,0,0,1846737
+"/html/semantics/scripting-1/the-script-element/json-module/parse-error.html",1,1,1,""
 "/html/semantics/scripting-1/the-script-element/json-module/repeated-imports.any.html",1,0,3,1846737
 "/html/semantics/scripting-1/the-script-element/json-module/valid-content-type.html",7,2,0,"1692131 1707081 1722982 1803996"
-"/html/semantics/scripting-1/the-script-element/json-module/load-error-events.html",9,0,2,""
-"/html/semantics/scripting-1/the-script-element/json-module/credentials.sub.html",1,0,0,1706244
-"/html/semantics/scripting-1/the-script-element/json-module/json-module-service-worker-test.https.html",2,0,0,1846737
 "/html/semantics/scripting-1/the-script-element/json-module/invalid-content-type.any.html",1,0,0,1846737
 "/html/semantics/scripting-1/the-script-element/json-module/module.html",2,0,0,"1692131 1722982"
-"/html/semantics/scripting-1/the-script-element/json-module/charset-bom.any.html",1,0,2,1846737
 "/html/semantics/scripting-1/the-script-element/json-module/invalid-content-type.any.worker.html",1,0,0,1846737
+"/html/semantics/scripting-1/the-script-element/json-module/charset-bom.any.html",1,0,2,1846737
