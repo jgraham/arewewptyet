@@ -328,13 +328,15 @@ struct BugData {
 
 fn get_bug_data(client: &reqwest::blocking::Client, year: u64) -> Result<Option<Vec<BugData>>> {
     let data_path = Path::new("../docs/bugzilla_bugs.json");
-    let bugs: BTreeMap<String, Vec<String>> = serde_json::from_reader(fs::File::open(&data_path)?)?;
+    let bugs: BTreeMap<String, Vec<String>> = serde_json::from_reader(fs::File::open(data_path)?)?;
     if let Some(aliases) = bugs.get(&year.to_string()) {
         let bugzilla_url = format!("https://bugzilla.mozilla.org/rest/bug?alias={}&include_fields=id,summary,alias,product,component,resolution,depends_on,cf_user_story", aliases.join(","));
         let resp = network::get(client, &bugzilla_url, None)?;
         println!("{}", resp);
         let bug_data: BugResponse = serde_json::from_str(&resp)?;
-        Ok(Some(bug_data.bugs))
+        let mut bugs = bug_data.bugs;
+        bugs.sort_by(|a, b| a.id.cmp(&b.id));
+        Ok(Some(bugs))
     } else {
         Ok(None)
     }
