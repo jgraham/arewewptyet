@@ -71,8 +71,8 @@ def main():
     git("fetch", remote_url, log=False)
     git("status", log=True)
     git("reset", hard=True)
-    git("rebase", "origin/master")
-    git("push", remote_url, "HEAD:master", log=False)
+    git("rebase", "origin/main")
+    git("push", remote_url, "HEAD:main", log=False)
 
 
 if __name__ == "__main__":
