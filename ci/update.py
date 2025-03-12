@@ -70,6 +70,7 @@ def main():
 
     git("fetch", remote_url, log=False)
     git("status", log=True)
+    git("reset", hard=True)
     git("rebase", "origin/master")
     git("push", remote_url, "HEAD:master", log=False)
 
