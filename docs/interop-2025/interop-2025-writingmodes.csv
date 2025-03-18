@@ -1,14 +1,14 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-logical/logical-box-border-color.html",0,0,0,""
 "/css/css-logical/logical-box-padding.html",0,0,0,137688
+"/css/css-logical/logical-box-border-color.html",0,0,0,""
 "/css/css-writing-modes/block-flow-direction-srl-057.xht",1,0,1,1950732
-"/css/css-logical/logical-box-inset.html",0,0,0,137688
-"/css/css-writing-modes/line-box-direction-slr-056.xht",1,0,1,1950758
-"/css/css-logical/logical-box-border-shorthands.html",0,0,0,""
-"/css/css-writing-modes/line-box-direction-srl-055.xht",1,0,1,1950758
 "/css/css-logical/logical-box-size.html",0,0,0,""
-"/css/css-logical/logical-box-border-width.html",0,0,0,""
-"/css/css-logical/logical-box-border-style.html",0,0,0,""
+"/css/css-writing-modes/line-box-direction-srl-055.xht",1,0,1,1950758
+"/css/css-logical/logical-box-border-shorthands.html",0,0,0,""
+"/css/css-writing-modes/line-box-direction-slr-056.xht",1,0,1,1950758
 "/css/css-logical/logical-box-border-radius.html",0,0,0,""
+"/css/css-logical/logical-box-inset.html",0,0,0,137688
+"/css/css-logical/logical-box-border-style.html",0,0,0,""
+"/css/css-logical/logical-box-border-width.html",0,0,0,""
 "/css/css-writing-modes/wm-propagation-body-044.html",1,0,1,1950721
 "/css/css-logical/logical-box-margin.html",0,0,0,137688
