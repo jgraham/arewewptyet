@@ -1,7 +1,7 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/pointerevents/pointerevent_click_during_capture.html?mouse-click",2,0,2,"1655753 1885232"
-"/pointerevents/pointerevent_click_during_capture.html?mouse-auxclick",2,0,2,1885232
-"/pointerevents/idlharness.https.window.html",7,0,7,"1647540 1656377"
 "/pointerevents/pointerevent_setpointercapture_inactive_button_mouse.html",1,0,0,""
+"/pointerevents/idlharness.https.window.html",7,0,7,"1647540 1656377"
+"/pointerevents/pointerevent_click_during_capture.html?mouse-auxclick",2,0,2,1885232
 "/pointerevents/pointerevent_after_target_appended.html?mouse",2,0,2,"1885223 1914546 1918418"
 "/pointerevents/pointerevent_lostpointercapture_remove_setcapture_node.html",2,1,1,""
