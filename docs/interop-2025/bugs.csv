@@ -6,7 +6,8 @@
 1948271,"interop-2025-scope","[meta] [Interop 2025] Scope","Core","CSS Parsing and Computation","","",1830512
 1948273,"interop-2025-mutation-events","[meta] [Interop 2025] Remove mutation events","Core","DOM: Events","","platform-scheduled:2025-03-15",769207
 1948275,"interop-2025-navigation-api","[meta] [Interop 2025] Navigation API","Core","DOM: Navigation","","platform-scheduled:2025-10-10",1777171
-1948278,"interop-2025-backdrop-filter","[meta] [Interop 2025] backdrop-filter","Core","Graphics: WebRender","","platform-scheduled:2025-10-09",""
+1948278,"interop-2025-backdrop-filter","[meta] [Interop 2025] backdrop-filter","Core","Graphics: WebRender","","platform-scheduled:2025-10-09
+target-release:146",""
 1948280,"interop-2025-storageaccess","[meta] [Interop 2025] Storage Access API","Core","Privacy: Anti-Tracking","","platform-scheduled:2025-03-10",""
 1948284,"interop-2025-core-web-vitals","[meta] [interop 2025] Core Web Vitals","Core","Performance","","platform-scheduled: 2025-06-30","1934683;1948647;1950098"
 1948286,"interop-2025-scrollend","[meta] [Interop 2025] scrollend event","Core","Panning and Zooming","","","1785102;1945692"
