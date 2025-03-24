@@ -1,18 +1,18 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/dom/events/scrolling/scrollend-event-fired-for-programmatic-scroll.html?include=subframe-scrollBy-smooth",2,0,2,""
 "/dom/events/scrolling/scrollend-event-handler-content-attributes.html",4,0,4,""
 "/dom/events/scrolling/scrollend-event-fired-for-programmatic-scroll.html?include=subframe-scrollTo-smooth",2,0,2,""
-"/dom/events/scrolling/scrollend-event-fired-for-scrollIntoView.html?include=nested-scrollIntoView",2,0,2,1655754
-"/dom/events/scrolling/scrollend-event-fired-for-scrollIntoView.html?include=root-inline-end-block-end-behavior-auto",2,0,1,1655754
-"/dom/events/scrolling/scrollend-event-fired-to-document.html",3,0,3,"1655754 1811135 1884233"
-"/dom/events/scrolling/scrollend-event-fired-for-programmatic-scroll.html?include=root-scrollBy-smooth",2,0,2,""
-"/dom/events/scrolling/scrollend-event-fired-for-scroll-attr-change.html?include=root-scrollTop-smooth",2,0,2,""
-"/dom/events/scrolling/scrollend-with-snap-on-fractional-offset.html",1,0,1,""
-"/dom/events/scrolling/scrollend-event-fired-for-scroll-attr-change.html?include=subframe-scrollLeft-smooth",2,0,2,""
 "/dom/events/scrolling/scrollend-event-fired-for-programmatic-scroll.html?include=root-scrollTo-smooth",2,0,2,""
+"/dom/events/scrolling/scrollend-event-fired-for-programmatic-scroll.html?include=subframe-scrollBy-smooth",2,0,2,""
 "/dom/events/scrolling/scrollend-event-fired-for-scrollIntoView.html?include=subframe-inline-end-block-end-behavior-auto",2,0,1,1655754
-"/dom/events/scrolling/scrollend-event-fired-for-scroll-attr-change.html?include=root-scrollLeft-smooth",2,0,2,""
-"/dom/events/scrolling/scrollend-event-fired-for-mandatory-snap-point-after-load.html",2,0,1,""
-"/dom/events/scrolling/scrollend-event-fired-for-scroll-attr-change.html?include=subframe-scrollTop-smooth",2,0,2,""
+"/dom/events/scrolling/scrollend-event-fired-for-scrollIntoView.html?include=root-inline-end-block-end-behavior-auto",2,0,1,1655754
 "/dom/events/scrolling/scrollend-event-fired-to-window.html",2,0,2,"1655754 1811135 1884233"
-"/dom/events/scrolling/scrollend-event-not-fired-on-no-scroll.html",4,0,3,""
+"/dom/events/scrolling/scrollend-event-fired-for-scroll-attr-change.html?include=subframe-scrollTop-smooth",2,0,2,""
+"/dom/events/scrolling/scrollend-event-fired-for-scroll-attr-change.html?include=subframe-scrollLeft-smooth",2,0,2,""
+"/dom/events/scrolling/scrollend-event-fired-for-scrollIntoView.html?include=nested-scrollIntoView",2,0,2,1655754
+"/dom/events/scrolling/scrollend-with-snap-on-fractional-offset.html",1,0,1,""
+"/dom/events/scrolling/scrollend-event-fired-for-mandatory-snap-point-after-load.html",2,0,1,""
+"/dom/events/scrolling/scrollend-event-fired-for-scroll-attr-change.html?include=root-scrollLeft-smooth",2,0,2,""
+"/dom/events/scrolling/scrollend-event-fired-for-programmatic-scroll.html?include=root-scrollBy-smooth",2,0,2,""
+"/dom/events/scrolling/scrollend-event-fired-to-document.html",3,0,3,"1655754 1811135 1884233"
+"/dom/events/scrolling/scrollend-event-fired-for-scroll-attr-change.html?include=root-scrollTop-smooth",2,0,2,""
+"/dom/events/scrolling/scrollend-event-not-fired-on-no-scroll.html",4,0,2,""
