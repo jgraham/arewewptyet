@@ -1,19 +1,19 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/html/rendering/the-details-element/details-pseudo-elements-004.html",1,0,1,1901037
-"/html/editing/the-hidden-attribute/beforematch-scroll-to-text-fragment.html",3,0,3,1761043
-"/html/editing/the-hidden-attribute/beforematch-element-fragment-navigation.html",8,0,8,1761043
 "/html/rendering/the-details-element/details-pseudo-elements-003.html",1,0,0,1901037
 "/html/rendering/the-details-element/auto-expand-details-text-fragment.html",1,0,1,1761043
-"/html/editing/the-hidden-attribute/hidden-until-found-text-fragment.html",1,0,1,1761043
-"/html/editing/the-hidden-attribute/hidden-until-found-007.html",1,0,1,1761043
-"/html/rendering/the-details-element/details-summary-display-inline-002.html",1,0,0,1901037
-"/html/rendering/the-details-element/details-pseudo-elements-002.html",1,0,0,1901037
-"/html/editing/the-hidden-attribute/hidden-until-found-001.html",1,0,1,1761043
-"/html/rendering/the-details-element/details-pseudo-elements-005.html",1,0,1,1901037
-"/html/editing/the-hidden-attribute/hidden-until-found-005.html",1,0,1,1761043
-"/html/editing/the-hidden-attribute/hidden-until-found-002.html",1,0,0,1761043
-"/html/rendering/the-details-element/details-pseudo-elements-001.html",1,0,0,"1871066 1901037"
-"/html/editing/the-hidden-attribute/hidden-until-found-004.html",1,0,1,1761043
-"/html/editing/the-hidden-attribute/hidden-idl.html",3,0,3,1761043
+"/html/rendering/the-details-element/details-pseudo-elements-004.html",1,0,1,1901037
+"/html/editing/the-hidden-attribute/beforematch-element-fragment-navigation.html",8,0,8,1761043
 "/html/editing/the-hidden-attribute/hidden-ua-stylesheet.html",3,0,3,"1760492 1761043"
+"/html/rendering/the-details-element/details-pseudo-elements-005.html",1,0,1,1901037
+"/html/editing/the-hidden-attribute/hidden-until-found-001.html",1,0,1,1761043
+"/html/editing/the-hidden-attribute/hidden-until-found-005.html",1,0,1,1761043
+"/html/editing/the-hidden-attribute/hidden-idl.html",3,0,3,1761043
+"/html/rendering/the-details-element/details-pseudo-elements-001.html",1,0,0,"1871066 1901037"
+"/html/editing/the-hidden-attribute/hidden-until-found-002.html",1,0,0,1761043
+"/html/editing/the-hidden-attribute/beforematch-scroll-to-text-fragment.html",3,0,3,1761043
+"/html/editing/the-hidden-attribute/hidden-until-found-text-fragment.html",1,0,1,1761043
+"/html/rendering/the-details-element/details-pseudo-elements-002.html",1,0,0,1901037
+"/html/rendering/the-details-element/details-summary-display-inline-002.html",1,0,0,1901037
+"/html/editing/the-hidden-attribute/hidden-until-found-007.html",1,0,1,1761043
 "/html/rendering/the-details-element/details-pseudo-elements-006.html",1,0,0,1901037
+"/html/editing/the-hidden-attribute/hidden-until-found-004.html",1,0,1,1761043
