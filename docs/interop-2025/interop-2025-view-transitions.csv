@@ -137,7 +137,7 @@
 "/css/css-view-transitions/only-child-view-transition.html",1,0,0,1866380
 "/css/css-view-transitions/pseudo-with-classes-view-transition-group.html",1,0,1,1910662
 "/css/css-view-transitions/group-animation-for-root-transition.html",1,0,0,"1842695 1842710 1866380"
-"/css/css-view-transitions/capture-with-offscreen-child.html",1,0,0,""
+"/css/css-view-transitions/capture-with-offscreen-child.html",1,0,0,1958394
 "/css/css-view-transitions/new-content-ancestor-clipped.html",1,0,0,""
 "/css/css-view-transitions/new-content-is-empty-div.html",1,0,0,1819697
 "/css/css-view-transitions/new-content-captures-opacity.html",1,0,0,1819697
@@ -153,7 +153,7 @@
 "/css/css-view-transitions/active-view-transition-pseudo-class-match.html",1,0,0,1902802
 "/css/css-view-transitions/transition-in-empty-iframe.html",1,0,0,""
 "/css/css-view-transitions/web-animations-api-parse-pseudo-argument.html?first-pseudo=::view-transition-group(first )",1,0,0,""
-"/css/css-view-transitions/capture-with-visibility-mixed-descendants.html",1,0,0,""
+"/css/css-view-transitions/capture-with-visibility-mixed-descendants.html",1,0,0,1958394
 "/css/css-view-transitions/new-content-ancestor-clipped-2.html",1,0,0,1901416
 "/css/css-view-transitions/new-content-captures-positioned-spans.html",1,0,0,1819697
 "/css/css-view-transitions/new-content-inline-with-offset-from-containing-block-clipped.html",1,0,0,""
@@ -198,7 +198,7 @@
 "/css/css-view-transitions/match-element-name.html",1,0,0,""
 "/css/css-view-transitions/modify-style-via-cssom.html",1,0,0,""
 "/css/css-view-transitions/unset-and-initial-view-transition-name.html",1,0,0,""
-"/css/css-view-transitions/capture-with-visibility-hidden-child.html",1,0,0,""
+"/css/css-view-transitions/capture-with-visibility-hidden-child.html",1,0,0,1958394
 "/css/css-view-transitions/new-content-changes-overflow.html",1,0,0,1825954
 "/css/css-view-transitions/fractional-box-new.html",1,0,1,""
 "/css/css-view-transitions/old-content-is-inline.html",1,0,0,""
@@ -250,7 +250,7 @@
 "/css/css-view-transitions/3d-transform-incoming.html",1,0,0,1819697
 "/css/css-view-transitions/fragmented-during-transition-skips.html",1,0,1,""
 "/css/css-view-transitions/parsing/pseudo-elements-valid-with-classes.html",164,0,0,1877287
-"/css/css-view-transitions/capture-with-offscreen-child-translated.html",1,0,0,""
+"/css/css-view-transitions/capture-with-offscreen-child-translated.html",1,0,0,1958394
 "/css/css-view-transitions/new-content-from-root-display-none.html",1,0,0,1888110
 "/css/css-view-transitions/no-raf-while-render-blocked.html",1,1,0,1888110
 "/css/css-view-transitions/fractional-box-with-overflow-children-old.html",1,0,1,1832964
