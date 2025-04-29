@@ -1,12 +1,12 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-viewport/zoom/word-spacing.html",1,0,1,1911195
-"/css/css-viewport/zoom/text-stroke-width.html",1,0,1,1911195
-"/css/css-overscroll-behavior/overscroll-behavior-root.html",1,1,0,1951775
-"/css/css-viewport/zoom/stroke.html",1,0,1,1951003
-"/shadow-dom/Document-caretPositionFromPoint.tentative.html",1,0,1,"1914596 1944404"
+"/css/css-viewport/zoom/word-spacing.html",1,1,1,1911195
+"/css/css-viewport/zoom/text-stroke-width.html",1,1,1,1911195
+"/shadow-dom/Document-caretPositionFromPoint.tentative.html",1,1,1,"1914596 1944404"
+"/css/css-viewport/zoom/line-height.html",1,1,1,1911195
+"/css/css-viewport/zoom/stroke.html",1,1,1,1951003
+"/css/css-viewport/zoom/letter-spacing.html",1,1,1,1911195
 "/css/css-viewport/zoom/text-underline-offset.html",1,0,0,1911195
-"/css/css-viewport/zoom/letter-spacing.html",1,0,1,1911195
-"/css/css-viewport/zoom/line-height.html",1,0,1,1911195
-"/css/css-viewport/zoom/text-shadow.html",1,0,1,1911195
-"/css/css-viewport/zoom/text-indent.html",1,0,1,1911195
-"/css/css-viewport/zoom/border-spacing.html",1,0,1,1911195
+"/css/css-viewport/zoom/border-spacing.html",1,1,1,1911195
+"/css/css-overscroll-behavior/overscroll-behavior-root.html",1,0,0,1951775
+"/css/css-viewport/zoom/text-shadow.html",1,1,1,1911195
+"/css/css-viewport/zoom/text-indent.html",1,1,1,1911195
