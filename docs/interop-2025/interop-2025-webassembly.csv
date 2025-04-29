@@ -1,5 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/wasm/jsapi/memory/to-resizable-buffer.any.worker.html",3,3,3,""
 "/wasm/jsapi/memory/to-fixed-length-buffer.any.html",1,1,1,""
-"/wasm/jsapi/memory/to-fixed-length-buffer.any.worker.html",1,1,1,""
+"/wasm/jsapi/memory/to-resizable-buffer.any.worker.html",3,3,3,""
 "/wasm/jsapi/memory/to-resizable-buffer.any.html",3,3,3,""
+"/wasm/jsapi/memory/to-fixed-length-buffer.any.worker.html",1,1,1,""
