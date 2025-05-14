@@ -1,5 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/pointerevents/pointerevent_pointerout_no_pointer_movement.html",2,2,2,""
-"/pointerevents/idlharness.https.window.html",7,7,7,"1647540 1656377"
-"/pointerevents/pointerevent_after_target_appended.html?mouse",2,2,2,"1885223 1914546 1918418"
+"/pointerevents/idlharness.https.window.html",7,0,7,"1647540 1656377"
+"/pointerevents/pointerevent_pointerout_no_pointer_movement.html",2,0,2,""
+"/pointerevents/pointerevent_after_target_appended.html?mouse",2,0,2,"1885223 1914546 1918418"
 "/pointerevents/pointerevent_lostpointercapture_remove_setcapture_node.html",2,1,1,""
