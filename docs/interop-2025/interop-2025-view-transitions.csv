@@ -13,7 +13,7 @@
 "/css/css-view-transitions/massive-element-on-top-of-viewport-partially-onscreen-old.html",1,0,0,1888110
 "/css/css-view-transitions/massive-element-below-viewport-offscreen-old.html",1,0,0,""
 "/css/css-view-transitions/pseudo-with-classes-multiple-vt-classes.html",1,0,0,1910662
-"/css/css-view-transitions/content-with-transform-old-image.html",1,0,0,""
+"/css/css-view-transitions/content-with-transform-old-image.html",1,0,0,1966905
 "/css/css-view-transitions/inline-child-with-overflow-shadow.html",1,0,0,1924965
 "/css/css-view-transitions/paint-holding-in-iframe.html",1,0,1,""
 "/css/css-view-transitions/massive-element-below-viewport-offscreen-new.html",1,0,0,""
@@ -29,7 +29,7 @@
 "/css/css-view-transitions/old-content-with-overflow-zoomed.html",1,0,1,1819697
 "/css/css-view-transitions/massive-element-right-and-left-of-viewport-partially-onscreen-new.html",1,0,0,1888110
 "/css/css-view-transitions/massive-element-on-top-of-viewport-offscreen-new.html",1,0,0,1825883
-"/css/css-view-transitions/content-with-transform-new-image.html",1,0,0,""
+"/css/css-view-transitions/content-with-transform-new-image.html",1,0,0,1966905
 "/css/css-view-transitions/no-crash-set-exception.html",1,1,0,1867829
 "/css/css-view-transitions/content-with-clip.html",1,0,0,1811571
 "/css/css-view-transitions/massive-element-right-of-viewport-partially-onscreen-new.html",1,0,0,1888110
@@ -66,7 +66,7 @@
 "/css/css-view-transitions/fractional-translation-from-position.html",1,0,1,1817261
 "/css/css-view-transitions/fractional-box-old.html",1,0,1,""
 "/css/css-view-transitions/far-away-capture.html",1,0,0,1819697
-"/css/css-view-transitions/inline-with-offset-from-containing-block.html",1,0,0,""
+"/css/css-view-transitions/inline-with-offset-from-containing-block.html",1,0,0,1966905
 "/css/css-view-transitions/parsing/view-transition-class-valid.html",6,0,0,""
 "/css/css-view-transitions/class-specificity.html",1,0,0,""
 "/css/css-view-transitions/3d-transform-outgoing.html",1,0,0,""
