@@ -1,1 +1,17 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
+"/css/css-text-decor/parsing/text-decoration-line-invalid.html",14,0,0,""
+"/css/css-text-decor/parsing/text-decoration-style-computed.html",5,0,0,""
+"/css/css-text-decor/parsing/text-decoration-invalid.html",3,0,0,""
+"/css/css-text-decor/parsing/text-decoration-computed.html",12,12,12,""
+"/css/css-text-decor/parsing/text-decoration-color-valid.html",3,0,0,""
+"/css/css-text-decor/parsing/text-decoration-line-valid.html",67,2,2,1694053
+"/css/css-text-decor/parsing/text-decoration-shorthand.html",5,5,5,""
+"/css/css-text-decor/parsing/text-decoration-valid.html",15,13,13,""
+"/css/css-text-decor/parsing/text-decoration-color-invalid.html",4,0,0,""
+"/css/css-text-decor/parsing/text-decoration-line-computed.html",18,10,10,1694053
+"/css/css-text-decor/parsing/text-decoration-style-invalid.html",2,0,0,""
+"/css/css-text-decor/parsing/text-decoration-skip-ink-invalid.html",9,0,0,""
+"/css/css-text-decor/parsing/text-decoration-skip-ink-valid.html",2,0,0,""
+"/css/css-text-decor/parsing/text-decoration-skip-ink-computed.html",2,0,0,""
+"/css/css-text-decor/parsing/text-decoration-color-computed.html",3,0,0,""
+"/css/css-text-decor/parsing/text-decoration-style-valid.html",5,0,0,""
