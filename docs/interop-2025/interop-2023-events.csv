@@ -1,43 +1,4 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/pointerevents/pointerevent_mouse_capture_change_hover.html",3,0,0,"1655753 1885249"
-"/pointerevents/capturing_boundary_event_handler_at_ua_shadowdom.html?mouse",3,0,0,""
-"/pointerevents/pointerevent_movementxy.html?mouse",1,0,0,1655753
-"/pointerevents/pointerevent_pointercapture_in_frame.html?mouse",6,0,0,1700234
-"/uievents/mouse/mousemove_prevent_default_action.html",2,0,0,1823663
-"/pointerevents/pointerevent_pointerrawupdate.html",1,0,0,1655753
-"/pointerevents/pointerevent_auxclick_is_a_pointerevent.html?mouse",2,0,0,1675246
-"/pointerevents/pointerevent_releasepointercapture_events_to_original_target.html?mouse",19,0,0,""
-"/pointerevents/pointerevent_constructor.html",35,0,0,""
-"/pointerevents/pointerevent_hit_test_scroll_visible_descendant.html",1,0,0,""
-"/pointerevents/pointerup_after_pointerdown_target_removed.html?mouse",1,0,0,""
-"/pointerevents/pointerevent_after_target_removed.html?mouse",4,4,4,"1823658 1888013"
-"/pointerevents/pointerevent_mouse_pointercapture_inactivate_pointer.html",2,0,0,1664335
-"/html/semantics/disabled-elements/event-propagate-disabled.tentative.html",256,0,0,""
-"/pointerevents/pointerevent_contextmenu_is_a_pointerevent.html?mouse",2,0,0,1675246
-"/pointerevents/predicted_events_attributes.html?mouse",4,0,0,""
-"/uievents/mouse/mousemove_after_mouseover_target_removed.html",4,4,4,""
-"/pointerevents/pointerevent_attributes.html?mouse",102,0,0,""
-"/pointerevents/pointerevent_touch-action-keyboard.html",1,0,0,""
-"/uievents/mouse/attributes.html",1,0,0,""
-"/pointerevents/coalesced_events_attributes.https.html?mouse",4,0,0,1885287
-"/pointerevents/pointerevent_click_during_capture.html?mouse-click",6,3,3,"1655753 1885232"
-"/html/semantics/disabled-elements/disabled-event-dispatch.tentative.html",20,0,0,""
-"/pointerevents/pointerevent_boundary_events_at_implicit_release_hoverable_pointers.html",1,0,0,1645239
-"/pointerevents/pointerevent_click_during_capture.html?mouse-auxclick",6,3,3,1885232
-"/pointerevents/pointerevent_setpointercapture_inactive_button_mouse.html",1,0,0,""
-"/pointerevents/pointerevent_click_is_a_pointerevent.html?mouse",4,0,0,1710498
-"/pointerevents/idlharness.https.window.html",147,7,7,"1647540 1656377"
-"/pointerevents/pointerevent_pointerout_no_pointer_movement.html",2,2,2,""
-"/pointerevents/pointerevent_disabled_form_control.html?mouse",1,0,0,""
-"/pointerevents/pointerevent_sequence_at_implicit_release_on_click.html?mouse",2,1,1,""
-"/pointerevents/pointerevent_click_is_a_pointerevent_multiple_clicks.html?mouse",1,0,0,1710498
-"/pointerevents/pointerevent_capture_suppressing_mouse.html",2,1,1,"1680651 1793267"
-"/pointerevents/pointerevent_lostpointercapture_for_disconnected_node.html",4,1,1,""
-"/pointerevents/pointerevent_lostpointercapture_remove_setcapture_node.html",1,1,1,""
-"/pointerevents/pointerevent_pointermove_on_chorded_mouse_button.html",1,0,0,""
-"/html/user-activation/activation-trigger-pointerevent.html?mouse",1,0,0,""
-"/pointerevents/pointerevent_pointer_boundary_events_after_removing_last_over_element.html",2,2,2,""
-"/pointerevents/pointerevent_fractional_coordinates.html?mouse",2,1,1,1680669
-"/pointerevents/pointerevent_after_target_appended.html?mouse",8,6,6,"1885223 1914546 1918418"
-"/uievents/mouse/cancel-mousedown-in-subframe.html",2,0,0,""
-"/pointerevents/mouse-pointer-boundary-events-for-shadowdom.html",1,0,0,""
+"/pointerevents/idlharness.https.window.html",2,0,2,"1647540 1656377"
+"/pointerevents/pointerevent_pointerout_no_pointer_movement.html",2,0,2,""
+"/pointerevents/pointerevent_after_target_appended.html?mouse",2,0,2,"1885223 1914546 1918418"
