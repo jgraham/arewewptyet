@@ -1,3 +1,0 @@
-"Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/pointerevents/idlharness.https.window.html",2,0,2,"1647540 1656377"
-"/pointerevents/pointerevent_pointerout_no_pointer_movement.html",2,0,2,""
