@@ -1,26 +1,3 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/dom/events/scrolling/scrollend-event-handler-content-attributes.html",5,0,5,""
-"/dom/events/scrolling/scrollend-event-fired-for-programmatic-scroll.html?include=subframe-scrollBy-smooth",2,0,2,""
-"/dom/events/scrolling/scrollend-event-fired-for-programmatic-scroll.html?include=subframe-scrollTo-smooth",2,0,2,""
-"/dom/events/scrolling/scrollend-event-fired-for-programmatic-scroll.html?include=root-scrollTo-auto",2,0,2,""
-"/dom/events/scrolling/scrollend-event-fired-for-scroll-attr-change.html?include=root-scrollLeft-auto",2,0,2,""
-"/dom/events/scrolling/scrollend-event-fired-for-scrollIntoView.html?include=nested-scrollIntoView",2,0,2,1655754
-"/dom/events/scrolling/scrollend-event-fired-for-scroll-attr-change.html?include=subframe-scrollLeft-smooth",2,0,2,""
-"/dom/events/scrolling/scrollend-event-fired-for-scroll-attr-change.html?include=subframe-scrollTop-auto",2,0,2,""
-"/dom/events/scrolling/scrollend-event-fired-for-scroll-attr-change.html?include=root-scrollTop-smooth",2,0,2,""
-"/dom/events/scrolling/scrollend-event-fired-for-scroll-attr-change.html?include=subframe-scrollLeft-auto",2,0,2,""
-"/dom/events/scrolling/scrollend-event-fired-for-programmatic-scroll.html?include=root-scrollBy-smooth",2,0,2,""
 "/dom/events/scrolling/scrollend-event-fired-to-document.html",3,0,3,"1655754 1811135 1884233"
-"/dom/events/scrolling/scrollend-event-fired-for-scrollIntoView.html?include=root-inline-end-block-end-behavior-auto",2,0,1,1655754
-"/dom/events/scrolling/scrollend-event-fired-for-programmatic-scroll.html?include=subframe-scrollBy-auto",2,0,2,""
-"/dom/events/scrolling/scrollend-event-fired-for-scrollIntoView.html?include=subframe-inline-end-block-end-behavior-auto",2,0,1,1655754
-"/dom/events/scrolling/scrollend-event-fired-for-programmatic-scroll.html?include=root-scrollBy-auto",2,0,2,""
-"/dom/events/scrolling/scrollend-event-fired-for-scrollIntoView.html?include=root-inline-start-block-start-behavior-smooth",2,0,1,1655754
-"/dom/events/scrolling/scrollend-event-fired-for-programmatic-scroll.html?include=root-scrollTo-smooth",2,0,2,""
-"/dom/events/scrolling/scrollend-event-fired-for-scroll-attr-change.html?include=root-scrollLeft-smooth",2,0,2,""
-"/dom/events/scrolling/scrollend-event-fired-for-programmatic-scroll.html?include=subframe-scrollTo-auto",2,0,2,""
-"/dom/events/scrolling/scrollend-event-fired-for-scrollIntoView.html?include=subframe-inline-start-block-start-behavior-smooth",2,0,1,1655754
 "/dom/events/scrolling/scrollend-event-fired-to-window.html",2,0,2,"1655754 1811135 1884233"
-"/dom/events/scrolling/scrollend-event-fired-for-scroll-attr-change.html?include=subframe-scrollTop-smooth",2,0,2,""
-"/dom/events/scrolling/scrollend-event-fired-for-scroll-attr-change.html?include=root-scrollTop-auto",2,0,2,""
-"/dom/events/scrolling/scrollend-event-not-fired-on-no-scroll.html",3,0,2,""
