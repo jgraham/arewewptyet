@@ -1,7 +1,6 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/webrtc-encoded-transform/idlharness.https.window.html?include=SFrameTransform.*",17,17,17,""
+"/webrtc-encoded-transform/RTCRtpScriptTransform-sender-worker-single-frame.https.html",3,0,0,""
 "/webrtc/transfer-datachannel.html",5,0,0,""
 "/webrtc-encoded-transform/script-transform-sendKeyFrameRequest.https.html",1,1,0,""
 "/webrtc-encoded-transform/idlharness.https.window.html?exclude=SFrameTransform.*",5,3,3,""
-"/webrtc-encoded-transform/RTCRtpScriptTransform-sender-worker-single-frame.https.html",3,0,0,""
 "/webrtc-encoded-transform/script-metadata-transform.https.html",1,0,1,""
