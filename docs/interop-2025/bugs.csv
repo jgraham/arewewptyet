@@ -16,6 +16,6 @@ target-release:146",1952103
 1948295,"interop-2025-urlpattern","[meta] [Interop 2025] URLPattern","Core","DOM: Networking","","platform-scheduled:2025-06-30","1731418;1948330"
 1948300,"interop-2025-webrtc","[meta] [Interop 2025] WebRTC","Core","WebRTC","","platform-scheduled: 2025-09-01","1927886;1948971;1969293"
 1948302,"interop-2025-webcompat","[meta] [Interop 2025] Web Compat","Core","General","","platform-scheduled:2025-10-01","1914596;1944404;1951775;1964903;1730147;1938683;1941949;1948695;1951003;1951011;1951562;1955476"
-1948305,"interop-2025-modules","[meta] [Interop 2025] Modules","Core","JavaScript Engine","","platform-scheduled:2025-03-15","1736059;1951361;1970181"
+1948305,"interop-2025-modules","[meta] [Interop 2025] Modules","Core","JavaScript Engine","","platform-scheduled:2025-03-15","1736059;1970181"
 1948307,"interop-2025-text-decoration","[Meta] [Interop 2025] text-decoration","Core","Layout: Text and Fonts","","platform-scheduled:2025-03-10",1950844
 1948310,"interop-2025-webassembly","[meta] [Interop 2025] WebAssembly","Core","JavaScript: WebAssembly","","platform-scheduled:2025-06-30",1925083
