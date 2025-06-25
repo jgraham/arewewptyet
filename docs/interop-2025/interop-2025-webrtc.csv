@@ -1,4 +1,4 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/webrtc-encoded-transform/idlharness.https.window.html?exclude=SFrameTransform.*",5,3,3,""
 "/webrtc/transfer-datachannel.html",5,0,0,""
 "/webrtc-encoded-transform/RTCRtpScriptTransform-sender-worker-single-frame.https.html",3,0,0,""
+"/webrtc-encoded-transform/idlharness.https.window.html?exclude=SFrameTransform.*",5,3,3,""
