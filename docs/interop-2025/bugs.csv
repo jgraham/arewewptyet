@@ -7,7 +7,7 @@
 1948273,"interop-2025-mutation-events","[meta] [Interop 2025] Remove mutation events","Core","DOM: Events","","platform-scheduled:2025-05-15",769207
 1948275,"interop-2025-navigation-api","[meta] [Interop 2025] Navigation API","Core","DOM: Navigation","","platform-scheduled:2025-10-10","1663090;1777171"
 1948278,"interop-2025-backdrop-filter","[meta] [Interop 2025] backdrop-filter","Core","Graphics: WebRender","","platform-scheduled:2025-10-09
-target-release:146","1952103;1974907;1973148;1974096;1974106;1974343;1974351;1974906"
+target-release:146","1974907;1975352;1952103;1973148;1974096;1974106;1974343;1974351;1974906;1975059"
 1948280,"interop-2025-storageaccess","[meta] [Interop 2025] Storage Access API","Core","Privacy: Anti-Tracking","","platform-scheduled:2025-03-10",""
 1948284,"interop-2025-core-web-vitals","[meta] [interop 2025] Core Web Vitals","Core","Performance: General","","platform-scheduled: 2025-06-30","1950098;1968204;1974035;1934683;1948647;1954610;1963464;1963917;1965441;1972151"
 1948286,"interop-2025-scrollend","[meta] [Interop 2025] scrollend event","Core","Panning and Zooming","","","1785102;1945692;1955130;1964903"
