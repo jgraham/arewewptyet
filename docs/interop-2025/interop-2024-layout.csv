@@ -6,24 +6,24 @@
 "/css/css-grid/layout-algorithm/grid-container-percentage-002.html",15,0,0,"1481876 1634319"
 "/css/css-grid/grid-items/aspect-ratio-002.html",1,0,0,1740236
 "/css/css-grid/alignment/grid-row-axis-self-baseline-synthesized-001.html",2,0,0,"1609403 1712519 1878123"
-"/css/css-grid/grid-layout-properties.html",4,0,0,"1639412 1841663"
+"/css/css-grid/grid-layout-properties.html",4,0,0,"1639412 1841663 1976357"
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-rl-007.html",1,0,1,"1848253 1902793"
 "/css/css-grid/alignment/grid-align-baseline-grid-002.html",2,0,1,1848441
 "/css/css-grid/subgrid/subgrid-baseline-009.html",12,0,9,1841304
 "/css/css-grid/grid-definition/grid-auto-repeat-dynamic-003.html",1,0,0,1841677
-"/css/css-grid/subgrid/subgrid-baseline-002.html",1,0,0,""
+"/css/css-grid/subgrid/subgrid-baseline-002.html",1,0,0,1976357
 "/css/css-grid/alignment/grid-align-baseline-grid-003.html",2,0,1,1848441
-"/css/css-grid/grid-definition/grid-change-fit-content-argument-001.html",2,0,0,1841679
-"/css/css-grid/abspos/grid-positioned-items-implicit-grid-line-001.html",2,0,0,1500622
+"/css/css-grid/grid-definition/grid-change-fit-content-argument-001.html",2,0,0,"1841679 1976357"
+"/css/css-grid/abspos/grid-positioned-items-implicit-grid-line-001.html",2,0,0,"1500622 1976357"
 "/css/css-grid/layout-algorithm/grid-flex-track-intrinsic-sizes-002.html",1,0,0,1841696
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-changes-grid-area-size-007.html",1,0,0,1850053
 "/css/css-grid/grid-items/replaced-element-012.html",1,0,0,1841316
 "/css/css-flexbox/alignment/flex-align-baseline-multicol-003.html",2,0,2,1840944
-"/css/css-grid/grid-definition/grid-percentage-rows-indefinite-height-002.html",4,0,0,1841684
+"/css/css-grid/grid-definition/grid-percentage-rows-indefinite-height-002.html",4,0,0,"1841684 1976357"
 "/css/css-grid/subgrid/orthogonal-writing-mode-005.html",1,0,0,1866930
 "/css/css-grid/subgrid/subgrid-baseline-005.html",6,0,0,1841299
 "/css/css-flexbox/table-as-item-min-height-1.html",1,0,0,1840957
-"/css/css-grid/alignment/grid-content-alignment-second-pass-002.html",8,0,0,1850139
+"/css/css-grid/alignment/grid-content-alignment-second-pass-002.html",8,0,0,"1850139 1976357"
 "/css/css-grid/alignment/grid-self-baseline-not-applied-if-sizing-cyclic-dependency-003.html",2,0,2,1712251
 "/css/css-grid/grid-items/replaced-element-011.html",1,0,0,1841316
 "/css/css-grid/alignment/grid-align-baseline-grid-001.html",2,0,0,1848441
@@ -46,7 +46,7 @@
 "/css/css-grid/alignment/grid-self-baseline-not-applied-if-sizing-cyclic-dependency-001.html",5,0,0,1712251
 "/css/css-grid/subgrid/subgrid-baseline-008.html",11,0,0,1841303
 "/css/css-grid/layout-algorithm/flex-sizing-rows-indefinite-height.html",1,0,0,1841694
-"/css/css-grid/alignment/self-baseline/grid-self-baseline-changes-grid-area-size-011.html",1,0,0,1850053
+"/css/css-grid/alignment/self-baseline/grid-self-baseline-changes-grid-area-size-011.html",1,0,0,"1850053 1976357"
 "/css/css-grid/layout-algorithm/grid-template-flexible-rerun-track-sizing.html",1,0,0,1841699
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-horiz-007.html",1,0,1,1634325
 "/css/css-grid/grid-items/replaced-element-013.html",1,0,0,1841316
@@ -72,7 +72,7 @@
 "/css/css-grid/grid-model/grid-layout-stale-001.html",1,0,0,""
 "/css/css-grid/grid-items/aspect-ratio-005.html",1,0,0,1740236
 "/css/css-grid/alignment/grid-baseline-001.html",1,0,0,"1609403 1878127"
-"/css/css-grid/alignment/grid-column-axis-self-baseline-synthesized-001.html",4,0,0,"1609403 1878123"
+"/css/css-grid/alignment/grid-column-axis-self-baseline-synthesized-001.html",4,0,0,"1609403 1878123 1976357"
 "/css/css-grid/layout-algorithm/grid-intrinsic-size-with-orthogonal-items.html",1,0,0,1716493
 "/css/css-grid/layout-algorithm/flex-tracks-with-fractional-size.html",1,0,0,1737353
 "/css/css-grid/parsing/grid-template-columns-computed.html",1,0,0,1934563
@@ -81,7 +81,7 @@
 "/css/css-grid/alignment/self-baseline/grid-self-baseline-changes-grid-area-size-010.html",1,0,0,1850053
 "/css/css-grid/parsing/grid-columns-rows-get-set-multiple.html",1,0,0,"1481876 1675233"
 "/css/css-grid/subgrid/subgrid-stretch.html",1,0,0,1833486
-"/css/css-grid/grid-definition/grid-percentage-rows-indefinite-height-001.html",104,0,0,1841684
+"/css/css-grid/grid-definition/grid-percentage-rows-indefinite-height-001.html",104,0,0,"1841684 1976357"
 "/css/css-grid/alignment/grid-align-baseline-multicol-001.html",2,0,2,1840944
 "/css/css-flexbox/alignment/flex-align-baseline-grid-002.html",2,0,1,1840778
 "/css/css-grid/layout-algorithm/grid-intrinsic-size-dynamic-block-size.html",1,0,0,1841698
