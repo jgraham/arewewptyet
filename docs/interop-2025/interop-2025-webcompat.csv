@@ -1,2 +1,2 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/shadow-dom/Document-caretPositionFromPoint.tentative.html",1,1,1,"1914596 1944404"
+"/shadow-dom/Document-caretPositionFromPoint.tentative.html",1,0,1,"1914596 1944404"
