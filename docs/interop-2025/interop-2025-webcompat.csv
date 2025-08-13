@@ -1,3 +1,2 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/shadow-dom/Document-caretPositionFromPoint.tentative.html",1,0,1,"1914596 1944404"
-"/css/cssom/caretPositionFromPoint.html",2,0,2,1981837
