@@ -1,3 +1,4 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/storage-access-api/requestStorageAccess-nested-cross-origin-iframe.sub.https.window.html",1,0,0,""
+"/storage-access-api/requestStorageAccess-insecure.sub.window.html",2,0,1,""
 "/storage-access-api/storageAccess.testdriver.sub.html",1,0,0,""
+"/storage-access-api/hasStorageAccess-insecure.sub.window.html",1,0,0,""
