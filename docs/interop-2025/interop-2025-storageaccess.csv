@@ -1,2 +1,3 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/storage-access-api/storageAccess.testdriver.sub.html",1,0,0,""
+"/storage-access-api/hasStorageAccess.sub.https.window.html",1,0,0,""
