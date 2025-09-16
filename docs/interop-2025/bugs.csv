@@ -19,4 +19,4 @@ target-release:142","1785102;1945692;1955130;1964903"
 1948302,"interop-2025-webcompat","[meta] [Interop 2025] Web Compat","Core","General","","platform-scheduled:2025-10-01","1914596;1944404;1730147;1938683;1941949;1948695;1951003;1951011;1951562;1951775;1955476;1964903"
 1948305,"interop-2025-modules","[meta] [Interop 2025] Modules","Core","JavaScript Engine","","platform-scheduled:2025-03-15","1736059;1970181"
 1948307,"interop-2025-text-decoration","[Meta] [Interop 2025] text-decoration","Core","Layout: Text and Fonts","","platform-scheduled:2025-03-10","1950844;1978721;1980229;1980562"
-1948310,"interop-2025-webassembly","[meta] [Interop 2025] WebAssembly","Core","JavaScript: WebAssembly","","platform-scheduled:2025-06-30",1925083
+1948310,"interop-2025-webassembly","[meta] [Interop 2025] WebAssembly","Core","JavaScript: WebAssembly","","platform-scheduled:2025-06-30","1988694;1925083"
