@@ -2,8 +2,10 @@ use anyhow::Result;
 use serde::Serialize;
 use std::io::Read;
 
-pub fn client() -> reqwest::blocking::Client {
-    reqwest::blocking::Client::new()
+pub fn client() -> Result<reqwest::blocking::Client> {
+    Ok(reqwest::blocking::Client::builder()
+        .user_agent("wpt interop bot")
+        .build()?)
 }
 
 pub fn get(

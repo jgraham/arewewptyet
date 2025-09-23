@@ -383,7 +383,7 @@ fn write_bugzilla_data(year: u64, bug_data: &[BugData]) -> Result<()> {
 }
 
 pub fn run(year: u64) -> Result<()> {
-    let client = network::client();
+    let client = network::client()?;
     let fyi = Wptfyi::new(None);
 
     let runs = get_run_data(&fyi, &client)?;
