@@ -1,6 +1,6 @@
 name: Test
 
-on: [pull_request]
+on: pull_request
 
 jobs:
   test:
@@ -11,4 +11,3 @@ jobs:
       - uses: actions-rust-lang/setup-rust-toolchain@v1
       - name: Run tests
         run: "./ci/test.sh"
-            
