@@ -163,7 +163,7 @@ pub fn load_runs_data(path: &Path) -> Result<RunsData> {
 }
 
 pub fn run() -> Result<()> {
-    let client = network::client();
+    let client = network::client()?;
 
     let data_path = Path::new("../docs/runs.json");
     let mut runs_data = load_runs_data(data_path)?;

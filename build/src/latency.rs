@@ -200,7 +200,7 @@ fn load_sync_data(path: &Path) -> Result<SyncData> {
 }
 
 pub fn run() -> Result<()> {
-    let client = network::client();
+    let client = network::client()?;
 
     let sync_points_data = get_sync_commits(&client)?;
     let sync_points = extract_sync_points(&sync_points_data)?;
