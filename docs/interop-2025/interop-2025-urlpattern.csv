@@ -1,9 +1,9 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/urlpattern/urlpattern.https.any.sharedworker.html",18,0,0,1731418
 "/urlpattern/urlpattern.any.worker.html",18,0,0,1731418
-"/urlpattern/urlpattern.https.any.worker.html",18,0,0,1731418
 "/urlpattern/urlpattern.any.sharedworker.html",18,0,0,1731418
-"/urlpattern/urlpattern.https.any.html",18,0,0,1731418
-"/urlpattern/urlpattern.https.any.serviceworker.html",18,0,0,1731418
-"/urlpattern/urlpattern.any.html",18,0,0,1731418
 "/urlpattern/urlpattern.any.serviceworker.html",18,0,0,1731418
+"/urlpattern/urlpattern.https.any.serviceworker.html",18,0,0,1731418
+"/urlpattern/urlpattern.https.any.worker.html",18,0,0,1731418
+"/urlpattern/urlpattern.https.any.html",18,0,0,1731418
+"/urlpattern/urlpattern.any.html",18,0,0,1731418
