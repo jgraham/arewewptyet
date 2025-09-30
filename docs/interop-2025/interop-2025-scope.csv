@@ -1,5 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
+"/css/css-cascade/scope-invalidation.html",6,0,0,"1830512 1933903"
 "/css/css-cascade/scope-nesting.html",1,0,0,"1830512 1873611 1873614 1936293"
 "/css/css-cascade/at-scope-parsing.html",3,0,0,1830512
-"/css/css-cascade/scope-invalidation.html",6,0,0,"1830512 1933903"
 "/css/css-cascade/scope-visited.html",1,1,0,1830512
