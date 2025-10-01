@@ -2,3 +2,5 @@
 "/largest-contentful-paint/idlharness.html",1,0,1,""
 "/event-timing/modal-dialog-interrupt-paint.html",1,1,1,""
 "/largest-contentful-paint/image-upscaling.html",1,0,0,""
+"/event-timing/mousedown.html",1,0,1,""
+"/event-timing/duration-with-target-low.html",2,0,1,""
