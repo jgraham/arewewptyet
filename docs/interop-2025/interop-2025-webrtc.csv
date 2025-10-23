@@ -1,2 +1,1 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/webrtc-encoded-transform/idlharness.https.window.html?exclude=SFrameTransform.*",16,16,16,""
