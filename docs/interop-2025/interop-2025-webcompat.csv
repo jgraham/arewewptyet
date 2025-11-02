@@ -1,2 +1,3 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
+"/css/css-overscroll-behavior/overscroll-behavior-root.html",1,0,0,""
 "/shadow-dom/Document-caretPositionFromPoint.tentative.html",1,0,0,"1914596 1944404"
