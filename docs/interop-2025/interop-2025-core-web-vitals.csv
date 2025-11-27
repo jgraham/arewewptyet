@@ -1,3 +1,4 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/event-timing/idlharness.any.html",1,0,1,""
 "/largest-contentful-paint/image-upscaling.html",1,0,1,""
+"/event-timing/idlharness.any.html",1,0,1,""
+"/event-timing/min-duration-threshold.html",1,0,0,""
