@@ -16,7 +16,7 @@
 "/css/css-anchor-position/anchor-scroll-chained-003.html",1,1,0,1890460
 "/css/css-anchor-position/anchor-center-scroll.html",1,0,0,"2006352 2006478"
 "/css/css-anchor-position/at-position-try-invalidation-shadow-dom.html",2,0,0,1803731
-"/css/css-anchor-position/parsing/position-try-parsing.html",22,0,0,"1884990 1906329 1917050"
+"/css/css-anchor-position/parsing/position-try-parsing.html",22,0,0,"1884990 1906329 1917050 1989059"
 "/css/css-anchor-position/last-successful-change-try-rule.html",2,0,0,1897279
 "/css/css-anchor-position/last-successful-basic.html",1,0,0,"1897279 1906329"
 "/css/css-anchor-position/position-try-backdrop.html",1,0,0,1892117
@@ -45,7 +45,7 @@
 "/css/css-anchor-position/position-visibility-remove-no-overflow.html",1,0,0,1890874
 "/css/css-anchor-position/at-position-try-cssom.html",1,0,0,"1884939 1906329 1911925"
 "/css/css-anchor-position/anchor-scope-shadow-names.html",4,0,0,1920937
-"/css/css-anchor-position/parsing/position-try-computed.html",6,0,0,""
+"/css/css-anchor-position/parsing/position-try-computed.html",6,0,0,1989059
 "/css/css-anchor-position/anchor-position-multicol-011.html",1,0,0,1940929
 "/css/css-anchor-position/property-interpolations.html",84,0,0,"1879473 1885608 1897106 1906329 1911925"
 "/css/css-anchor-position/position-try-fallbacks-limit.html",1,0,0,""
