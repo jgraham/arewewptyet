@@ -1,0 +1,3 @@
+"Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
+"/storage-access-api/requestStorageAccess-insecure.sub.window.html",2,0,0,""
+"/storage-access-api/requestStorageAccess-sandboxed-iframe-allow-storage-access.sub.https.window.html",0,0,0,""
