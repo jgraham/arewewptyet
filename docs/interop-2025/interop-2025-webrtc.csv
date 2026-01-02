@@ -1,3 +1,2 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/webrtc-encoded-transform/RTCRtpScriptTransform-encoded-transform.https.html",5,0,0,""
-"/webrtc-encoded-transform/script-metadata-transform.https.html",1,0,0,""
+"/webrtc-encoded-transform/script-transform.https.html",2,0,0,""
