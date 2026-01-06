@@ -1,32 +1,32 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-anchor-position/position-anchor-002.html",1,0,0,""
 "/css/css-anchor-position/anchor-position-multicol-005.html",1,0,0,1816183
-"/css/css-anchor-position/anchor-scope-shadow-flat-tree.html",1,0,0,1920495
-"/css/css-anchor-position/anchor-position-multicol-002.html",1,0,0,"1816183 1989434"
+"/css/css-anchor-position/anchor-position-inline-004.html",1,0,1,"1816183 1990577"
+"/css/css-anchor-position/anchor-scroll-003.html",1,0,0,1842703
+"/css/css-anchor-position/last-successful-change-try-rule.html",1,0,0,1897279
+"/css/css-anchor-position/anchor-name-multicol-003.html",1,0,0,"1816183 1989431"
+"/css/css-anchor-position/anchor-scroll-position-try-007.html",1,0,0,"1823204 1842703"
 "/css/css-anchor-position/anchor-parse-valid.html",168,0,0,""
 "/css/css-anchor-position/anchor-scroll-chained-003.html",1,1,0,1890460
-"/css/css-anchor-position/anchor-name-multicol-003.html",1,0,0,"1816183 1989431"
-"/css/css-anchor-position/anchor-getComputedStyle-002.html",2,0,0,1886762
-"/css/css-anchor-position/last-successful-change-try-rule.html",1,0,0,1897279
-"/css/css-anchor-position/anchor-scroll-position-try-007.html",1,0,0,"1823204 1842703"
-"/css/css-anchor-position/anchor-inherited.html",1,0,0,2006481
 "/css/css-anchor-position/position-try-tree-scoped.html",4,0,0,1878994
+"/css/css-anchor-position/anchor-getComputedStyle-002.html",2,0,0,1886762
+"/css/css-anchor-position/anchor-inherited.html",1,0,0,2006481
+"/css/css-anchor-position/anchor-scope-shadow-flat-tree.html",1,0,0,1920495
 "/css/css-anchor-position/anchor-position-multicol-004.html",1,0,0,"1816183 1989434"
-"/css/css-anchor-position/anchor-name-cross-shadow.html",1,0,0,1800051
-"/css/css-anchor-position/at-position-try-invalidation-shadow-dom.html",2,0,0,1803731
-"/css/css-anchor-position/anchor-scroll-position-try-006.html",2,0,0,"1823204 1842703"
 "/css/css-anchor-position/anchor-position-multicol-008.html",1,0,0,1990577
 "/css/css-anchor-position/position-try-grid-001.html",1,0,0,1801938
+"/css/css-anchor-position/anchor-position-multicol-002.html",1,0,0,"1816183 1989434"
 "/css/css-anchor-position/last-successful-intermediate-ignored.html",1,0,0,1897279
-"/css/css-anchor-position/anchor-scope-shadow-all.html",1,0,0,""
-"/css/css-anchor-position/anchor-scroll-003.html",1,0,0,1842703
-"/css/css-anchor-position/anchor-position-inline-004.html",1,0,1,"1816183 1990577"
-"/css/css-anchor-position/anchor-position-multicol-011.html",1,0,0,1940929
+"/css/css-anchor-position/at-position-try-invalidation-shadow-dom.html",2,0,0,1803731
+"/css/css-anchor-position/anchor-name-cross-shadow.html",1,0,0,1800051
+"/css/css-anchor-position/at-position-try-cssom.html",1,0,0,"1884939 1906329 1911925"
 "/css/css-anchor-position/anchor-scope-shadow-names.html",4,0,0,1920937
-"/css/css-anchor-position/anchor-position-multicol-007.html",1,0,0,1990577
+"/css/css-anchor-position/anchor-position-multicol-011.html",1,0,0,1940929
 "/css/css-anchor-position/anchor-scroll-chained-002.html",1,0,0,1890460
 "/css/css-anchor-position/anchor-position-multicol-fixed-001.html",1,0,0,"1797705 1989431"
-"/css/css-anchor-position/at-position-try-cssom.html",1,0,0,"1884939 1906329 1911925"
+"/css/css-anchor-position/anchor-position-multicol-007.html",1,0,0,1990577
+"/css/css-anchor-position/anchor-scope-shadow-all.html",1,0,0,""
 "/css/css-anchor-position/position-try-cascade.html",1,0,0,1888130
 "/css/css-anchor-position/anchor-position-grid-001.html",1,0,0,"1816183 1990577"
+"/css/css-anchor-position/anchor-scroll-position-try-006.html",2,0,0,"1823204 1842703"
 "/css/css-anchor-position/at-position-try-invalidation.html",2,0,0,""
