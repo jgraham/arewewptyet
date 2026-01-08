@@ -1,3 +1,2 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/webrtc-encoded-transform/script-metadata-transform.https.html",12,0,0,""
 "/webrtc-encoded-transform/idlharness.https.window.html?exclude=(SFrameDecrypterStream|SFrameEncrypterStream|SFrameTransform.*)",17,17,17,""
