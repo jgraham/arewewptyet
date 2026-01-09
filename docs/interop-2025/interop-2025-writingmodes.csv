@@ -1,10 +1,10 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-logical/logical-box-border-color.html",0,0,0,""
 "/css/css-logical/logical-box-padding.html",0,0,0,137688
-"/css/css-logical/logical-box-inset.html",0,0,0,137688
-"/css/css-logical/logical-box-margin.html",0,0,0,137688
 "/css/css-logical/logical-box-border-radius.html",0,0,0,""
+"/css/css-logical/logical-box-margin.html",0,0,0,137688
 "/css/css-logical/logical-box-border-width.html",0,0,0,""
+"/css/css-logical/logical-box-inset.html",0,0,0,137688
 "/css/css-logical/logical-box-border-shorthands.html",0,0,0,""
 "/css/css-logical/logical-box-border-style.html",0,0,0,""
 "/css/css-logical/logical-box-size.html",0,0,0,""
