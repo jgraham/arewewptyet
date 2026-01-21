@@ -1,5 +1,4 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/event-timing/duration-with-target-low.html",2,0,0,""
-"/event-timing/pointerenter.html",1,0,0,""
 "/largest-contentful-paint/image-upscaling.html",1,0,0,"1974035 2004678"
+"/event-timing/duration-with-target-low.html",2,0,0,""
 "/event-timing/idlharness.any.html",1,0,1,2005317
