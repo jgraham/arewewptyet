@@ -11,6 +11,24 @@ use wptfyi::result::Status;
 use wptfyi::search::{AndClause, Clause, LabelClause, NotClause, OrClause, Query, ResultClause};
 use wptfyi::{interop, metadata, result, run, search, Wptfyi};
 
+struct InteropYear {
+    year: u64,
+    end_date: time::Date,
+}
+
+fn interop_years() -> Vec<InteropYear> {
+    vec![
+        InteropYear {
+            year: 2025,
+            end_date: time::Date::from_calendar_date(2026, time::Month::February, 12).unwrap(),
+        },
+        InteropYear {
+            year: 2026,
+            end_date: time::Date::from_calendar_date(2027, time::Month::February, 11).unwrap(),
+        },
+    ]
+}
+
 fn fx_failures_query(labels: &[&str]) -> Query {
     let pass_statuses = &[Status::Ok, Status::Pass];
 
@@ -382,7 +400,7 @@ fn write_bugzilla_data(year: u64, bug_data: &[BugData]) -> Result<()> {
     Ok(())
 }
 
-pub fn run(year: u64) -> Result<()> {
+pub fn run() -> Result<()> {
     let client = network::client()?;
     let fyi = Wptfyi::new(None);
 
@@ -393,44 +411,51 @@ pub fn run(year: u64) -> Result<()> {
         .collect::<Vec<i64>>();
 
     let interop_data = get_interop_data(&fyi, &client)?;
+    let today = time::OffsetDateTime::now_utc().date();
 
-    let interop_year_data = interop_data
-        .get(&year.to_string())
-        .ok_or_else(|| anyhow!("Failed to get Interop metadata"))?;
+    for interop_year in interop_years().iter() {
+        if interop_year.end_date < today {
+            continue;
+        }
+        let year = interop_year.year;
+        let interop_year_data = interop_data
+            .get(&year.to_string())
+            .ok_or_else(|| anyhow!("Failed to get Interop metadata"))?;
 
-    let interop_categories = get_interop_categories(&fyi, &client)?;
+        let interop_categories = get_interop_categories(&fyi, &client)?;
 
-    let interop_year_categories = interop_categories
-        .get(&year.to_string())
-        .ok_or_else(|| anyhow!("Failed to get Interop categories"))?;
-    let categories_by_name = interop_year_categories.by_name();
+        let interop_year_categories = interop_categories
+            .get(&year.to_string())
+            .ok_or_else(|| anyhow!("Failed to get Interop categories"))?;
+        let categories_by_name = interop_year_categories.by_name();
 
-    let metadata = get_metadata(&fyi, &client)?;
+        let metadata = get_metadata(&fyi, &client)?;
 
-    for (name, focus_area) in interop_year_data.focus_areas.iter() {
-        write_focus_area(
-            &fyi,
-            &client,
+        for (name, focus_area) in interop_year_data.focus_areas.iter() {
+            write_focus_area(
+                &fyi,
+                &client,
+                year,
+                name,
+                focus_area,
+                &run_ids,
+                &categories_by_name,
+                &metadata,
+            )?;
+        }
+
+        let scores =
+            get_interop_scores(&fyi, &client, year, interop::BrowserChannel::Experimental)?;
+        write_browser_interop_scores(
             year,
-            name,
-            focus_area,
-            &run_ids,
-            &categories_by_name,
-            &metadata,
+            &["firefox", "chrome", "safari"],
+            &scores,
+            interop_year_data,
         )?;
+
+        if let Some(bug_data) = get_bug_data(&client, year)? {
+            write_bugzilla_data(year, &bug_data)?;
+        }
     }
-
-    let scores = get_interop_scores(&fyi, &client, year, interop::BrowserChannel::Experimental)?;
-    write_browser_interop_scores(
-        year,
-        &["firefox", "chrome", "safari"],
-        &scores,
-        interop_year_data,
-    )?;
-
-    if let Some(bug_data) = get_bug_data(&client, year)? {
-        write_bugzilla_data(year, &bug_data)?;
-    }
-
     Ok(())
 }
