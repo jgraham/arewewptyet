@@ -8,7 +8,7 @@ use std::process;
 fn main() {
     env_logger::init();
 
-    let year = 2025;
+    let year = 2026;
     let results = [failures::run(), latency::run(), interop::run(year)];
 
     let errors = results
