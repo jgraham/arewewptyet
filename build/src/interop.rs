@@ -1,5 +1,6 @@
 use crate::network::{self, get, post};
 use anyhow::{anyhow, Result};
+use log::{debug, info};
 use serde::{Deserialize, Serialize};
 use std::collections::{BTreeMap, BTreeSet};
 use std::fs::{self, File};
@@ -350,7 +351,7 @@ fn get_bug_data(client: &reqwest::blocking::Client, year: u64) -> Result<Option<
     if let Some(aliases) = bugs.get(&year.to_string()) {
         let bugzilla_url = format!("https://bugzilla.mozilla.org/rest/bug?alias={}&include_fields=id,summary,alias,product,component,resolution,depends_on,cf_user_story", aliases.join(","));
         let resp = network::get(client, &bugzilla_url, None)?;
-        println!("{}", resp);
+        debug!("get_bug_data got: {}", resp);
         let bug_data: BugResponse = serde_json::from_str(&resp)?;
         let mut bugs = bug_data.bugs;
         bugs.sort_by(|a, b| a.id.cmp(&b.id));
@@ -418,6 +419,7 @@ pub fn run() -> Result<()> {
             continue;
         }
         let year = interop_year.year;
+        info!("Processing Interop {}", year);
         let interop_year_data = interop_data
             .get(&year.to_string())
             .ok_or_else(|| anyhow!("Failed to get Interop metadata"))?;

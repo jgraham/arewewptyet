@@ -1,5 +1,6 @@
 use crate::error::Error;
 use csv;
+use log::debug;
 use serde::{Deserialize, Serialize};
 use std::{collections::BTreeMap, fmt::Display};
 use url::Url;
@@ -73,7 +74,7 @@ impl InteropData {
 }
 
 pub fn parse(json: &str) -> Result<BTreeMap<String, YearData>, Error> {
-    println!("{}", json);
+    debug!("Parsing:\n{}", json);
     let metadata: InteropMetadata = serde_json::from_str(json)?;
     Ok(metadata.years)
 }

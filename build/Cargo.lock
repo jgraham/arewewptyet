@@ -1843,6 +1843,7 @@ name = "wptfyi"
 version = "0.1.0"
 dependencies = [
  "csv",
+ "log",
  "serde",
  "serde_json",
  "thiserror",

@@ -3,10 +3,15 @@ mod interop;
 mod latency;
 mod network;
 
+use log::error;
 use std::process;
 
 fn main() {
-    env_logger::init();
+    let mut log_builder = env_logger::Builder::new();
+    log_builder
+        .filter_level(log::LevelFilter::Info)
+        .parse_default_env()
+        .init();
 
     let results = [failures::run(), latency::run(), interop::run()];
 
@@ -17,7 +22,7 @@ fn main() {
 
     if !errors.is_empty() {
         for err in errors {
-            eprintln!("{:?}", err);
+            error!("{:?}", err);
         }
         process::exit(1);
     }

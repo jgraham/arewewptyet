@@ -1,6 +1,7 @@
 use crate::network::{self, get};
 use anyhow::Result;
 use lazy_static::lazy_static;
+use log::{debug, info};
 use regex::Regex;
 use serde::{Deserialize, Serialize};
 use std::collections::{HashMap, HashSet};
@@ -209,16 +210,16 @@ pub fn run() -> Result<()> {
     let sync_data = load_sync_data(data_path)?;
     let mut landings = LandingData::new(sync_data);
     let missing = landings.missing(sync_points);
-    println!("Found {} missing sync points", missing.len());
+    info!("Found {} missing sync points", missing.len());
     for sync_point in missing.into_iter().rev() {
         let pr_data = get_pr_for_rev(&client, &sync_point.wpt_rev)?;
-        println!("{}", pr_data);
+        debug!("pr_data:\n{}", pr_data);
         let mut prs: Vec<GitHubPr> = serde_json::from_str(&pr_data)?;
         if prs.is_empty() {
-            println!("No PR found for commit {}", &sync_point.wpt_rev);
+            info!("No PR found for commit {}", &sync_point.wpt_rev);
             continue;
         } else if prs.len() > 1 {
-            println!("Multiple PRs found for commit {}", &sync_point.wpt_rev);
+            info!("Multiple PRs found for commit {}", &sync_point.wpt_rev);
         }
         let pr = prs.remove(0);
         landings.insert(sync_point, pr);

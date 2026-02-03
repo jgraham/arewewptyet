@@ -1,4 +1,5 @@
 use anyhow::Result;
+use log::debug;
 use serde::Serialize;
 use std::io::Read;
 
@@ -14,7 +15,7 @@ pub fn get(
     headers: Option<reqwest::header::HeaderMap>,
 ) -> Result<String> {
     // TODO - If there's a list then support continuationToken
-    println!("GET {}", url);
+    debug!("GET {}", url);
     let mut req = client.get(url);
     if let Some(extra_headers) = headers {
         req = req.headers(extra_headers)
@@ -39,14 +40,14 @@ where
     T: Serialize,
 {
     // TODO - If there's a list then support continuationToken
-    println!("POST {}", url);
+    debug!("POST {}", url);
     let mut req = client.post(url);
     if let Some(extra_headers) = headers {
         req = req.headers(extra_headers)
     }
     if let Some(body) = body {
         let body_str = serde_json::to_string(&body)?;
-        println!("{}", body_str);
+        debug!("{}", body_str);
         req = req.body(body_str);
     }
     let mut resp = req.send()?;
