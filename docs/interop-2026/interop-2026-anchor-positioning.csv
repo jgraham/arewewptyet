@@ -1,55 +1,16 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-anchor-position/transform-004.html",1,0,1,1992373
-"/css/css-anchor-position/anchor-position-flip-sibling-index.html",1,0,0,""
-"/css/css-anchor-position/anchor-position-multicol-005.html",1,0,0,1816183
-"/css/css-anchor-position/anchor-position-inline-004.html",1,0,1,"1816183 1990577"
-"/css/css-anchor-position/anchor-position-multicol-nested-001.html",1,0,1,"1791683 1816183 1990577"
 "/css/css-anchor-position/anchor-scroll-003.html",1,0,0,1842703
-"/css/css-anchor-position/transform-008.html",1,0,1,1992373
-"/css/css-anchor-position/transform-006.html",1,0,1,1992373
-"/css/css-anchor-position/anchored-c-v-hidden.html",1,0,0,1988828
-"/css/css-anchor-position/transform-016.html",1,0,1,""
-"/css/css-anchor-position/anchor-position-multicol-013.html",1,0,0,1990577
-"/css/css-anchor-position/scroll-to-anchored-fixed-001.html",1,1,0,2006187
-"/css/css-anchor-position/anchor-scroll-chained-003.html",1,1,0,1890460
-"/css/css-anchor-position/transform-007.html",1,0,1,1992373
-"/css/css-anchor-position/anchor-position-multicol-colspan-003.html",1,0,0,""
-"/css/css-anchor-position/anchor-position-multicol-016.html",1,0,1,1990577
-"/css/css-anchor-position/scroll-to-anchored-fixed-000.html",1,1,0,2006187
-"/css/css-anchor-position/transform-010.html",1,0,1,""
-"/css/css-anchor-position/transform-002.html",1,0,1,1992373
-"/css/css-anchor-position/transform-015.html",2,0,2,""
-"/css/css-anchor-position/position-area-scrolling-006.html",2,0,0,"1957698 1997995"
+"/css/css-anchor-position/anchor-position-inline-004.html",1,0,1,"1816183 1990577"
+"/css/css-anchor-position/anchor-position-multicol-005.html",1,0,0,1816183
 "/css/css-anchor-position/anchor-position-multicol-002.html",1,0,0,"1816183 1989434"
-"/css/css-anchor-position/anchor-position-multicol-014.html",1,0,0,1990577
-"/css/css-anchor-position/anchor-name-multicol-003.html",1,0,0,"1816183 1989431"
-"/css/css-anchor-position/position-try-fallbacks-003.html",1,0,0,1997995
-"/css/css-anchor-position/anchor-position-sibling-index.html",1,0,0,""
 "/css/css-anchor-position/anchor-getComputedStyle-002.html",2,0,0,1886762
 "/css/css-anchor-position/anchor-position-multicol-004.html",1,0,0,"1816183 1989434"
-"/css/css-anchor-position/anchor-position-non-anchored-fallback.html",1,0,0,""
-"/css/css-anchor-position/transform-013.html",1,0,1,""
-"/css/css-anchor-position/anchor-position-multicol-012.html",1,0,0,""
-"/css/css-anchor-position/position-area-computed-insets.html",1,0,0,""
-"/css/css-anchor-position/last-successful-intermediate-ignored.html",1,0,0,1897279
-"/css/css-anchor-position/anchor-position-multicol-017.html",1,0,0,1990577
-"/css/css-anchor-position/scroll-to-anchored-fixed-002.html",1,1,0,2006187
-"/css/css-anchor-position/position-try-tree-scoped.html",4,0,0,"1878994 2011298"
-"/css/css-anchor-position/anchor-position-005-print.html",1,0,0,1958353
-"/css/css-anchor-position/anchor-position-multicol-008.html",1,0,0,1990577
-"/css/css-anchor-position/anchor-position-multicol-fixed-001.html",1,0,0,"1797705 1989431"
-"/css/css-anchor-position/scroll-to-anchored-fixed-005.html",1,1,0,2006187
-"/css/css-anchor-position/scroll-to-anchored-fixed-006.html",1,1,0,""
 "/css/css-anchor-position/anchor-position-multicol-007.html",1,0,0,1990577
-"/css/css-anchor-position/anchor-position-multicol-015.html",1,0,1,1990577
-"/css/css-anchor-position/transform-011.html",1,0,1,""
-"/css/css-anchor-position/scrollable-containing-block-size.html",8,0,8,""
-"/css/css-anchor-position/anchor-position-005.html",1,0,0,1997528
-"/css/css-anchor-position/transform-003.html",1,0,1,1992373
-"/css/css-anchor-position/anchor-position-multicol-011.html",1,0,0,1940929
+"/css/css-anchor-position/anchor-position-multicol-fixed-001.html",1,0,0,"1797705 1989431"
+"/css/css-anchor-position/anchor-scroll-chained-003.html",1,1,0,1890460
+"/css/css-anchor-position/position-try-tree-scoped.html",4,0,0,"1878994 2011298"
+"/css/css-anchor-position/last-successful-intermediate-ignored.html",1,0,0,1897279
 "/css/css-anchor-position/anchor-position-grid-001.html",1,0,0,"1816183 1990577"
-"/css/css-anchor-position/transform-001.html",1,0,1,1992373
-"/css/css-anchor-position/scroll-to-anchored-fixed-003.html",1,1,0,2006187
-"/css/css-anchor-position/transform-014.html",1,0,1,""
-"/css/css-anchor-position/scroll-to-anchored-fixed-004.html",1,1,0,""
-"/css/css-anchor-position/transform-009.html",1,0,1,""
+"/css/css-anchor-position/anchor-position-multicol-011.html",1,0,0,1940929
+"/css/css-anchor-position/anchor-name-multicol-003.html",1,0,0,"1816183 1989431"
+"/css/css-anchor-position/anchor-position-multicol-008.html",1,0,0,1990577

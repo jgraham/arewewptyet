@@ -1,7 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/html/semantics/popovers/popover-types-with-hints.html",7,0,7,"1819242 1867743"
-"/html/semantics/popovers/popover-top-layer-nesting-hints.html",6,0,6,""
+"/html/semantics/popovers/popover-types-with-hints.html",1,0,1,"1819242 1867743"
+"/html/semantics/popovers/popover-top-layer-nesting-hints.html",2,0,0,""
 "/html/semantics/interactive-elements/the-dialog-element/dialog-closedby-start-open.html",1,0,1,""
 "/html/semantics/interactive-elements/the-dialog-element/dialog-closedby-corner-cases.html",2,1,2,""
-"/html/semantics/popovers/popover-invoking-attribute-hint.html",700,0,700,1867743
-"/html/semantics/popovers/popover-light-dismiss-hint.html",9,0,9,1867743
