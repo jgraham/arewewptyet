@@ -1,6 +1,6 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
+"/css/selectors/media/media-loading-state-timing.sub.html",1,1,1,""
+"/css/selectors/media/sound-state.html",2,2,0,1796938
 "/css/selectors/media/media-playback-state-timing.html",3,3,0,""
 "/css/selectors/media/media-playback-state.html",4,4,0,1796938
-"/css/selectors/media/media-loading-state-timing.sub.html",1,1,1,""
 "/css/selectors/media/media-loading-state.html",3,3,2,1796938
-"/css/selectors/media/sound-state.html",2,2,0,1796938
