@@ -1,14 +1,14 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-conditional/container-queries/at-container-style-serialization.html",1,0,1,"1776487 1905350"
 "/css/css-conditional/container-queries/style-container-for-shadow-dom.html",12,0,1,"1878995 1902660 1905350 1920200 1928675"
-"/css/css-conditional/container-queries/style-query-unset-on-root.html",1,0,0,1934585
 "/css/css-conditional/container-queries/style-container-invalidation-inheritance.html",1,0,0,"1887136 1905350"
+"/css/css-conditional/container-queries/style-query-unset-on-root.html",1,0,0,1934585
 "/css/css-conditional/container-queries/custom-property-style-query-change.html",4,0,0,"1786771 1802763 1905350"
 "/css/css-conditional/container-queries/at-container-style-parsing.html",28,0,25,"1887120 1905350"
 "/css/css-conditional/container-queries/style-query-no-cycle.html",1,1,0,"1920200 1928675"
-"/css/css-conditional/container-queries/display-contents-dynamic-style-queries.html",1,0,0,"1887124 1905350"
 "/css/css-conditional/container-queries/custom-property-style-queries.html",34,0,0,"1784237 1802763 1881854 1892409 1905350 1914355"
 "/css/css-conditional/container-queries/nested-size-style-container-invalidation.html",1,0,0,"1887131 1905350"
+"/css/css-conditional/container-queries/display-contents-dynamic-style-queries.html",1,0,0,"1887124 1905350"
 "/css/css-conditional/container-queries/multiple-style-containers-comma-separated-queries.html",2,2,2,1934585
 "/css/css-conditional/container-queries/query-evaluation-style.html",48,0,37,"1874725 1905350"
 "/css/css-conditional/container-queries/style-query-registered-custom-rem-change.html",1,0,1,""
