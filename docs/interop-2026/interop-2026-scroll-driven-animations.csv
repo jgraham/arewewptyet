@@ -1,6 +1,6 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/scroll-animations/view-timelines/view-timeline-sticky-block.html",1,0,0,""
-"/scroll-animations/css/view-timeline-subject-in-shadow-root-with-timeline-scope.html",1,0,0,""
+"/scroll-animations/css/view-timeline-subject-in-shadow-root-with-timeline-scope.html",1,0,0,2016534
 "/scroll-animations/view-timelines/unattached-subject-inset.html",1,0,0,""
 "/scroll-animations/css/scroll-timeline-nearest-with-absolute-positioned-element.html",1,0,0,1949826
 "/scroll-animations/css/animation-range-scroll-timeline.html",4,0,0,""
