@@ -1,3 +1,4 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/html/semantics/interactive-elements/the-dialog-element/dialog-closedby-start-open.html",1,0,1,""
+"/html/semantics/popovers/popover-top-layer-nesting-hints.html",6,0,2,""
 "/html/semantics/interactive-elements/the-dialog-element/dialog-closedby-corner-cases.html",2,1,2,""
