@@ -1,8 +1,8 @@
 "Bug","Alias","Title","Product","Component","Resolution","User Story","Depends On"
-2017321,"interop-2026-anchor-positioning","[meta] Interop 2026 CSS Anchor Positioning","Core","CSS Parsing and Computation","","",1948268
-2017328,"interop-2026-attr","[meta] Interop 2026 CSS attr()","Core","CSS Parsing and Computation","","",435426
+2017321,"interop-2026-anchor-positioning","[meta] Interop 2026 CSS Anchor Positioning","Core","CSS Parsing and Computation","","platform-scheduled: 2026-05-15",1948268
+2017328,"interop-2026-attr","[meta] Interop 2026 CSS attr()","Core","CSS Parsing and Computation","","platform-scheduled: 2026-05-15",435426
 2017330,"interop-2026-contrast-color","[meta] Interop 2026 CSS contrast-color","Core","CSS Parsing and Computation","","",1682439
-2017331,"interop-2026-container-style-queries","[meta] Interop 2026 Container style queries","Core","CSS Parsing and Computation","","",1795622
+2017331,"interop-2026-container-style-queries","[meta] Interop 2026 Container style queries","Core","CSS Parsing and Computation","","platform-scheduled: 2026-05-15",1795622
 2017332,"interop-2026-custom-highlights","[meta] Interop 2026 Custom highlights","Core","CSS Parsing and Computation","","",1703961
 2017335,"interop-2026-dialogs-and-popovers","[meta] Interop 2026 Dialogs and Popovers","Core","DOM: Core & HTML","","","1867743;1936113;1936940"
 2017337,"interop-2026-fetch","[meta] Interop 2026 Fetch","Core","DOM: Networking","","platform-scheduled:2026-08-12",1387483
@@ -11,10 +11,10 @@
 2017343,"interop-2026-media-pseudo-classes","[meta] Interop 2026 Media pseudo-classes","Core","CSS Parsing and Computation","","",1707584
 2017344,"interop-2026-navigation","[meta] Interop 2026 Navigation","Core","DOM: Navigation","","",2003459
 2017353,"interop-2026-scoped-custom-element","[meta] Interop 2026 Scoped custom element registries","Core","DOM: Core & HTML","","",1874414
-2017354,"interop-2026-scroll-driven-animations","[meta] Interop 2026 Scroll-driven animations","Core","DOM: Animation","","",1324602
+2017354,"interop-2026-scroll-driven-animations","[meta] Interop 2026 Scroll-driven animations","Core","DOM: Animation","","platform-scheduled: 2026-10-10",1324602
 2017355,"interop-2026-scroll-snap","[meta] Interop 2026 scroll-snap","Core","Layout: Scrolling and Overflow","","","1843961;2014291;2014322;2015367;2013447"
 2017356,"interop-2026-shape","[meta] Interop 2026 CSS shape","Core","CSS Parsing and Computation","","",1910328
-2017359,"interop-2026-view-transitions","[meta] Interop 2026 View transitions","Core","CSS Parsing and Computation","","",1948294
+2017359,"interop-2026-view-transitions","[meta] Interop 2026 View transitions","Core","CSS Parsing and Computation","","","1860854;1948294"
 2017360,"interop-2026-zoom","[meta] Interop 2026 zoom","Core","CSS Parsing and Computation","","",1948302
 2017361,"interop-2026-webcompat","[meta] Interop 2026 Web compat","Core","General","","","1838402;2003818;1492739;1519100"
 2017363,"interop-2026-webrtc","[meta] Interop 2026 WebRTC","Core","WebRTC","","","1948300;2003823"
