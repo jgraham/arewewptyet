@@ -7,7 +7,7 @@
 2017335,"interop-2026-dialogs-and-popovers","[meta] Interop 2026 Dialogs and Popovers","Core","DOM: Core & HTML","","","1867743;1936113;1936940"
 2017337,"interop-2026-fetch","[meta] Interop 2026 Fetch","Core","DOM: Networking","","platform-scheduled:2026-08-12",1387483
 2017340,"interop-2026-indexeddb","[meta] Interop 2026 IndexedDB","Core","Storage: IndexedDB","","",1927945
-2017341,"interop-2026-jspi-for-wasm","[meta] Interop 2026 JSPI for WASM","Core","JavaScript: WebAssembly","","",1897981
+2017341,"interop-2026-jspi-for-wasm","[meta] Interop 2026 JSPI for WASM","Core","JavaScript: WebAssembly","","platform-scheduled: 2026-04-10",1897981
 2017343,"interop-2026-media-pseudo-classes","[meta] Interop 2026 Media pseudo-classes","Core","CSS Parsing and Computation","","",1707584
 2017344,"interop-2026-navigation","[meta] Interop 2026 Navigation","Core","DOM: Navigation","","",2003459
 2017353,"interop-2026-scoped-custom-element","[meta] Interop 2026 Scoped custom element registries","Core","DOM: Core & HTML","","",1874414
