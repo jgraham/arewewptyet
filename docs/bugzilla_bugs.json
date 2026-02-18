@@ -19,5 +19,27 @@
     "interop-2025-urlpattern",
     "interop-2025-webcompat",
     "interop-2025-webrtc"
+  ],
+  "2026": [
+    "interop-2026-anchor-positioning",
+    "interop-2026-attr",
+    "interop-2026-contrast-color",
+    "interop-2026-container-style-queries",
+    "interop-2026-custom-highlights",
+    "interop-2026-dialogs-and-popovers",
+    "interop-2026-fetch",
+    "interop-2026-indexeddb",
+    "interop-2026-jspi-for-wasm",
+    "interop-2026-media-pseudo-classes",
+    "interop-2026-navigation",
+    "interop-2026-scoped-custom-element",
+    "interop-2026-scroll-driven-animations",
+    "interop-2026-scroll-snap",
+    "interop-2026-shape",
+    "interop-2026-view-transitions",
+    "interop-2026-zoom",
+    "interop-2026-webcompat",
+    "interop-2026-webrtc",
+    "interop-2026-webtransport"
   ]
 }
