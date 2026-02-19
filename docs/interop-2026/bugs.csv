@@ -3,8 +3,8 @@
 2017328,"interop-2026-attr","[meta] Interop 2026 CSS attr()","Core","CSS Parsing and Computation","","platform-scheduled: 2026-05-15",435426
 2017330,"interop-2026-contrast-color","[meta] Interop 2026 CSS contrast-color","Core","CSS Parsing and Computation","","",1682439
 2017331,"interop-2026-container-style-queries","[meta] Interop 2026 Container style queries","Core","CSS Parsing and Computation","","platform-scheduled: 2026-05-15",1795622
-2017332,"interop-2026-custom-highlights","[meta] Interop 2026 Custom highlights","Core","CSS Parsing and Computation","","",1703961
-2017335,"interop-2026-dialogs-and-popovers","[meta] Interop 2026 Dialogs and Popovers","Core","DOM: Core & HTML","","","1867743;1936113;1936940"
+2017332,"interop-2026-custom-highlights","[meta] Interop 2026 Custom highlights","Core","CSS Parsing and Computation","","platform-scheduled:2026-07-17",1703961
+2017335,"interop-2026-dialogs-and-popovers","[meta] Interop 2026 Dialogs and Popovers","Core","DOM: Core & HTML","","platform-scheduled:2026-05-15","1867743;1936113;1936940"
 2017337,"interop-2026-fetch","[meta] Interop 2026 Fetch","Core","DOM: Networking","","platform-scheduled:2026-08-12",1387483
 2017340,"interop-2026-indexeddb","[meta] Interop 2026 IndexedDB","Core","Storage: IndexedDB","","",1927945
 2017341,"interop-2026-jspi-for-wasm","[meta] Interop 2026 JSPI for WASM","Core","JavaScript: WebAssembly","","platform-scheduled: 2026-04-10",1897981
