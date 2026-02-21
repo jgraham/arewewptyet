@@ -2,26 +2,58 @@
 "/css/css-view-transitions/navigation/pageswap-push-with-redirect.html",2,0,0,""
 "/css/css-view-transitions/navigation/pageswap-skip-transition.html",2,0,0,1937918
 "/css/css-view-transitions/navigation/pagereveal-finished-promise.html",2,0,0,"2015899 2017998"
-"/html/dom/render-blocking/element-render-blocking-038.html",1,0,0,""
-"/css/css-view-transitions/navigation/pageswap-fired-before-old-state-capture.html",2,0,0,2015899
-"/css/css-view-transitions/hit-test-unpainted-element.html",1,0,0,2008054
 "/html/dom/render-blocking/script-inserted-script.html",1,0,0,1761889
 "/css/css-view-transitions/navigation/at-rule-in-layer-cascade.html",2,0,0,1937918
 "/html/dom/render-blocking/script-inserted-stylesheet-link.html",1,0,0,"1761889 1864627"
 "/css/css-view-transitions/navigation/pagereveal-setup-transition.html",2,0,0,2015899
 "/html/dom/render-blocking/element-render-blocking-033.html",1,0,0,""
-"/css/css-view-transitions/navigation/pagereveal-microtask-sequence.html",2,0,0,1937918
+"/css/css-view-transitions/navigation/hide-before-reveal.html",2,0,0,"1895644 1937918"
+"/html/dom/render-blocking/parser-inserted-module-script.html",1,0,0,"1761889 1864627"
+"/html/dom/render-blocking/element-render-blocking-037.html",1,0,0,""
+"/css/css-view-transitions/input-targets-root-while-render-blocked.html",1,0,0,""
 "/css/css-view-transitions/shadow-part-with-class-inside-shadow.html",1,0,0,""
 "/css/css-view-transitions/navigation/with-types/navigation-supersedes-types-same-rule.html",2,0,0,1937918
-"/css/css-view-transitions/navigation/pageswap-push-from-click.html",2,0,0,""
+"/css/css-view-transitions/navigation/pagereveal-microtask-sequence.html",2,0,0,1937918
+"/css/css-view-transitions/navigation/at-rule-opt-in-change-with-script.html",2,0,0,1936886
+"/css/css-view-transitions/paint-holding-in-iframe.html",1,0,0,""
+"/css/css-view-transitions/navigation/pagereveal-ready-promise.html",2,0,0,2015899
+"/css/css-view-transitions/navigation/at-rule-opt-in-none-in-new.html",2,0,0,"1895644 2015899"
+"/css/css-view-transitions/hit-test-unpainted-element.html",1,0,0,2008054
+"/html/dom/render-blocking/element-render-blocking-038.html",1,0,0,""
+"/css/css-view-transitions/navigation/pageswap-fired-before-old-state-capture.html",2,0,0,2015899
+"/css/css-view-transitions/navigation/pagereveal-with-view-transition.html",2,0,0,1937918
+"/html/dom/render-blocking/parser-inserted-async-inline-module-with-import.html",1,0,0,""
+"/html/dom/render-blocking/element-render-blocking-008.html",1,0,0,1883569
 "/css/css-view-transitions/navigation/pageswap-ctor.html",7,0,0,1915506
 "/html/dom/render-blocking/parser-inserted-inline-module-with-import.html",1,0,0,""
 "/html/dom/render-blocking/element-render-blocking-001.html",1,0,0,1883569
-"/css/css-view-transitions/navigation/pagereveal-ready-promise.html",2,0,0,2015899
-"/css/css-view-transitions/navigation/at-rule-opt-in-none-in-new.html",2,0,0,"1895644 2015899"
-"/css/css-view-transitions/navigation/at-rule-opt-in-change-with-script.html",2,0,0,1936886
-"/css/css-view-transitions/paint-holding-in-iframe.html",1,0,0,""
-"/css/css-view-transitions/input-targets-root-while-render-blocked.html",1,0,0,""
+"/css/css-view-transitions/navigation/with-types/at-rule-opt-in-auto-with-types-no-cascade.html",2,0,0,2015899
+"/html/dom/render-blocking/script-inserted-inline-module-with-import.html",1,0,0,""
+"/css/css-view-transitions/navigation/root-element-transition-opt-in-removed-on-old.html",2,0,0,2015899
+"/css/css-view-transitions/navigation/navigation-auto-excludes-reload.html",2,0,0,"1895644 2015899"
+"/css/css-view-transitions/view-transition-types-mutable-no-document-element-crashtest.html",1,1,0,"1964188 1985764"
+"/css/css-view-transitions/navigation/mismatched-snapshot-containing-block-size-skips.html",1,0,0,"1937918 2016405"
+"/html/dom/render-blocking/element-render-blocking-034.html",1,0,0,""
+"/css/css-view-transitions/navigation/pageswap-traverse-navigation-no-bfcache.https.html",2,0,0,""
+"/css/css-view-transitions/navigation/with-types/at-rule-with-types-parsing.html",12,0,0,""
+"/css/css-view-transitions/navigation/at-rule-cssom.html",6,0,0,""
+"/css/css-view-transitions/navigation/pageswap-push-from-click.html",2,0,0,""
+"/html/dom/render-blocking/element-render-blocking-002.html",1,0,0,""
+"/html/dom/render-blocking/element-render-blocking-012.html",1,0,0,1883569
+"/css/css-view-transitions/navigation/skip-outbound-vt-before-reveal.html",2,0,1,1895644
+"/css/css-view-transitions/navigation/two-phase/instant-transition-finish-before-swap.https.html",2,1,2,1990355
+"/css/css-view-transitions/navigation/pageswap-long-delay.html",2,0,0,1937918
+"/html/dom/render-blocking/element-render-blocking-040.html",1,0,0,""
+"/html/dom/render-blocking/parser-inserted-defer-script.html",1,0,0,"1761889 1864627"
+"/css/css-view-transitions/navigation/pagereveal-no-view-transition.html",2,0,0,1895644
+"/html/dom/render-blocking/element-render-blocking-003.html",1,0,0,1883569
+"/html/dom/render-blocking/element-render-blocking-027.html",1,0,0,1883569
+"/css/css-view-transitions/multiline-span-with-overflowing-text-and-box-decorations.html",1,0,0,1911215
+"/css/css-view-transitions/names-are-tree-scoped.html",1,0,0,""
+"/css/css-view-transitions/navigation/zero-named-elements.html",2,0,0,1937918
+"/css/css-view-transitions/navigation/with-types/types-in-pagereveal-and-pageswap.html",2,0,0,1937918
+"/css/css-view-transitions/navigation/pageswap-replace-navigation.html",2,0,0,""
+"/css/css-view-transitions/navigation/no-view-transition-with-cross-origin-redirect.sub.html",2,0,0,2015899
 "/css/css-view-transitions/navigation/root-element-transition-no-opt-in-on-new.html",2,0,0,2015899
 "/css/css-view-transitions/navigation/with-types/navigation-supersedes-types-when-after.html",2,0,0,1937918
 "/html/dom/render-blocking/script-inserted-module-script.html",1,0,0,"1761889 1864627"
@@ -29,60 +61,28 @@
 "/css/css-view-transitions/navigation/at-rule-in-layer.html",2,0,0,1937918
 "/css/css-view-transitions/navigation/old_vt_promises_bfcache.html",1,0,0,1976125
 "/css/css-view-transitions/navigation/pageswap-push-navigation.html",2,0,0,""
-"/html/dom/render-blocking/element-render-blocking-040.html",1,0,0,""
-"/html/dom/render-blocking/parser-inserted-defer-script.html",1,0,0,"1761889 1864627"
-"/css/css-view-transitions/navigation/pageswap-long-delay.html",2,0,0,1937918
-"/css/css-view-transitions/navigation/hide-before-reveal.html",2,0,0,"1895644 1937918"
-"/html/dom/render-blocking/parser-inserted-module-script.html",1,0,0,"1761889 1864627"
-"/html/dom/render-blocking/element-render-blocking-037.html",1,0,0,""
-"/html/dom/render-blocking/script-inserted-inline-module-with-import.html",1,0,0,""
-"/css/css-view-transitions/navigation/with-types/at-rule-opt-in-auto-with-types-no-cascade.html",2,0,0,2015899
-"/css/css-view-transitions/navigation/root-element-transition-opt-in-removed-on-old.html",2,0,0,2015899
-"/html/dom/render-blocking/parser-inserted-async-inline-module-with-import.html",1,0,0,""
-"/html/dom/render-blocking/element-render-blocking-008.html",1,0,0,1883569
-"/css/css-view-transitions/navigation/navigation-auto-excludes-reload.html",2,0,0,"1895644 2015899"
-"/css/css-view-transitions/view-transition-types-mutable-no-document-element-crashtest.html",1,1,0,"1964188 1985764"
-"/css/css-view-transitions/navigation/zero-named-elements.html",2,0,0,1937918
-"/css/css-view-transitions/multiline-span-with-overflowing-text-and-box-decorations.html",1,0,0,1911215
-"/css/css-view-transitions/names-are-tree-scoped.html",1,0,0,""
-"/css/css-view-transitions/navigation/two-phase/instant-transition-finish-before-swap.https.html",2,1,2,1990355
-"/html/dom/render-blocking/element-render-blocking-002.html",1,0,0,""
-"/html/dom/render-blocking/element-render-blocking-012.html",1,0,0,1883569
-"/css/css-view-transitions/navigation/skip-outbound-vt-before-reveal.html",2,0,1,1895644
-"/css/css-view-transitions/navigation/at-rule-cssom.html",6,0,0,""
-"/css/css-view-transitions/navigation/with-types/at-rule-with-types-parsing.html",12,0,0,""
-"/html/dom/render-blocking/element-render-blocking-034.html",1,0,0,""
-"/css/css-view-transitions/navigation/pageswap-traverse-navigation-no-bfcache.https.html",2,0,0,""
-"/css/css-view-transitions/navigation/mismatched-snapshot-containing-block-size-skips.html",1,0,0,"1937918 2016405"
-"/html/dom/render-blocking/element-render-blocking-041.html",1,0,0,""
-"/html/dom/render-blocking/element-render-blocking-028.html",1,0,0,""
-"/css/css-view-transitions/navigation/at-rule-opt-in-auto.html",2,0,0,2015899
-"/css/css-view-transitions/navigation/at-rule-in-matching-media.html",2,0,0,1937918
-"/css/css-view-transitions/navigation/pagereveal-updatecallbackdone-promise.html",2,0,0,1937918
-"/html/dom/render-blocking/element-render-blocking-011.html",1,0,0,1883569
-"/css/css-view-transitions/navigation/pagereveal-ctor.html",5,0,0,""
-"/css/css-view-transitions/navigation/pagereveal-with-view-transition.html",2,0,0,1937918
-"/html/dom/render-blocking/element-render-blocking-003.html",1,0,0,1883569
-"/html/dom/render-blocking/element-render-blocking-027.html",1,0,0,1883569
-"/css/css-view-transitions/navigation/pagereveal-no-view-transition.html",2,0,0,1895644
 "/html/dom/render-blocking/element-render-blocking-006.html",1,0,0,1883569
 "/css/css-view-transitions/navigation/with-types/at-rule-opt-in-auto-with-types.html",2,0,0,2015899
 "/css/css-view-transitions/navigation/pagereveal-no-view-transition-new-opt-out.html",2,0,0,1937918
 "/html/dom/render-blocking/element-render-blocking-024.html",1,0,0,1883569
 "/html/dom/render-blocking/script-inserted-style-element.html",1,0,0,"1761889 1864627"
 "/css/css-view-transitions/navigation/opt-in-removed-during-transition.html",2,0,0,2015899
-"/css/css-view-transitions/navigation/no-view-transition-with-cross-origin-redirect.sub.html",2,0,0,2015899
-"/css/css-view-transitions/navigation/pageswap-replace-navigation.html",2,0,0,""
-"/css/css-view-transitions/navigation/with-types/types-in-pagereveal-and-pageswap.html",2,0,0,1937918
-"/css/css-view-transitions/navigation/at-rule-opt-in-none-in-old.html",2,0,0,2015899
+"/css/css-view-transitions/navigation/pagereveal-ctor.html",5,0,0,""
+"/html/dom/render-blocking/element-render-blocking-011.html",1,0,0,1883569
+"/css/css-view-transitions/navigation/pagereveal-updatecallbackdone-promise.html",2,0,0,1937918
+"/css/css-view-transitions/navigation/at-rule-in-matching-media.html",2,0,0,1937918
+"/css/css-view-transitions/navigation/at-rule-opt-in-auto.html",2,0,0,2015899
 "/css/css-view-transitions/navigation/at-rule-multiple-rules.html",2,0,0,1937918
-"/css/css-view-transitions/navigation/root-element-transition-iframe.html",1,0,0,""
-"/css/css-view-transitions/navigation/root-element-transition-iframe-cross-origin.sub.html",1,0,0,""
-"/html/dom/render-blocking/blocking-idl-attr.html",6,0,0,1864627
-"/css/css-view-transitions/navigation/root-element-transition-opt-in-removed-on-new.html",2,0,0,"1895644 2015899"
+"/css/css-view-transitions/navigation/at-rule-in-non-matching-media.html",2,0,0,1937918
 "/css/css-view-transitions/hit-test-unrelated-element.html",1,0,0,2008054
 "/html/dom/render-blocking/element-render-blocking-035.html",1,0,0,""
-"/css/css-view-transitions/navigation/at-rule-in-non-matching-media.html",2,0,0,1937918
-"/html/dom/render-blocking/parser-inserted-async-script.html",1,0,0,"1761889 1864627"
+"/css/css-view-transitions/navigation/at-rule-opt-in-none-in-old.html",2,0,0,2015899
+"/html/dom/render-blocking/element-render-blocking-041.html",1,0,0,""
+"/html/dom/render-blocking/element-render-blocking-028.html",1,0,0,""
+"/html/dom/render-blocking/blocking-idl-attr.html",6,0,0,1864627
+"/css/css-view-transitions/navigation/root-element-transition-opt-in-removed-on-new.html",2,0,0,"1895644 2015899"
+"/css/css-view-transitions/navigation/root-element-transition-iframe.html",1,0,0,""
+"/css/css-view-transitions/navigation/root-element-transition-iframe-cross-origin.sub.html",1,0,0,""
 "/css/css-view-transitions/navigation/at-rule-in-shadow-dom.html",2,0,0,1937918
 "/css/css-view-transitions/navigation/at-rule-in-layer-cascade-external-stylesheet.html",2,0,0,1937918
+"/html/dom/render-blocking/parser-inserted-async-script.html",1,0,0,"1761889 1864627"
