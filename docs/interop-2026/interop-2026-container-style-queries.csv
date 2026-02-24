@@ -1,9 +1,9 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-conditional/container-queries/style-container-invalidation-inheritance.html",1,0,0,"1887136 1905350"
-"/css/css-conditional/container-queries/query-evaluation-style.html",3,0,3,"1874725 1905350"
-"/css/css-conditional/container-queries/multiple-style-containers-comma-separated-queries.html",2,2,2,1934585
-"/css/css-conditional/container-queries/custom-property-style-queries.html",0,0,0,"1784237 1802763 1881854 1892409 1905350 1914355"
-"/css/css-conditional/container-queries/display-contents-dynamic-style-queries.html",1,0,0,"1887124 1905350"
 "/css/css-conditional/container-queries/custom-property-style-query-change.html",4,0,0,"1786771 1802763 1905350"
+"/css/css-conditional/container-queries/query-evaluation-style.html",3,0,3,"1874725 1905350"
+"/css/css-conditional/container-queries/display-contents-dynamic-style-queries.html",1,0,0,"1887124 1905350"
+"/css/css-conditional/container-queries/multiple-style-containers-comma-separated-queries.html",2,2,2,1934585
 "/css/css-conditional/container-queries/at-container-style-parsing.html",2,0,2,"1887120 1905350"
 "/css/css-conditional/container-queries/style-query-registered-custom-rem-change.html",1,0,1,""
+"/css/css-conditional/container-queries/custom-property-style-queries.html",0,0,0,"1784237 1802763 1881854 1892409 1905350 1914355"
