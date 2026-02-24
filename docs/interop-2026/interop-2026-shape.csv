@@ -1,5 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-shapes/shape-functions/circle-function-valid.html",4,4,3,""
 "/css/css-shapes/shape-functions/ellipse-function-valid.html",2,2,0,""
+"/css/css-shapes/shape-functions/circle-function-valid.html",4,4,3,""
 "/css/css-shapes/shape-functions/circle-function-computed.html",4,4,0,""
 "/css/css-shapes/shape-functions/ellipse-function-computed.html",2,2,0,""
