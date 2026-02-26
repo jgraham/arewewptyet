@@ -2,7 +2,7 @@
 2017321,"interop-2026-anchor-positioning","[meta] Interop 2026 CSS Anchor Positioning","Core","CSS Parsing and Computation","","platform-scheduled: 2026-05-15",1948268
 2017328,"interop-2026-attr","[meta] Interop 2026 CSS attr()","Core","CSS Parsing and Computation","","platform-scheduled: 2026-05-15",435426
 2017330,"interop-2026-contrast-color","[meta] Interop 2026 CSS contrast-color","Core","CSS Parsing and Computation","","",1682439
-2017331,"interop-2026-container-style-queries","[meta] Interop 2026 Container style queries","Core","CSS Parsing and Computation","","platform-scheduled: 2026-05-15",1795622
+2017331,"interop-2026-container-style-queries","[meta] Interop 2026 Container style queries","Core","CSS Parsing and Computation","","platform-scheduled: 2026-05-15","1795622;2014403;2018882;2019254"
 2017332,"interop-2026-custom-highlights","[meta] Interop 2026 Custom highlights","Core","CSS Parsing and Computation","","platform-scheduled:2026-07-17","1703961;1838684;2017940;1987618"
 2017335,"interop-2026-dialogs-and-popovers","[meta] Interop 2026 Dialogs and Popovers","Core","DOM: Core & HTML","","platform-scheduled:2026-05-15","1867743;1936113;1936940"
 2017337,"interop-2026-fetch","[meta] Interop 2026 Fetch","Core","DOM: Networking","","platform-scheduled:2026-08-12",1387483
