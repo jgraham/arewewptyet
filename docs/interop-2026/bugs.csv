@@ -12,7 +12,7 @@
 2017344,"interop-2026-navigation","[meta] Interop 2026 Navigation","Core","DOM: Navigation","","",2003459
 2017353,"interop-2026-scoped-custom-element","[meta] Interop 2026 Scoped custom element registries","Core","DOM: Core & HTML","","",1874414
 2017354,"interop-2026-scroll-driven-animations","[meta] Interop 2026 Scroll-driven animations","Core","DOM: Animation","","platform-scheduled: 2026-10-10",1324602
-2017355,"interop-2026-scroll-snap","[meta] Interop 2026 scroll-snap","Core","Layout: Scrolling and Overflow","","","1231777;1880436;1883993;1884964;1884967;1885458;1887192;1899897;1979413;1980855;2006243;2014291;2014322;2015367;2017790;2019470;2019482;2019490;2013447"
+2017355,"interop-2026-scroll-snap","[meta] Interop 2026 scroll-snap","Core","Layout: Scrolling and Overflow","","","1231777;1880436;1883993;1884964;1884967;1885458;1887192;1899897;1979413;1980855;2006243;2014291;2014322;2015367;2017790;2019470;2019482;2019490;2019503;2019504;2013447"
 2017356,"interop-2026-shape","[meta] Interop 2026 CSS shape","Core","CSS Parsing and Computation","","platform-scheduled: 2026-07-17","1983188;1983190;1910328"
 2017359,"interop-2026-view-transitions","[meta] Interop 2026 View transitions","Core","CSS Parsing and Computation","","","1860854;1948294"
 2017360,"interop-2026-zoom","[meta] Interop 2026 zoom","Core","CSS Parsing and Computation","","",1948302
