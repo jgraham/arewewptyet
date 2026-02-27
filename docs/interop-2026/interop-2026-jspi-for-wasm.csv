@@ -1,7 +1,7 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
+"/wasm/jsapi/jspi/js-promise-integration.any.html",11,0,0,""
 "/wasm/jsapi/jspi/js-promise-integration.any.worker.html",10,0,0,""
 "/wasm/jsapi/jspi/notraps.any.html",3,0,0,""
-"/wasm/jsapi/jspi/js-promise-integration.any.html",11,0,0,""
 "/wasm/jsapi/jspi/rejects.any.html",5,0,0,""
 "/wasm/jsapi/jspi/notraps.any.worker.html",3,0,0,""
 "/wasm/jsapi/jspi/rejects.any.worker.html",5,0,0,""
