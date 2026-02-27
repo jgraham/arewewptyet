@@ -1,6 +1,6 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/webtransport/streams-close.https.any.sharedworker.html",2,0,2,""
-"/webtransport/idlharness.https.any.html",40,38,40,""
+"/webtransport/idlharness.https.any.html",40,38,40,2020021
 "/webtransport/datagrams.https.any.html",4,0,4,""
 "/webtransport/back-forward-cache-with-open-webtransport-connection.https.window.html",0,0,1,""
 "/webtransport/streams-close.https.any.html",2,0,2,""
@@ -16,7 +16,7 @@
 "/webtransport/datagrams.https.any.serviceworker.html",4,0,4,""
 "/webtransport/stats.https.any.html",9,0,8,1881211
 "/webtransport/idlharness.https.any.sharedworker.html",40,38,40,2003955
-"/webtransport/idlharness.https.any.serviceworker.html",40,38,40,""
+"/webtransport/idlharness.https.any.serviceworker.html",40,38,40,2020021
 "/webtransport/idlharness.https.any.worker.html",40,38,40,2003955
 "/webtransport/connect.https.any.html",6,0,6,""
 "/webtransport/streams-close.https.any.worker.html",2,0,2,""
