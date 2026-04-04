@@ -1,3 +1,3 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-conditional/container-queries/at-container-style-parsing.html",1,0,1,"1887120 1905350"
 "/css/css-conditional/container-queries/style-query-registered-custom-rem-change.html",1,0,1,""
+"/css/css-conditional/container-queries/at-container-style-parsing.html",1,0,1,"1887120 1905350"
