@@ -1,5 +1,5 @@
 "Bug","Alias","Title","Product","Component","Resolution","User Story","Depends On"
-2017321,"interop-2026-anchor-positioning","[meta] Interop 2026 CSS Anchor Positioning","Core","CSS Parsing and Computation","","platform-scheduled: 2026-05-15",1948268
+2017321,"interop-2026-anchor-positioning","[meta] Interop 2026 CSS Anchor Positioning","Core","CSS Parsing and Computation","","platform-scheduled: 2026-06-12",1948268
 2017328,"interop-2026-attr","[meta] Interop 2026 CSS attr()","Core","CSS Parsing and Computation","","platform-scheduled: 2026-05-15",435426
 2017330,"interop-2026-contrast-color","[meta] Interop 2026 CSS contrast-color","Core","CSS Parsing and Computation","","",1682439
 2017331,"interop-2026-container-style-queries","[meta] Interop 2026 Container style queries","Core","CSS Parsing and Computation","","platform-scheduled: 2026-05-15","1795622;2014403;2018882;2019254;2024601"
