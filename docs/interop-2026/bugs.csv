@@ -6,15 +6,15 @@
 2017332,"interop-2026-custom-highlights","[meta] Interop 2026 Custom highlights","Core","CSS Parsing and Computation","","platform-scheduled:2026-07-17","1703961;2017940;1838684;1987618;2020426;2020930"
 2017335,"interop-2026-dialogs-and-popovers","[meta] Interop 2026 Dialogs and Popovers","Core","DOM: Core & HTML","","platform-scheduled:2026-05-15","1867743;1936113;1936940"
 2017337,"interop-2026-fetch","[meta] Interop 2026 Fetch","Core","DOM: Networking","","platform-scheduled:2026-08-12",1387483
-2017340,"interop-2026-indexeddb","[meta] Interop 2026 IndexedDB","Core","Storage: IndexedDB","","",1927945
+2017340,"interop-2026-indexeddb","[meta] Interop 2026 IndexedDB","Core","Storage: IndexedDB","","platform-scheduled:2026-05-30",1927945
 2017341,"interop-2026-jspi-for-wasm","[meta] Interop 2026 JSPI for WASM","Core","JavaScript: WebAssembly","","platform-scheduled: 2026-04-10",1897981
 2017343,"interop-2026-media-pseudo-classes","[meta] Interop 2026 Media pseudo-classes","Core","CSS Parsing and Computation","FIXED","",1707584
-2017344,"interop-2026-navigation","[meta] Interop 2026 Navigation","Core","DOM: Navigation","","",2003459
-2017353,"interop-2026-scoped-custom-element","[meta] Interop 2026 Scoped custom element registries","Core","DOM: Core & HTML","","",1874414
+2017344,"interop-2026-navigation","[meta] Interop 2026 Navigation","Core","DOM: Navigation","","platform-scheduled:2026-10-10",2003459
+2017353,"interop-2026-scoped-custom-element","[meta] Interop 2026 Scoped custom element registries","Core","DOM: Core & HTML","","platform-scheduled:2026-06-30",1874414
 2017354,"interop-2026-scroll-driven-animations","[meta] Interop 2026 Scroll-driven animations","Core","DOM: Animation","","platform-scheduled: 2026-10-10",1324602
 2017355,"interop-2026-scroll-snap","[meta] Interop 2026 scroll-snap","Core","Layout: Scrolling and Overflow","","2026-10-10","1231777;1880436;1883993;1884964;1899897;1980855;1996733;2006243;2014322;2015367;2017790;2019482;2019490;2019503;2019857;1884967;1885458;1887192;1979413;2013447;2019470;2019504;2020558;2023012"
 2017356,"interop-2026-shape","[meta] Interop 2026 CSS shape","Core","CSS Parsing and Computation","","platform-scheduled: 2026-07-17","1983188;1983190;1910328;2030159"
-2017359,"interop-2026-view-transitions","[meta] Interop 2026 View transitions","Core","CSS Parsing and Computation","","","1860854;1948294;2030348"
+2017359,"interop-2026-view-transitions","[meta] Interop 2026 View transitions","Core","CSS Parsing and Computation","","platform-scheduled:2026-10-10","1860854;1948294;2030348"
 2017360,"interop-2026-zoom","[meta] Interop 2026 zoom","Core","CSS Parsing and Computation","","",1948302
 2017361,"interop-2026-webcompat","[meta] Interop 2026 Web compat","Core","General","","","1838402;2003818;1492739;1519100"
 2017363,"interop-2026-webrtc","[meta] Interop 2026 WebRTC","Core","WebRTC","","","1004510;1225724;1307994;1340372;1529398;1584318;1728364;1765851;1805446;1805480;1806181;1806185;1813824;1814460;1814461;2000975;2014357;2016190;2019331;2019333;2019346;2019349;2019353;2019355;2019356;2019359;2019361;2019365;2019378;2019381;2019387;2019389;2019461;2019469;2029377;1339203;1529588;1561441;1617686;1814459;1948300;2016479;2019370;2019375"
