@@ -1,11 +1,11 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-scroll-snap/multicol-002.html",1,0,1,""
 "/css/css-scroll-snap/scroll-target-align-001.html",1,1,1,""
-"/css/css-scroll-snap/snap-after-relayout/multiple-aligned-targets/nested-supercedes-common-to-both-axes.html",1,0,1,1883993
-"/css/css-scroll-snap/scroll-target-align-002.html",1,1,1,""
-"/css/css-scroll-snap/unrelated-gesture-scroll-during-snap.html",3,0,3,""
-"/css/css-scroll-snap/snap-fling-in-large-area.html",2,0,2,1899897
+"/css/css-scroll-snap/multicol-002.html",1,0,1,""
 "/css/css-scroll-snap/snap-after-relayout/multiple-aligned-targets/prefer-focused-nested-containers.html",1,0,1,""
+"/css/css-scroll-snap/snap-fling-in-large-area.html",2,0,2,1899897
+"/css/css-scroll-snap/unrelated-gesture-scroll-during-snap.html",3,0,3,""
+"/css/css-scroll-snap/snap-after-relayout/multiple-aligned-targets/nested-supercedes-common-to-both-axes.html",1,0,1,1883993
 "/css/css-scroll-snap/snap-after-relayout/multiple-aligned-targets/prefer-inner-target.html",2,0,2,"1880436 1999564 2036819"
 "/css/css-scroll-snap/multicol-001.html",3,0,3,""
 "/css/css-scroll-snap/capturing-snap-positions.html",1,1,1,""
+"/css/css-scroll-snap/scroll-target-align-002.html",1,1,1,""
