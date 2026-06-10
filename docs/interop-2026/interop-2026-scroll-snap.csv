@@ -1,5 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-scroll-snap/multicol-002.html",1,0,1,""
 "/css/css-scroll-snap/multicol-001.html",1,0,1,""
+"/css/css-scroll-snap/multicol-002.html",1,0,1,""
 "/css/css-scroll-snap/snap-fling-in-large-area.html",2,0,2,1899897
 "/css/css-scroll-snap/capturing-snap-positions.html",1,1,1,""
