@@ -1,4 +1,4 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
+"/css/css-values/attr-cycle.html",2,0,0,"1941581 1966882 1985371"
 "/css/css-values/attr-all-types.html",1,0,1,"1918642 1934230 1940460 1941581 1986287 1991205 2039691"
 "/css/css-values/attr-security.html",1,0,1,"1947226 1968363 2032489 2039691"
-"/css/css-values/attr-cycle.html",2,0,0,"1941581 1966882 1985371"
