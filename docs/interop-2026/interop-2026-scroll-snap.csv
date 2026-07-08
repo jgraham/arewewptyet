@@ -1,3 +1,3 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-scroll-snap/snap-fling-in-large-area.html",2,0,2,1899897
 "/css/css-scroll-snap/unrelated-gesture-scroll-during-snap.html",2,0,0,""
+"/css/css-scroll-snap/snap-fling-in-large-area.html",2,0,2,1899897
