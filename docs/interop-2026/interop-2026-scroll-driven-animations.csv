@@ -1,35 +1,35 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/scroll-animations/view-timelines/view-timeline-get-set-range.html",1,0,0,1949826
-"/scroll-animations/view-timelines/sticky/view-timeline-sticky-offscreen-6.html",1,0,0,2039687
-"/scroll-animations/view-timelines/svg-graphics-element-003.html",1,0,1,""
-"/scroll-animations/view-timelines/view-timeline-inset.html",5,0,0,"1949826 2039687"
-"/scroll-animations/view-timelines/unattached-subject-inset.html",1,0,0,2039687
-"/scroll-animations/view-timelines/view-timeline-sticky-block.html",1,0,0,2039687
-"/scroll-animations/css/view-timeline-shorthand.html",36,1,0,2055345
-"/scroll-animations/view-timelines/view-timeline-range.html",1,0,0,1949826
-"/scroll-animations/css/scroll-timeline-in-container-query.html",1,1,0,""
-"/scroll-animations/css/view-timeline-lookup.html",1,0,1,"1947036 2051972 2052022"
-"/scroll-animations/scroll-timelines/reverse-animation.html",3,0,3,1949826
-"/scroll-animations/css/view-timeline-name-shadow.html",3,0,0,"1949826 2043862"
-"/scroll-animations/view-timelines/view-timeline-sticky-inline.html",1,0,0,2039687
-"/scroll-animations/scroll-timelines/effect-updateTiming.html",2,0,0,"1949826 2000918"
-"/scroll-animations/view-timelines/sticky/view-timeline-sticky-offscreen-1.html",1,0,0,2039687
-"/scroll-animations/view-timelines/sticky/view-timeline-sticky-offscreen-7.html",1,0,1,2039687
-"/scroll-animations/css/timeline-offset-keyframes-with-document-timeline.html",1,0,0,2043862
-"/scroll-animations/view-timelines/change-animation-range-updates-play-state.html",1,0,0,1949826
-"/scroll-animations/css/view-timeline-dynamic.html",1,0,1,2043862
 "/scroll-animations/css/animation-range-ignored.html",2,0,0,1949863
 "/scroll-animations/scroll-timelines/setting-playback-rate.html",1,0,0,1949826
-"/scroll-animations/view-timelines/sticky/view-timeline-sticky-offscreen-3.html",1,0,0,2039687
-"/scroll-animations/css/animation-range-normal-matches-cover.html",1,0,0,1949826
-"/scroll-animations/view-timelines/intermediate-transform.html",1,0,0,1948673
-"/scroll-animations/css/animation-range-scroll-timeline.html",2,0,0,""
+"/scroll-animations/view-timelines/view-timeline-sticky-block.html",1,0,0,2039687
+"/scroll-animations/view-timelines/unattached-subject-inset.html",1,0,0,2039687
 "/scroll-animations/css/timeline-scope.html",1,0,1,"1949826 2043862"
-"/scroll-animations/scroll-timelines/scroll-timeline-invalidation.html",1,1,0,1949826
+"/scroll-animations/css/animation-range-scroll-timeline.html",2,0,0,""
+"/scroll-animations/view-timelines/view-timeline-range.html",1,0,0,1949826
 "/scroll-animations/css/scroll-timeline-name-shadow.html",3,0,0,"1949826 2043862"
-"/scroll-animations/css/scroll-timeline-paused-animations.html",1,0,0,1992772
+"/scroll-animations/css/view-timeline-shorthand.html",36,1,0,2055345
+"/scroll-animations/css/view-timeline-name-shadow.html",3,0,0,"1949826 2043862"
+"/scroll-animations/scroll-timelines/scroll-timeline-range.html",1,0,0,1949826
+"/scroll-animations/view-timelines/view-timeline-inset.html",5,0,0,"1949826 2039687"
+"/scroll-animations/view-timelines/svg-graphics-element-003.html",1,0,1,""
+"/scroll-animations/view-timelines/view-timeline-get-set-range.html",1,0,0,1949826
+"/scroll-animations/view-timelines/sticky/view-timeline-sticky-offscreen-6.html",1,0,0,2039687
+"/scroll-animations/css/timeline-offset-keyframes-hidden-subject.html",1,0,0,2043862
 "/scroll-animations/scroll-timelines/play-animation.html",7,0,7,"1949826 2054851"
 "/scroll-animations/view-timelines/sticky/view-timeline-sticky-offscreen-2.html",1,0,0,2039687
-"/scroll-animations/css/timeline-offset-keyframes-hidden-subject.html",1,0,0,2043862
-"/scroll-animations/scroll-timelines/scroll-timeline-range.html",1,0,0,1949826
+"/scroll-animations/css/scroll-timeline-paused-animations.html",1,0,0,1992772
+"/scroll-animations/view-timelines/change-animation-range-updates-play-state.html",1,0,0,1949826
+"/scroll-animations/css/view-timeline-dynamic.html",1,0,1,2043862
+"/scroll-animations/css/scroll-timeline-in-container-query.html",1,1,0,""
+"/scroll-animations/css/timeline-offset-keyframes-with-document-timeline.html",1,0,0,2043862
+"/scroll-animations/view-timelines/sticky/view-timeline-sticky-offscreen-1.html",1,0,0,2039687
+"/scroll-animations/scroll-timelines/effect-updateTiming.html",2,0,0,"1949826 2000918"
+"/scroll-animations/view-timelines/view-timeline-sticky-inline.html",1,0,0,2039687
+"/scroll-animations/scroll-timelines/reverse-animation.html",3,0,3,1949826
+"/scroll-animations/css/view-timeline-lookup.html",1,0,1,"1947036 2051972 2052022"
+"/scroll-animations/view-timelines/sticky/view-timeline-sticky-offscreen-7.html",1,0,1,2039687
+"/scroll-animations/view-timelines/intermediate-transform.html",1,0,0,1948673
 "/scroll-animations/view-timelines/contain-alignment.html",1,0,0,2039687
+"/scroll-animations/scroll-timelines/scroll-timeline-invalidation.html",1,1,0,1949826
+"/scroll-animations/view-timelines/sticky/view-timeline-sticky-offscreen-3.html",1,0,0,2039687
+"/scroll-animations/css/animation-range-normal-matches-cover.html",1,0,0,1949826
