@@ -1,15 +1,15 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/webtransport/streams-close.https.any.sharedworker.html",2,0,2,2025092
-"/webtransport/streams-close.https.any.html",2,0,2,2025092
 "/webtransport/idlharness.https.sub.any.serviceworker.html",19,11,2,"2020021 2025151 2036736"
-"/webtransport/streams-close.https.any.serviceworker.html",2,0,2,2025092
-"/webtransport/datagrams.https.any.worker.html",8,6,2,"2025092 2032999 2058871"
+"/webtransport/streams-close.https.any.html",2,0,2,2025092
+"/webtransport/streams-close.https.any.sharedworker.html",2,0,2,2025092
 "/webtransport/datagrams.https.any.html",8,6,2,"2025092 2032999 2058871"
-"/webtransport/datagrams.https.any.sharedworker.html",8,6,2,"2025092 2032999 2058871"
-"/webtransport/datagrams.https.any.serviceworker.html",8,6,2,"2025092 2032999 2058871"
 "/webtransport/stats.https.any.sharedworker.html",9,1,1,"1881211 2025092"
-"/webtransport/idlharness.https.sub.any.html",19,11,2,"2020021 2025151 2036736"
+"/webtransport/datagrams.https.any.serviceworker.html",8,6,2,"2025092 2032999 2058871"
+"/webtransport/streams-close.https.any.serviceworker.html",2,0,2,2025092
 "/webtransport/stats.https.any.html",9,1,1,"1881211 2025092"
+"/webtransport/idlharness.https.sub.any.html",19,11,2,"2020021 2025151 2036736"
+"/webtransport/datagrams.https.any.worker.html",8,6,2,"2025092 2032999 2058871"
+"/webtransport/datagrams.https.any.sharedworker.html",8,6,2,"2025092 2032999 2058871"
 "/webtransport/stats.https.any.serviceworker.html",9,1,1,"1881211 2025092"
 "/webtransport/streams-close.https.any.worker.html",2,0,2,2025092
 "/webtransport/idlharness.https.sub.any.sharedworker.html",19,11,2,"2003955 2025151 2036736"
