@@ -1,2 +1,3 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/scroll-animations/scroll-timelines/scroll-timeline-invalidation.html",1,1,0,"1949826 2064948"
+"/scroll-animations/scroll-timelines/idlharness.window.html",1,0,0,""
