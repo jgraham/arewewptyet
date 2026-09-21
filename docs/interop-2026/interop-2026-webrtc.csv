@@ -1,5 +1,4 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/webrtc/RTCRtpTransceiver.https.html?interop-2026",1,0,0,""
 "/webrtc/protocol/unknown-mediatypes.html",1,0,0,1806185
 "/webrtc/protocol/handover.html",2,0,0,""
 "/webrtc/RTCPeerConnection-setLocalDescription-pranswer.html",4,0,0,1004510
