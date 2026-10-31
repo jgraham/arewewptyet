@@ -1,7 +1,7 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
-"/css/css-view-transitions/navigation/mismatched-snapshot-containing-block-size-skips.html",2,0,0,"1937918 2016405 2055663"
 "/css/css-view-transitions/navigation/skip-outbound-vt-before-reveal.html",1,0,0,1895644
+"/css/css-view-transitions/navigation/mismatched-snapshot-containing-block-size-skips.html",2,0,0,"1937918 2016405 2055663"
 "/css/css-view-transitions/hit-test-unpainted-element.html",1,0,0,2008054
-"/css/css-view-transitions/paint-holding-in-iframe.html",1,0,0,2050723
-"/css/css-view-transitions/hit-test-unrelated-element.html",1,0,0,"2008054 2050723"
+"/css/css-view-transitions/hit-test-unrelated-element.html",1,0,1,"2008054 2050723"
 "/css/css-view-transitions/navigation/hide-before-reveal.html",1,0,0,"1895644 1937918"
+"/css/css-view-transitions/paint-holding-in-iframe.html",1,0,0,2050723
