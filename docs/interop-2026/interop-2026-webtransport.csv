@@ -1,5 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/webtransport/idlharness.https.sub.any.serviceworker.html",9,9,0,"2020021 2025151 2036736 2074135"
 "/webtransport/idlharness.https.sub.any.html",9,9,0,"2020021 2025151 2036736 2074135"
-"/webtransport/idlharness.https.sub.any.worker.html",9,9,0,"2003955 2025151 2036736 2074135"
 "/webtransport/idlharness.https.sub.any.sharedworker.html",9,9,0,"2003955 2025151 2036736 2074135"
+"/webtransport/idlharness.https.sub.any.worker.html",9,9,0,"2003955 2025151 2036736 2074135"
