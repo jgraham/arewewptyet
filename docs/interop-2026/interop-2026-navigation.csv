@@ -1,7 +1,4 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/navigation-api/ordering-and-transition/anchor-download.html",1,0,0,""
 "/navigation-api/ordering-and-transition/navigate-cross-document-double.html",1,0,0,""
-"/navigation-api/navigation-history-entry/entries-in-new-javascript-url-iframe.html",1,0,0,""
-"/navigation-api/navigation-history-entry/entries-after-javascript-url-navigation.html",1,0,0,""
 "/navigation-api/ordering-and-transition/navigate-204-205-download-then-same-document.html",3,0,0,""
-"/navigation-api/navigation-methods/traverseTo-with-cross-origin-in-history.html",1,0,0,""
