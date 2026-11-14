@@ -1,4 +1,5 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/webrtc/protocol/handover.html",2,0,0,""
+"/webrtc/RTCDataChannel-close.html",1,0,0,"1611953 1641026"
 "/webrtc/protocol/handover-datachannel.html",1,0,0,""
 "/webrtc/idlharness.https.window.html?include=(RTCSessionDescription|RTCPeerConnectionIceErrorEvent|RTCRtpReceiver|RTCDtlsTransport|RTCIceTransport|RTCDTMFToneChangeEvent|RTCError|RTCErrorEvent)",10,2,10,2037526
