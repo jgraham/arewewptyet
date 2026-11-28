@@ -1,3 +1,3 @@
 "Test","Firefox Failures","Chrome Failures","Safari Failures","Bugs"
 "/css/css-view-transitions/hit-test-unpainted-element.html",1,0,0,2008054
-"/css/css-view-transitions/hit-test-unrelated-element.html",1,0,1,"2008054 2050723"
+"/css/css-view-transitions/hit-test-unrelated-element.html",1,0,0,"2008054 2050723"
